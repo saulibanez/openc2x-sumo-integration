@@ -1,0 +1,15 @@
+<configuration>
+    <input>
+        <net-file value="net.net.xml"/>
+        <route-files value="two_vehicles.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <gui_only>
+        <delay value="40"/>
+    </gui_only>
+
+</configuration>

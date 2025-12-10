@@ -1,0 +1,574 @@
+lookup->global
+context allocated
+package loaded
+content loaded
+Using config: default
+Start lookup
+lookupdefault->common
+context allocated
+package loaded
+content loaded
+lookupdefault->cam
+context allocated
+package loaded
+content loaded
+lookupdefault->dcc
+context allocated
+package loaded
+content loaded
+lookupdefault->denm
+context allocated
+package loaded
+content loaded
+lookupdefault->httpServer
+context allocated
+package loaded
+content loaded
+lookupdefault->obd2
+context allocated
+package loaded
+content loaded
+lookupdefault->gps
+context allocated
+package loaded
+content loaded
+lookupdefault->ldm
+context allocated
+package loaded
+content loaded
+End lookup
+Write lock: /var/log/openc2x/default/94/.ldm
+The identified mac: 08:00:27:76:66:36
+mMac 2: 08:00:27:76:66:36
+The identified mac as integer: 662070838
+lookup->global
+context allocated
+package loaded
+content loaded
+Using config: default
+Start lookup
+lookupdefault->common
+context allocated
+package loaded
+content loaded
+lookupdefault->cam
+context allocated
+package loaded
+content loaded
+lookupdefault->dcc
+context allocated
+package loaded
+content loaded
+lookupdefault->denm
+context allocated
+package loaded
+content loaded
+lookupdefault->httpServer
+context allocated
+package loaded
+content loaded
+lookupdefault->obd2
+context allocated
+package loaded
+content loaded
+lookupdefault->gps
+context allocated
+package loaded
+content loaded
+lookupdefault->ldm
+context allocated
+package loaded
+content loaded
+End lookup
+/var/log/openc2x/default/94/94_stats_Ldm_2025-12-08_21:43.csv
+ENABLE_STATISTICS: false
+Ldm, 09:43:21,365 	 INFO  	 Opened database successfully 		
+Ldm, 09:43:21,482 	 DEBUG 	 waiting for request 		
+Ldm, 09:43:22,378 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:22,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:22,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:22,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:23,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:23,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:23,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:23,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:24,395 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:24,395 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:24,395 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:24,395 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:25,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:25,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:25,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:25,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:26,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:26,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:26,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:26,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:27,393 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:27,393 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:27,393 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:27,393 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:28,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:28,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:28,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:28,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:29,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:29,382 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:29,382 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:29,382 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:30,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:30,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:30,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:30,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:31,392 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:31,392 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:31,392 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:31,392 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:32,382 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:32,384 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:32,384 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:32,384 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:33,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:33,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:33,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:33,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:34,395 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:34,395 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:34,395 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:34,395 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:35,421 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:35,421 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:35,422 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:35,422 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:36,378 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:36,378 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:36,378 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:36,378 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:37,388 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:37,388 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:37,388 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:37,388 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:38,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:38,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:38,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:38,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:39,396 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:39,397 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:39,397 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:39,398 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:40,458 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:40,458 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:40,458 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:40,458 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:41,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:41,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:41,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:41,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:42,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:42,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:42,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:42,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:43,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:43,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:43,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:43,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:44,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:44,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:44,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:44,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:45,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:45,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:45,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:45,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:45,582 	 DEBUG 	 DENM received 		
+Ldm, 09:43:45,582 	 INFO  	 METRIC_DENM_RCV 1 7603376 		
+Ldm, 09:43:46,386 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:46,386 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:46,386 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:46,386 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:47,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:47,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:47,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:47,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:48,378 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:48,378 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:48,378 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:48,378 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:49,402 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:49,404 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:49,404 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:49,404 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:50,437 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:50,439 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:50,439 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:50,442 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:51,401 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:51,402 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:51,402 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:51,402 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:52,397 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:52,397 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:52,399 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:52,399 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:53,393 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:53,395 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:53,395 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:53,397 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:54,404 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:54,406 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:54,406 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:54,406 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:55,451 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:55,454 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:55,454 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:55,454 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:56,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:56,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:56,382 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:56,382 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:57,387 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:57,388 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:57,388 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:57,388 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:58,396 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:58,396 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:58,396 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:58,398 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:59,388 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:59,389 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:59,391 	 DEBUG 	 dccInfo received 		
+Ldm, 09:43:59,391 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:00,403 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:00,406 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:00,406 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:00,407 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:01,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:01,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:01,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:01,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:02,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:02,382 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:02,382 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:02,382 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:03,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:03,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:03,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:03,382 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:04,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:04,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:04,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:04,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:05,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:05,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:05,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:05,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:06,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:06,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:06,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:06,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:07,388 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:07,389 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:07,389 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:07,389 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:08,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:08,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:08,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:08,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:09,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:09,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:09,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:09,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:10,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:10,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:10,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:10,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:11,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:11,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:11,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:11,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:12,414 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:12,416 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:12,417 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:12,417 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:13,408 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:13,409 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:13,410 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:13,410 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:14,401 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:14,403 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:14,403 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:14,404 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:15,390 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:15,391 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:15,391 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:15,391 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:16,390 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:16,391 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:16,391 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:16,391 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:17,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:17,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:17,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:17,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:18,388 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:18,389 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:18,389 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:18,389 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:19,397 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:19,397 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:19,398 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:19,398 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:20,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:20,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:20,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:20,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:21,383 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:21,384 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:21,385 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:21,385 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:22,396 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:22,397 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:22,398 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:22,398 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:23,383 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:23,384 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:23,385 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:23,385 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:24,471 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:24,474 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:24,475 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:24,476 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:25,429 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:25,430 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:25,431 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:25,432 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:26,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:26,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:26,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:26,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:27,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:27,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:27,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:27,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:28,383 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:28,384 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:28,385 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:28,385 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:29,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:29,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:29,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:29,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:30,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:30,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:30,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:30,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:31,400 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:31,400 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:31,402 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:31,402 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:32,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:32,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:32,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:32,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:33,414 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:33,415 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:33,415 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:33,415 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:34,378 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:34,378 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:34,378 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:34,378 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:35,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:35,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:35,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:35,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:36,400 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:36,400 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:36,400 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:36,400 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:37,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:37,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:37,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:37,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:38,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:38,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:38,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:38,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:39,382 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:39,383 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:39,383 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:39,383 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:40,388 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:40,389 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:40,389 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:40,389 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:41,396 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:41,397 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:41,397 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:41,397 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:42,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:42,382 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:42,382 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:42,382 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:43,390 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:43,391 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:43,391 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:43,391 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:44,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:44,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:44,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:44,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:45,384 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:45,384 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:45,386 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:45,386 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:46,378 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:46,378 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:46,378 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:46,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:47,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:47,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:47,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:47,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:48,373 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:48,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:48,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:48,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:49,373 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:49,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:49,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:49,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:50,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:50,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:50,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:50,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:51,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:51,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:51,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:51,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:52,384 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:52,385 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:52,385 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:52,385 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:53,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:53,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:53,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:53,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:54,416 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:54,416 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:54,416 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:54,416 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:55,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:55,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:55,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:55,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:56,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:56,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:56,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:56,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:57,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:57,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:57,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:57,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:58,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:58,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:58,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:58,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:59,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:59,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:59,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:44:59,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:00,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:00,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:00,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:00,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:01,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:01,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:01,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:01,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:02,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:02,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:02,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:02,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:03,383 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:03,383 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:03,384 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:03,384 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:04,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:04,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:04,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:04,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:05,397 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:05,397 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:05,397 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:05,398 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:06,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:06,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:06,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:06,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:07,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:07,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:07,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:07,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:08,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:08,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:08,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:08,385 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:09,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:09,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:09,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:09,379 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:10,385 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:10,386 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:10,386 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:10,386 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:11,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:11,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:11,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:11,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:12,406 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:12,406 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:12,406 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:12,406 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:13,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:13,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:13,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:13,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:14,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:14,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:14,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:14,374 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:15,381 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:15,382 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:15,382 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:15,382 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:16,410 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:16,411 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:16,411 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:16,411 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:17,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:17,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:17,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:17,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:18,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:18,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:18,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:18,377 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:19,385 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:19,387 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:19,387 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:19,387 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:20,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:20,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:20,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:20,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:21,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:21,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:21,375 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:21,376 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:22,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:22,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:22,380 	 DEBUG 	 dccInfo received 		
+Ldm, 09:45:22,380 	 DEBUG 	 dccInfo received 		
+2025-12-08 21:45:22,653 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGINT] signal
+2025-12-08 21:45:22,654 WARN  [default] Aborting application. Reason: Fatal log at [/home/saul/OpenC2X-standalone/common/utility/external/easylogging++.h:5583]

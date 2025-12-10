@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-11-27 21:47:00 by Eclipse SUMO sumo Version 1.23.1
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="net.net.xml"/>
+        <route-files value="two_vehicles.rou.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="debug_out.rou.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="200"/>
+    </time>
+
+</sumoConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="veh0" type="car_red" depart="0.00" arrival="41.00">
+        <route edges="A0A1 A1B1 B1B0 B0A0"/>
+    </vehicle>
+
+    <vehicle id="veh1" type="car_blue" depart="5.00" arrival="48.00">
+        <route edges="A0A1 A1B1 B1B0 B0A0"/>
+    </vehicle>
+
+</routes>

@@ -1,0 +1,7 @@
+[gps]
+initialLat=0.0
+initialLon=0.0
+
+[gpsd]
+interface=dummy
+

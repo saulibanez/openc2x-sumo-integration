@@ -1,0 +1,2403 @@
+CaService, 05:47:13,027 	 DEBUG 	 CAM sent 		
+CaService, 05:47:13,027 	 DEBUG 	 CAM sent 		
+CaService, 05:47:13,712 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416875, longitude: -3.703781 		
+CaService, 05:47:13,750 	 INFO  	 METRIC_CAM_SEND 8 3459928 		
+CaService, 05:47:13,750 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:13,750 	 INFO  	 First GPS data 		
+CaService, 05:47:13,750 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:13,751 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:13,751 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:13,751 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:13,751 	 DEBUG 	 CAM sent 		
+CaService, 05:47:13,751 	 DEBUG 	 CAM sent 		
+CaService, 05:47:13,854 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:13,954 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:14,054 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:14,155 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:14,216 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416889, longitude: -3.703781 		
+CaService, 05:47:14,757 	 INFO  	 METRIC_CAM_SEND 9 3460935 		
+CaService, 05:47:14,757 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:14,757 	 INFO  	 deltaTime: 1006381468 		
+CaService, 05:47:14,757 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:14,757 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:14,757 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:14,757 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:14,758 	 DEBUG 	 CAM sent 		
+CaService, 05:47:14,758 	 DEBUG 	 CAM sent 		
+CaService, 05:47:14,823 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416906, longitude: -3.703781 		
+CaService, 05:47:15,328 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416919, longitude: -3.703781 		
+CaService, 05:47:15,815 	 INFO  	 METRIC_CAM_SEND 10 3461993 		
+CaService, 05:47:15,815 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:15,815 	 INFO  	 deltaTime: 1057596576 		
+CaService, 05:47:15,815 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:15,815 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:15,815 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:15,815 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:15,815 	 DEBUG 	 CAM sent 		
+CaService, 05:47:15,815 	 DEBUG 	 CAM sent 		
+CaService, 05:47:15,915 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:15,930 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416933, longitude: -3.703781 		
+CaService, 05:47:16,433 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416950, longitude: -3.703781 		
+CaService, 05:47:16,434 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416875, longitude: -3.703781 		
+CaService, 05:47:16,533 	 INFO  	 METRIC_CAM_SEND 11 3462712 		
+CaService, 05:47:16,534 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:16,534 	 INFO  	 deltaHeading: 180.000000 		
+CaService, 05:47:16,534 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:16,534 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:16,534 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:16,534 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:16,534 	 DEBUG 	 CAM sent 		
+CaService, 05:47:16,535 	 DEBUG 	 CAM sent 		
+CaService, 05:47:16,637 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:16,742 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:16,849 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:16,949 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:17,050 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:17,051 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416968, longitude: -3.703781 		
+CaService, 05:47:17,051 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416880, longitude: -3.703781 		
+CaService, 05:47:17,150 	 INFO  	 METRIC_CAM_SEND 12 3463329 		
+CaService, 05:47:17,151 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:17,151 	 INFO  	 deltaHeading: -180.000000 		
+CaService, 05:47:17,151 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:17,151 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:17,151 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:17,151 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:17,153 	 DEBUG 	 CAM sent 		
+CaService, 05:47:17,153 	 DEBUG 	 CAM sent 		
+CaService, 05:47:17,254 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:17,355 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:17,456 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:17,555 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416985, longitude: -3.703781 		
+CaService, 05:47:17,557 	 INFO  	 METRIC_CAM_SEND 13 3463735 		
+CaService, 05:47:17,557 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416893, longitude: -3.703781 		
+CaService, 05:47:17,558 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:17,558 	 INFO  	 distance: 11.629661 		
+CaService, 05:47:17,558 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:17,558 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:17,558 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:17,558 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:17,559 	 DEBUG 	 CAM sent 		
+CaService, 05:47:17,559 	 DEBUG 	 CAM sent 		
+CaService, 05:47:17,673 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:17,774 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:17,877 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:17,983 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:18,083 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:18,164 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417002, longitude: -3.703781 		
+CaService, 05:47:18,164 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416908, longitude: -3.703781 		
+CaService, 05:47:18,608 	 INFO  	 METRIC_CAM_SEND 14 3464786 		
+CaService, 05:47:18,608 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:18,608 	 INFO  	 deltaTime: 1049383699 		
+CaService, 05:47:18,608 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:18,608 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:18,608 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:18,608 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:18,608 	 DEBUG 	 CAM sent 		
+CaService, 05:47:18,608 	 DEBUG 	 CAM sent 		
+CaService, 05:47:18,665 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417018, longitude: -3.703781 		
+CaService, 05:47:18,668 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416920, longitude: -3.703781 		
+CaService, 05:47:19,269 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417034, longitude: -3.703781 		
+CaService, 05:47:19,270 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416935, longitude: -3.703781 		
+CaService, 05:47:19,617 	 INFO  	 METRIC_CAM_SEND 15 3465796 		
+CaService, 05:47:19,617 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:19,617 	 INFO  	 deltaTime: 1009087620 		
+CaService, 05:47:19,617 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:19,617 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:19,617 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:19,618 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:19,618 	 DEBUG 	 CAM sent 		
+CaService, 05:47:19,619 	 DEBUG 	 CAM sent 		
+CaService, 05:47:19,719 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:19,771 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417043, longitude: -3.703781 		
+CaService, 05:47:19,771 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416953, longitude: -3.703781 		
+CaService, 05:47:20,379 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417060, longitude: -3.703781 		
+CaService, 05:47:20,379 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416962, longitude: -3.703781 		
+CaService, 05:47:20,626 	 INFO  	 METRIC_CAM_SEND 16 3466804 		
+CaService, 05:47:20,626 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:20,626 	 INFO  	 deltaTime: 1008257287 		
+CaService, 05:47:20,626 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:20,626 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:20,626 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:20,626 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:20,626 	 DEBUG 	 CAM sent 		
+CaService, 05:47:20,626 	 DEBUG 	 CAM sent 		
+CaService, 05:47:20,727 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:20,828 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:20,886 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417070, longitude: -3.703781 		
+CaService, 05:47:20,887 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416973, longitude: -3.703781 		
+CaService, 05:47:21,497 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417087, longitude: -3.703781 		
+CaService, 05:47:21,497 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416991, longitude: -3.703781 		
+CaService, 05:47:21,637 	 INFO  	 METRIC_CAM_SEND 17 3467816 		
+CaService, 05:47:21,637 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:21,637 	 INFO  	 deltaTime: 1011225896 		
+CaService, 05:47:21,637 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:21,637 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:21,637 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:21,637 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:21,637 	 DEBUG 	 CAM sent 		
+CaService, 05:47:21,637 	 DEBUG 	 CAM sent 		
+CaService, 05:47:21,740 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:21,841 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:21,942 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:22,000 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417099, longitude: -3.703781 		
+CaService, 05:47:22,001 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417000, longitude: -3.703781 		
+CaService, 05:47:22,605 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417112, longitude: -3.703781 		
+CaService, 05:47:22,605 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417015, longitude: -3.703781 		
+CaService, 05:47:22,654 	 INFO  	 METRIC_CAM_SEND 18 3468833 		
+CaService, 05:47:22,654 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:22,654 	 INFO  	 deltaTime: 1017012589 		
+CaService, 05:47:22,654 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:22,654 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:22,654 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:22,655 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:22,655 	 DEBUG 	 CAM sent 		
+CaService, 05:47:22,655 	 DEBUG 	 CAM sent 		
+CaService, 05:47:22,756 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:22,859 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:22,960 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:23,060 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:23,108 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417123, longitude: -3.703781 		
+CaService, 05:47:23,109 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417031, longitude: -3.703781 		
+CaService, 05:47:23,671 	 INFO  	 METRIC_CAM_SEND 19 3469849 		
+CaService, 05:47:23,671 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:23,671 	 INFO  	 deltaTime: 1016131547 		
+CaService, 05:47:23,671 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:23,671 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:23,671 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:23,671 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:23,671 	 DEBUG 	 CAM sent 		
+CaService, 05:47:23,671 	 DEBUG 	 CAM sent 		
+CaService, 05:47:23,713 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417135, longitude: -3.703781 		
+CaService, 05:47:23,713 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417041, longitude: -3.703781 		
+CaService, 05:47:24,258 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417148, longitude: -3.703781 		
+CaService, 05:47:24,259 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417054, longitude: -3.703781 		
+CaService, 05:47:24,688 	 INFO  	 METRIC_CAM_SEND 20 3470866 		
+CaService, 05:47:24,689 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:24,689 	 INFO  	 deltaTime: 1017220200 		
+CaService, 05:47:24,689 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:24,689 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:24,689 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:24,689 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:24,689 	 DEBUG 	 CAM sent 		
+CaService, 05:47:24,689 	 DEBUG 	 CAM sent 		
+CaService, 05:47:24,794 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:24,869 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417161, longitude: -3.703781 		
+CaService, 05:47:24,870 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417069, longitude: -3.703781 		
+CaService, 05:47:25,372 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417177, longitude: -3.703781 		
+CaService, 05:47:25,372 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417082, longitude: -3.703781 		
+CaService, 05:47:25,726 	 INFO  	 METRIC_CAM_SEND 21 3471904 		
+CaService, 05:47:25,726 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:25,726 	 INFO  	 deltaTime: 1036478581 		
+CaService, 05:47:25,726 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:25,726 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:25,726 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:25,726 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:25,726 	 DEBUG 	 CAM sent 		
+CaService, 05:47:25,726 	 DEBUG 	 CAM sent 		
+CaService, 05:47:25,826 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:25,927 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:25,980 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417186, longitude: -3.703781 		
+CaService, 05:47:25,982 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417094, longitude: -3.703781 		
+CaService, 05:47:26,482 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417196, longitude: -3.703781 		
+CaService, 05:47:26,483 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417111, longitude: -3.703781 		
+CaService, 05:47:26,789 	 INFO  	 METRIC_CAM_SEND 22 3472967 		
+CaService, 05:47:26,789 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:26,789 	 INFO  	 deltaTime: 1062579764 		
+CaService, 05:47:26,789 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:26,789 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:26,789 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:26,789 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:26,789 	 DEBUG 	 CAM sent 		
+CaService, 05:47:26,789 	 DEBUG 	 CAM sent 		
+CaService, 05:47:26,902 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:27,002 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:27,104 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:27,105 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417209, longitude: -3.703781 		
+CaService, 05:47:27,105 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417128, longitude: -3.703781 		
+CaService, 05:47:27,610 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417223, longitude: -3.703781 		
+CaService, 05:47:27,610 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417137, longitude: -3.703781 		
+CaService, 05:47:27,826 	 INFO  	 METRIC_CAM_SEND 23 3474004 		
+CaService, 05:47:27,826 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:27,826 	 INFO  	 deltaTime: 1037249937 		
+CaService, 05:47:27,826 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:27,826 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:27,826 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:27,826 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:27,826 	 DEBUG 	 CAM sent 		
+CaService, 05:47:27,826 	 DEBUG 	 CAM sent 		
+CaService, 05:47:27,927 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:28,034 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:28,140 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:28,226 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417233, longitude: -3.703781 		
+CaService, 05:47:28,226 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417155, longitude: -3.703781 		
+CaService, 05:47:28,748 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417243, longitude: -3.703781 		
+CaService, 05:47:28,748 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417164, longitude: -3.703781 		
+CaService, 05:47:28,865 	 INFO  	 METRIC_CAM_SEND 24 3475044 		
+CaService, 05:47:28,866 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:28,866 	 INFO  	 deltaTime: 1038973337 		
+CaService, 05:47:28,866 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:28,866 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:28,866 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:28,866 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:28,866 	 DEBUG 	 CAM sent 		
+CaService, 05:47:28,866 	 DEBUG 	 CAM sent 		
+CaService, 05:47:28,967 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:29,075 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:29,184 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:29,285 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:29,378 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417254, longitude: -3.703781 		
+CaService, 05:47:29,379 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417174, longitude: -3.703781 		
+CaService, 05:47:29,884 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417268, longitude: -3.703781 		
+CaService, 05:47:29,884 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417181, longitude: -3.703781 		
+CaService, 05:47:29,893 	 INFO  	 METRIC_CAM_SEND 25 3476072 		
+CaService, 05:47:29,894 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:29,894 	 INFO  	 deltaTime: 1027400128 		
+CaService, 05:47:29,894 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:29,894 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:29,894 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:29,894 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:29,894 	 DEBUG 	 CAM sent 		
+CaService, 05:47:29,895 	 DEBUG 	 CAM sent 		
+CaService, 05:47:29,998 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:30,106 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:30,206 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:30,309 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:30,410 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:30,487 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417282, longitude: -3.703781 		
+CaService, 05:47:30,487 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417194, longitude: -3.703781 		
+CaService, 05:47:30,925 	 INFO  	 METRIC_CAM_SEND 26 3477104 		
+CaService, 05:47:30,925 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:30,925 	 INFO  	 deltaTime: 1030741077 		
+CaService, 05:47:30,925 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:30,925 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:30,925 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:30,926 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:30,926 	 DEBUG 	 CAM sent 		
+CaService, 05:47:30,926 	 DEBUG 	 CAM sent 		
+CaService, 05:47:30,992 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417295, longitude: -3.703781 		
+CaService, 05:47:30,995 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417210, longitude: -3.703781 		
+CaService, 05:47:31,634 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417308, longitude: -3.703781 		
+CaService, 05:47:31,634 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417219, longitude: -3.703781 		
+CaService, 05:47:31,949 	 INFO  	 METRIC_CAM_SEND 27 3478127 		
+CaService, 05:47:31,949 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:31,949 	 INFO  	 deltaTime: 1023454032 		
+CaService, 05:47:31,949 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:31,950 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:31,950 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:31,950 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:31,950 	 DEBUG 	 CAM sent 		
+CaService, 05:47:31,950 	 DEBUG 	 CAM sent 		
+CaService, 05:47:32,055 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:32,155 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:32,157 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417322, longitude: -3.703781 		
+CaService, 05:47:32,157 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417235, longitude: -3.703781 		
+CaService, 05:47:32,773 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417332, longitude: -3.703781 		
+CaService, 05:47:32,773 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417251, longitude: -3.703781 		
+CaService, 05:47:32,976 	 INFO  	 METRIC_CAM_SEND 28 3479154 		
+CaService, 05:47:32,976 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:32,976 	 INFO  	 deltaTime: 1026638610 		
+CaService, 05:47:32,976 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:32,976 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:32,976 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:32,976 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:32,976 	 DEBUG 	 CAM sent 		
+CaService, 05:47:32,976 	 DEBUG 	 CAM sent 		
+CaService, 05:47:33,083 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:33,190 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:33,280 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417342, longitude: -3.703781 		
+CaService, 05:47:33,280 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417263, longitude: -3.703781 		
+CaService, 05:47:33,905 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417354, longitude: -3.703781 		
+CaService, 05:47:33,905 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417272, longitude: -3.703781 		
+CaService, 05:47:33,999 	 INFO  	 METRIC_CAM_SEND 29 3480178 		
+CaService, 05:47:34,000 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:34,000 	 INFO  	 deltaTime: 1023207205 		
+CaService, 05:47:34,000 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:34,000 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:34,000 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:34,000 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:34,000 	 DEBUG 	 CAM sent 		
+CaService, 05:47:34,000 	 DEBUG 	 CAM sent 		
+CaService, 05:47:34,100 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:34,203 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:34,307 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:34,407 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417366, longitude: -3.703781 		
+CaService, 05:47:34,407 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417282, longitude: -3.703781 		
+CaService, 05:47:35,009 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417377, longitude: -3.703781 		
+CaService, 05:47:35,010 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417296, longitude: -3.703781 		
+CaService, 05:47:35,016 	 INFO  	 METRIC_CAM_SEND 30 3481194 		
+CaService, 05:47:35,016 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:35,016 	 INFO  	 deltaTime: 1015734366 		
+CaService, 05:47:35,016 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:35,016 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:35,016 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:35,016 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:35,016 	 DEBUG 	 CAM sent 		
+CaService, 05:47:35,016 	 DEBUG 	 CAM sent 		
+CaService, 05:47:35,119 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:35,220 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:35,325 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:35,428 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:35,517 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417392, longitude: -3.703781 		
+CaService, 05:47:35,517 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417307, longitude: -3.703781 		
+CaService, 05:47:36,040 	 INFO  	 METRIC_CAM_SEND 31 3482219 		
+CaService, 05:47:36,041 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:36,041 	 INFO  	 deltaTime: 1024517112 		
+CaService, 05:47:36,041 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:36,041 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:36,041 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:36,041 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:36,041 	 DEBUG 	 CAM sent 		
+CaService, 05:47:36,041 	 DEBUG 	 CAM sent 		
+CaService, 05:47:36,133 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417404, longitude: -3.703781 		
+CaService, 05:47:36,134 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417321, longitude: -3.703781 		
+CaService, 05:47:36,642 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417418, longitude: -3.703781 		
+CaService, 05:47:36,643 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417329, longitude: -3.703781 		
+CaService, 05:47:37,065 	 INFO  	 METRIC_CAM_SEND 32 3483244 		
+CaService, 05:47:37,066 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:37,066 	 INFO  	 deltaTime: 1023905631 		
+CaService, 05:47:37,066 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:37,066 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:37,066 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:37,066 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:37,066 	 DEBUG 	 CAM sent 		
+CaService, 05:47:37,066 	 DEBUG 	 CAM sent 		
+CaService, 05:47:37,168 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:37,250 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417427, longitude: -3.703781 		
+CaService, 05:47:37,250 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417339, longitude: -3.703781 		
+CaService, 05:47:37,764 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417441, longitude: -3.703781 		
+CaService, 05:47:37,764 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417348, longitude: -3.703781 		
+CaService, 05:47:38,090 	 INFO  	 METRIC_CAM_SEND 33 3484268 		
+CaService, 05:47:38,090 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:38,090 	 INFO  	 deltaTime: 1024406165 		
+CaService, 05:47:38,090 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:38,090 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:38,090 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:38,090 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:38,090 	 DEBUG 	 CAM sent 		
+CaService, 05:47:38,090 	 DEBUG 	 CAM sent 		
+CaService, 05:47:38,199 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:38,313 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:38,368 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417456, longitude: -3.703781 		
+CaService, 05:47:38,369 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417359, longitude: -3.703781 		
+CaService, 05:47:38,881 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417467, longitude: -3.703781 		
+CaService, 05:47:38,881 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417372, longitude: -3.703781 		
+CaService, 05:47:39,135 	 INFO  	 METRIC_CAM_SEND 34 3485314 		
+CaService, 05:47:39,135 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:39,135 	 INFO  	 deltaTime: 1045072253 		
+CaService, 05:47:39,135 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:39,136 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:39,136 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:39,136 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:39,136 	 DEBUG 	 CAM sent 		
+CaService, 05:47:39,136 	 DEBUG 	 CAM sent 		
+CaService, 05:47:39,249 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:39,353 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:39,453 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:39,485 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417482, longitude: -3.703781 		
+CaService, 05:47:39,485 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417384, longitude: -3.703781 		
+CaService, 05:47:40,002 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417494, longitude: -3.703781 		
+CaService, 05:47:40,003 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417399, longitude: -3.703781 		
+CaService, 05:47:40,171 	 INFO  	 METRIC_CAM_SEND 35 3486350 		
+CaService, 05:47:40,171 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:40,171 	 INFO  	 deltaTime: 1035737371 		
+CaService, 05:47:40,171 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:40,171 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:40,171 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:40,171 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:40,171 	 DEBUG 	 CAM sent 		
+CaService, 05:47:40,171 	 DEBUG 	 CAM sent 		
+CaService, 05:47:40,277 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:40,378 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:40,482 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:40,586 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:40,607 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417509, longitude: -3.703781 		
+CaService, 05:47:40,607 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417415, longitude: -3.703781 		
+CaService, 05:47:41,110 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417527, longitude: -3.703781 		
+CaService, 05:47:41,110 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417433, longitude: -3.703781 		
+CaService, 05:47:41,201 	 INFO  	 METRIC_CAM_SEND 36 3487380 		
+CaService, 05:47:41,201 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:41,202 	 INFO  	 deltaTime: 1029986059 		
+CaService, 05:47:41,202 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:41,202 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:41,202 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:41,202 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:41,202 	 DEBUG 	 CAM sent 		
+CaService, 05:47:41,202 	 DEBUG 	 CAM sent 		
+CaService, 05:47:41,311 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:41,411 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:41,511 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:41,612 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:41,730 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:41,734 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417543, longitude: -3.703781 		
+CaService, 05:47:41,734 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417445, longitude: -3.703781 		
+CaService, 05:47:42,237 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417558, longitude: -3.703781 		
+CaService, 05:47:42,237 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417455, longitude: -3.703781 		
+CaService, 05:47:42,242 	 INFO  	 METRIC_CAM_SEND 37 3488421 		
+CaService, 05:47:42,242 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:42,242 	 INFO  	 deltaTime: 1040821271 		
+CaService, 05:47:42,242 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:42,243 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:42,243 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:42,243 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:42,243 	 DEBUG 	 CAM sent 		
+CaService, 05:47:42,243 	 DEBUG 	 CAM sent 		
+CaService, 05:47:42,345 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:42,445 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:42,550 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:42,651 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:42,754 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:42,842 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417570, longitude: -3.703781 		
+CaService, 05:47:42,843 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417470, longitude: -3.703781 		
+CaService, 05:47:43,270 	 INFO  	 METRIC_CAM_SEND 38 3489448 		
+CaService, 05:47:43,270 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:43,270 	 INFO  	 deltaTime: 1027302910 		
+CaService, 05:47:43,270 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:43,270 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:43,270 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:43,270 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:43,270 	 DEBUG 	 CAM sent 		
+CaService, 05:47:43,270 	 DEBUG 	 CAM sent 		
+CaService, 05:47:43,348 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417584, longitude: -3.703781 		
+CaService, 05:47:43,349 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417480, longitude: -3.703781 		
+CaService, 05:47:43,957 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417597, longitude: -3.703781 		
+CaService, 05:47:43,958 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417495, longitude: -3.703781 		
+CaService, 05:47:44,303 	 INFO  	 METRIC_CAM_SEND 39 3490481 		
+CaService, 05:47:44,303 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:44,303 	 INFO  	 deltaTime: 1032546742 		
+CaService, 05:47:44,303 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:44,303 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:44,303 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:44,303 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:44,303 	 DEBUG 	 CAM sent 		
+CaService, 05:47:44,303 	 DEBUG 	 CAM sent 		
+CaService, 05:47:44,404 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:44,459 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417606, longitude: -3.703781 		
+CaService, 05:47:44,460 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417513, longitude: -3.703781 		
+CaService, 05:47:45,065 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417620, longitude: -3.703781 		
+CaService, 05:47:45,065 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417526, longitude: -3.703781 		
+CaService, 05:47:45,369 	 INFO  	 METRIC_CAM_SEND 40 3491548 		
+CaService, 05:47:45,369 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:45,369 	 INFO  	 deltaTime: 1066318914 		
+CaService, 05:47:45,369 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:45,369 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:45,369 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:45,369 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:45,370 	 DEBUG 	 CAM sent 		
+CaService, 05:47:45,370 	 DEBUG 	 CAM sent 		
+CaService, 05:47:45,471 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:45,569 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417631, longitude: -3.703781 		
+CaService, 05:47:45,569 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417543, longitude: -3.703781 		
+CaService, 05:47:46,182 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417643, longitude: -3.703781 		
+CaService, 05:47:46,182 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417558, longitude: -3.703781 		
+CaService, 05:47:46,394 	 INFO  	 METRIC_CAM_SEND 41 3492573 		
+CaService, 05:47:46,395 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:46,395 	 INFO  	 deltaTime: 1024901675 		
+CaService, 05:47:46,395 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:46,395 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:46,395 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:46,395 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:46,395 	 DEBUG 	 CAM sent 		
+CaService, 05:47:46,395 	 DEBUG 	 CAM sent 		
+CaService, 05:47:46,498 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:46,599 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:46,683 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417653, longitude: -3.703781 		
+CaService, 05:47:46,684 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417568, longitude: -3.703781 		
+CaService, 05:47:47,289 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417664, longitude: -3.703781 		
+CaService, 05:47:47,289 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417583, longitude: -3.703781 		
+CaService, 05:47:47,429 	 INFO  	 METRIC_CAM_SEND 42 3493607 		
+CaService, 05:47:47,429 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:47,429 	 INFO  	 deltaTime: 1033714931 		
+CaService, 05:47:47,429 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:47,429 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:47,429 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:47,429 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:47,430 	 DEBUG 	 CAM sent 		
+CaService, 05:47:47,430 	 DEBUG 	 CAM sent 		
+CaService, 05:47:47,552 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:47,657 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:47,767 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:47,798 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417676, longitude: -3.703780 		
+CaService, 05:47:47,798 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417592, longitude: -3.703781 		
+CaService, 05:47:48,403 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703763 		
+CaService, 05:47:48,404 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417608, longitude: -3.703781 		
+CaService, 05:47:48,507 	 INFO  	 METRIC_CAM_SEND 43 3494685 		
+CaService, 05:47:48,507 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:48,508 	 INFO  	 deltaTime: 1077596738 		
+CaService, 05:47:48,508 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:48,508 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:48,508 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:48,508 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:48,508 	 DEBUG 	 CAM sent 		
+CaService, 05:47:48,508 	 DEBUG 	 CAM sent 		
+CaService, 05:47:48,615 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:48,716 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:48,817 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:48,913 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703750 		
+CaService, 05:47:48,915 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417624, longitude: -3.703781 		
+CaService, 05:47:49,531 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703738 		
+CaService, 05:47:49,532 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417631, longitude: -3.703781 		
+CaService, 05:47:49,574 	 INFO  	 METRIC_CAM_SEND 44 3495752 		
+CaService, 05:47:49,574 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:49,574 	 INFO  	 deltaTime: 1066251307 		
+CaService, 05:47:49,574 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:49,574 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:49,574 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:49,574 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:49,574 	 DEBUG 	 CAM sent 		
+CaService, 05:47:49,574 	 DEBUG 	 CAM sent 		
+CaService, 05:47:49,680 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:49,788 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:49,891 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:49,992 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:50,035 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703719 		
+CaService, 05:47:50,036 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417644, longitude: -3.703781 		
+CaService, 05:47:50,646 	 INFO  	 METRIC_CAM_SEND 45 3496825 		
+CaService, 05:47:50,646 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:50,646 	 INFO  	 deltaTime: 1071904489 		
+CaService, 05:47:50,646 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:50,646 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:50,646 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:50,646 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:50,646 	 DEBUG 	 CAM sent 		
+CaService, 05:47:50,647 	 DEBUG 	 CAM sent 		
+CaService, 05:47:50,649 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703704 		
+CaService, 05:47:50,649 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417651, longitude: -3.703781 		
+CaService, 05:47:51,153 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703685 		
+CaService, 05:47:51,154 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417666, longitude: -3.703781 		
+CaService, 05:47:51,701 	 INFO  	 METRIC_CAM_SEND 46 3497880 		
+CaService, 05:47:51,702 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:51,702 	 INFO  	 deltaTime: 1054941116 		
+CaService, 05:47:51,702 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:51,702 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:51,702 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:51,702 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:51,702 	 DEBUG 	 CAM sent 		
+CaService, 05:47:51,702 	 DEBUG 	 CAM sent 		
+CaService, 05:47:51,771 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703663 		
+CaService, 05:47:51,771 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417675, longitude: -3.703780 		
+CaService, 05:47:51,824 	 INFO  	 METRIC_CAM_SEND 47 3498002 		
+CaService, 05:47:51,824 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:51,824 	 INFO  	 deltaHeading: 4.200446 		
+CaService, 05:47:51,824 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:51,824 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:51,824 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:51,824 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:51,824 	 DEBUG 	 CAM sent 		
+CaService, 05:47:51,824 	 DEBUG 	 CAM sent 		
+CaService, 05:47:51,940 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:52,042 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:52,156 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:52,258 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:52,278 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703647 		
+CaService, 05:47:52,278 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703763 		
+CaService, 05:47:52,365 	 INFO  	 METRIC_CAM_SEND 48 3498543 		
+CaService, 05:47:52,365 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:52,365 	 INFO  	 deltaHeading: 47.923848 		
+CaService, 05:47:52,365 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:52,365 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:52,365 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:52,365 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:52,365 	 DEBUG 	 CAM sent 		
+CaService, 05:47:52,365 	 DEBUG 	 CAM sent 		
+CaService, 05:47:52,466 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:52,570 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:52,671 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:52,790 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:52,891 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703635 		
+CaService, 05:47:52,891 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703746 		
+CaService, 05:47:52,892 	 INFO  	 METRIC_CAM_SEND 49 3499070 		
+CaService, 05:47:52,892 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:52,892 	 INFO  	 deltaHeading: 37.488997 		
+CaService, 05:47:52,892 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:52,892 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:52,892 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:52,892 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:52,892 	 DEBUG 	 CAM sent 		
+CaService, 05:47:52,892 	 DEBUG 	 CAM sent 		
+CaService, 05:47:53,024 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:53,125 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:53,226 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:53,347 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:53,432 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703612 		
+CaService, 05:47:53,433 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703724 		
+CaService, 05:47:53,921 	 INFO  	 METRIC_CAM_SEND 50 3500099 		
+CaService, 05:47:53,921 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:53,921 	 INFO  	 deltaTime: 1028455879 		
+CaService, 05:47:53,921 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:53,921 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:53,921 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:53,921 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:53,922 	 DEBUG 	 CAM sent 		
+CaService, 05:47:53,922 	 DEBUG 	 CAM sent 		
+CaService, 05:47:54,033 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:54,037 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703591 		
+CaService, 05:47:54,038 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703703 		
+CaService, 05:47:54,557 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703573 		
+CaService, 05:47:54,557 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703688 		
+CaService, 05:47:54,969 	 INFO  	 METRIC_CAM_SEND 51 3501148 		
+CaService, 05:47:54,970 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:54,970 	 INFO  	 deltaTime: 1048499463 		
+CaService, 05:47:54,970 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:54,970 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:54,970 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:54,970 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:54,970 	 DEBUG 	 CAM sent 		
+CaService, 05:47:54,970 	 DEBUG 	 CAM sent 		
+CaService, 05:47:55,070 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:55,163 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703554 		
+CaService, 05:47:55,163 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703673 		
+CaService, 05:47:55,721 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703541 		
+CaService, 05:47:55,721 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703655 		
+CaService, 05:47:56,013 	 INFO  	 METRIC_CAM_SEND 52 3502191 		
+CaService, 05:47:56,013 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:56,013 	 INFO  	 deltaTime: 1043030853 		
+CaService, 05:47:56,013 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:56,013 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:56,013 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:56,013 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:56,013 	 DEBUG 	 CAM sent 		
+CaService, 05:47:56,013 	 DEBUG 	 CAM sent 		
+CaService, 05:47:56,114 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:56,217 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:56,352 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:56,355 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703527 		
+CaService, 05:47:56,356 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703634 		
+CaService, 05:47:56,870 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703505 		
+CaService, 05:47:56,871 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703623 		
+CaService, 05:47:57,090 	 INFO  	 METRIC_CAM_SEND 53 3503268 		
+CaService, 05:47:57,090 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:57,090 	 INFO  	 deltaTime: 1076762713 		
+CaService, 05:47:57,090 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:57,090 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:57,090 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:57,090 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:57,090 	 DEBUG 	 CAM sent 		
+CaService, 05:47:57,090 	 DEBUG 	 CAM sent 		
+CaService, 05:47:57,191 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:57,291 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:57,392 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:57,489 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703493 		
+CaService, 05:47:57,489 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703609 		
+CaService, 05:47:57,995 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703471 		
+CaService, 05:47:57,995 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703596 		
+CaService, 05:47:58,108 	 INFO  	 METRIC_CAM_SEND 54 3504286 		
+CaService, 05:47:58,108 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:58,108 	 INFO  	 deltaTime: 1017642023 		
+CaService, 05:47:58,108 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:58,108 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:58,108 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:58,108 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:58,108 	 DEBUG 	 CAM sent 		
+CaService, 05:47:58,108 	 DEBUG 	 CAM sent 		
+CaService, 05:47:58,209 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:58,313 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:58,421 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:58,522 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:58,605 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703455 		
+CaService, 05:47:58,608 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703574 		
+CaService, 05:47:59,127 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703437 		
+CaService, 05:47:59,127 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703559 		
+CaService, 05:47:59,136 	 INFO  	 METRIC_CAM_SEND 55 3505315 		
+CaService, 05:47:59,136 	 DEBUG 	 camInfo sent 		
+CaService, 05:47:59,136 	 INFO  	 deltaTime: 1028220738 		
+CaService, 05:47:59,136 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:47:59,136 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:47:59,136 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:47:59,136 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:47:59,136 	 DEBUG 	 CAM sent 		
+CaService, 05:47:59,136 	 DEBUG 	 CAM sent 		
+CaService, 05:47:59,241 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:59,342 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:59,448 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:59,551 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:59,652 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:47:59,730 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703417 		
+CaService, 05:47:59,731 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703539 		
+CaService, 05:48:00,180 	 INFO  	 METRIC_CAM_SEND 56 3506359 		
+CaService, 05:48:00,180 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:00,180 	 INFO  	 deltaTime: 1043942952 		
+CaService, 05:48:00,180 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:00,181 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:00,181 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:00,181 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:00,181 	 DEBUG 	 CAM sent 		
+CaService, 05:48:00,181 	 DEBUG 	 CAM sent 		
+CaService, 05:48:00,237 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703398 		
+CaService, 05:48:00,240 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703522 		
+CaService, 05:48:00,847 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703383 		
+CaService, 05:48:00,847 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703501 		
+CaService, 05:48:01,268 	 INFO  	 METRIC_CAM_SEND 57 3507446 		
+CaService, 05:48:01,268 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:01,268 	 INFO  	 deltaTime: 1087129705 		
+CaService, 05:48:01,268 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:01,268 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:01,268 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:01,268 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:01,268 	 DEBUG 	 CAM sent 		
+CaService, 05:48:01,268 	 DEBUG 	 CAM sent 		
+CaService, 05:48:01,364 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703362 		
+CaService, 05:48:01,367 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703481 		
+CaService, 05:48:01,994 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703343 		
+CaService, 05:48:01,995 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703464 		
+CaService, 05:48:02,305 	 INFO  	 METRIC_CAM_SEND 58 3508483 		
+CaService, 05:48:02,305 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:02,305 	 INFO  	 deltaTime: 1037134188 		
+CaService, 05:48:02,305 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:02,305 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:02,305 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:02,305 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:02,305 	 DEBUG 	 CAM sent 		
+CaService, 05:48:02,305 	 DEBUG 	 CAM sent 		
+CaService, 05:48:02,406 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:02,504 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703331 		
+CaService, 05:48:02,507 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703450 		
+CaService, 05:48:03,115 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703318 		
+CaService, 05:48:03,117 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703438 		
+CaService, 05:48:03,342 	 INFO  	 METRIC_CAM_SEND 59 3509520 		
+CaService, 05:48:03,342 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:03,342 	 INFO  	 deltaTime: 1036434389 		
+CaService, 05:48:03,342 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:03,342 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:03,342 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:03,342 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:03,342 	 DEBUG 	 CAM sent 		
+CaService, 05:48:03,342 	 DEBUG 	 CAM sent 		
+CaService, 05:48:03,455 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:03,556 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:03,640 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703302 		
+CaService, 05:48:03,640 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703423 		
+CaService, 05:48:04,272 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703282 		
+CaService, 05:48:04,274 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703402 		
+CaService, 05:48:04,475 	 INFO  	 METRIC_CAM_SEND 60 3510653 		
+CaService, 05:48:04,476 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:04,476 	 INFO  	 deltaTime: 1133048691 		
+CaService, 05:48:04,476 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:04,476 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:04,476 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:04,476 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:04,476 	 DEBUG 	 CAM sent 		
+CaService, 05:48:04,476 	 DEBUG 	 CAM sent 		
+CaService, 05:48:04,592 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:04,698 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:04,793 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703261 		
+CaService, 05:48:04,794 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703389 		
+CaService, 05:48:05,424 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703243 		
+CaService, 05:48:05,425 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703376 		
+CaService, 05:48:05,556 	 INFO  	 METRIC_CAM_SEND 61 3511735 		
+CaService, 05:48:05,557 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:05,557 	 INFO  	 deltaTime: 1080339356 		
+CaService, 05:48:05,557 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:05,557 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:05,557 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:05,557 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:05,557 	 DEBUG 	 CAM sent 		
+CaService, 05:48:05,557 	 DEBUG 	 CAM sent 		
+CaService, 05:48:05,669 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:05,786 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:05,892 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:05,933 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703225 		
+CaService, 05:48:05,937 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703361 		
+CaService, 05:48:06,543 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703205 		
+CaService, 05:48:06,544 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703341 		
+CaService, 05:48:06,652 	 INFO  	 METRIC_CAM_SEND 62 3512830 		
+CaService, 05:48:06,652 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:06,652 	 INFO  	 deltaTime: 1094844362 		
+CaService, 05:48:06,652 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:06,652 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:06,652 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:06,652 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:06,652 	 DEBUG 	 CAM sent 		
+CaService, 05:48:06,652 	 DEBUG 	 CAM sent 		
+CaService, 05:48:06,768 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:06,870 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:06,995 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:07,055 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703190 		
+CaService, 05:48:07,055 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703318 		
+CaService, 05:48:07,667 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703173 		
+CaService, 05:48:07,667 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703297 		
+CaService, 05:48:07,692 	 INFO  	 METRIC_CAM_SEND 63 3513871 		
+CaService, 05:48:07,692 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:07,692 	 INFO  	 deltaTime: 1039874331 		
+CaService, 05:48:07,692 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:07,692 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:07,692 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:07,692 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:07,692 	 DEBUG 	 CAM sent 		
+CaService, 05:48:07,692 	 DEBUG 	 CAM sent 		
+CaService, 05:48:07,795 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:07,902 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:08,004 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:08,106 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:08,175 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703158 		
+CaService, 05:48:08,175 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703281 		
+CaService, 05:48:08,763 	 INFO  	 METRIC_CAM_SEND 64 3514942 		
+CaService, 05:48:08,764 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:08,764 	 INFO  	 deltaTime: 1070986333 		
+CaService, 05:48:08,764 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:08,764 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:08,764 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:08,764 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:08,764 	 DEBUG 	 CAM sent 		
+CaService, 05:48:08,764 	 DEBUG 	 CAM sent 		
+CaService, 05:48:08,778 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703136 		
+CaService, 05:48:08,778 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703258 		
+CaService, 05:48:09,283 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703123 		
+CaService, 05:48:09,284 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703241 		
+CaService, 05:48:09,824 	 INFO  	 METRIC_CAM_SEND 65 3516003 		
+CaService, 05:48:09,825 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:09,825 	 INFO  	 deltaTime: 1060506615 		
+CaService, 05:48:09,825 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:09,825 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:09,825 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:09,825 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:09,825 	 DEBUG 	 CAM sent 		
+CaService, 05:48:09,825 	 DEBUG 	 CAM sent 		
+CaService, 05:48:09,887 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703111 		
+CaService, 05:48:09,887 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703227 		
+CaService, 05:48:10,399 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703088 		
+CaService, 05:48:10,401 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703207 		
+CaService, 05:48:10,847 	 INFO  	 METRIC_CAM_SEND 66 3517026 		
+CaService, 05:48:10,847 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:10,847 	 INFO  	 deltaTime: 1022567779 		
+CaService, 05:48:10,847 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:10,848 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:10,848 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:10,848 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:10,848 	 DEBUG 	 CAM sent 		
+CaService, 05:48:10,848 	 DEBUG 	 CAM sent 		
+CaService, 05:48:10,963 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:11,013 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703067 		
+CaService, 05:48:11,013 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703184 		
+CaService, 05:48:11,517 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703053 		
+CaService, 05:48:11,517 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703169 		
+CaService, 05:48:11,944 	 INFO  	 METRIC_CAM_SEND 67 3518123 		
+CaService, 05:48:11,945 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:11,945 	 INFO  	 deltaTime: 1096811429 		
+CaService, 05:48:11,945 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:11,945 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:11,945 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:11,945 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:11,945 	 DEBUG 	 CAM sent 		
+CaService, 05:48:11,945 	 DEBUG 	 CAM sent 		
+CaService, 05:48:12,049 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:12,124 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703038 		
+CaService, 05:48:12,124 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703157 		
+CaService, 05:48:12,626 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703026 		
+CaService, 05:48:12,631 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703137 		
+CaService, 05:48:13,077 	 INFO  	 METRIC_CAM_SEND 68 3519256 		
+CaService, 05:48:13,078 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:13,078 	 INFO  	 deltaTime: 1132406589 		
+CaService, 05:48:13,078 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:13,078 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:13,078 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:13,078 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:13,078 	 DEBUG 	 CAM sent 		
+CaService, 05:48:13,078 	 DEBUG 	 CAM sent 		
+CaService, 05:48:13,179 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:13,238 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.703006 		
+CaService, 05:48:13,239 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703121 		
+CaService, 05:48:13,742 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702985 		
+CaService, 05:48:13,748 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703106 		
+CaService, 05:48:14,123 	 INFO  	 METRIC_CAM_SEND 69 3520301 		
+CaService, 05:48:14,123 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:14,123 	 INFO  	 deltaTime: 1044580702 		
+CaService, 05:48:14,123 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:14,123 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:14,123 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:14,123 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:14,123 	 DEBUG 	 CAM sent 		
+CaService, 05:48:14,123 	 DEBUG 	 CAM sent 		
+CaService, 05:48:14,240 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:14,350 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:14,350 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702969 		
+CaService, 05:48:14,350 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703087 		
+CaService, 05:48:14,853 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702955 		
+CaService, 05:48:14,855 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703068 		
+CaService, 05:48:15,143 	 INFO  	 METRIC_CAM_SEND 70 3521321 		
+CaService, 05:48:15,143 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:15,143 	 INFO  	 deltaTime: 1019432669 		
+CaService, 05:48:15,143 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:15,143 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:15,143 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:15,143 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:15,143 	 DEBUG 	 CAM sent 		
+CaService, 05:48:15,143 	 DEBUG 	 CAM sent 		
+CaService, 05:48:15,245 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:15,350 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:15,456 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:15,458 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702943 		
+CaService, 05:48:15,459 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703047 		
+CaService, 05:48:15,990 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702922 		
+CaService, 05:48:15,992 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703032 		
+CaService, 05:48:16,200 	 INFO  	 METRIC_CAM_SEND 71 3522379 		
+CaService, 05:48:16,201 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:16,201 	 INFO  	 deltaTime: 1057311013 		
+CaService, 05:48:16,201 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:16,201 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:16,201 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:16,201 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:16,201 	 DEBUG 	 CAM sent 		
+CaService, 05:48:16,201 	 DEBUG 	 CAM sent 		
+CaService, 05:48:16,337 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:16,437 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:16,542 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:16,600 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702900 		
+CaService, 05:48:16,601 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703018 		
+CaService, 05:48:17,110 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702888 		
+CaService, 05:48:17,110 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.703003 		
+CaService, 05:48:17,290 	 INFO  	 METRIC_CAM_SEND 72 3523468 		
+CaService, 05:48:17,290 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:17,290 	 INFO  	 deltaTime: 1089225637 		
+CaService, 05:48:17,290 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:17,290 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:17,290 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:17,290 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:17,290 	 DEBUG 	 CAM sent 		
+CaService, 05:48:17,290 	 DEBUG 	 CAM sent 		
+CaService, 05:48:17,399 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:17,500 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:17,602 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:17,702 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:17,734 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702869 		
+CaService, 05:48:17,735 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702989 		
+CaService, 05:48:18,238 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702847 		
+CaService, 05:48:18,239 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702966 		
+CaService, 05:48:18,326 	 INFO  	 METRIC_CAM_SEND 73 3524505 		
+CaService, 05:48:18,326 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:18,326 	 INFO  	 deltaTime: 1035861610 		
+CaService, 05:48:18,326 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:18,326 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:18,326 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:18,326 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:18,326 	 DEBUG 	 CAM sent 		
+CaService, 05:48:18,326 	 DEBUG 	 CAM sent 		
+CaService, 05:48:18,428 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:18,529 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:18,632 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:18,736 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:18,840 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:18,843 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702831 		
+CaService, 05:48:18,843 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702951 		
+CaService, 05:48:19,355 	 INFO  	 METRIC_CAM_SEND 74 3525533 		
+CaService, 05:48:19,355 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:19,355 	 INFO  	 deltaTime: 1028642614 		
+CaService, 05:48:19,355 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:19,356 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:19,356 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:19,356 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:19,356 	 DEBUG 	 CAM sent 		
+CaService, 05:48:19,356 	 DEBUG 	 CAM sent 		
+CaService, 05:48:19,358 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702814 		
+CaService, 05:48:19,358 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702931 		
+CaService, 05:48:19,970 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702801 		
+CaService, 05:48:19,971 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702910 		
+CaService, 05:48:20,421 	 INFO  	 METRIC_CAM_SEND 75 3526599 		
+CaService, 05:48:20,421 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:20,421 	 INFO  	 deltaTime: 1064659846 		
+CaService, 05:48:20,421 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:20,421 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:20,421 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:20,421 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:20,421 	 DEBUG 	 CAM sent 		
+CaService, 05:48:20,421 	 DEBUG 	 CAM sent 		
+CaService, 05:48:20,477 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702780 		
+CaService, 05:48:20,478 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702896 		
+CaService, 05:48:21,185 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702756 		
+CaService, 05:48:21,186 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702880 		
+CaService, 05:48:21,531 	 INFO  	 METRIC_CAM_SEND 76 3527709 		
+CaService, 05:48:21,531 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:21,531 	 INFO  	 deltaTime: 1109666608 		
+CaService, 05:48:21,531 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:21,531 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:21,531 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:21,531 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:21,531 	 DEBUG 	 CAM sent 		
+CaService, 05:48:21,531 	 DEBUG 	 CAM sent 		
+CaService, 05:48:21,694 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:21,697 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702735 		
+CaService, 05:48:21,697 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702863 		
+CaService, 05:48:22,309 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702717 		
+CaService, 05:48:22,309 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702849 		
+CaService, 05:48:22,539 	 INFO  	 METRIC_CAM_SEND 77 3528717 		
+CaService, 05:48:22,539 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:22,540 	 INFO  	 deltaTime: 1007806175 		
+CaService, 05:48:22,540 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:22,540 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:22,540 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:22,540 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:22,540 	 DEBUG 	 CAM sent 		
+CaService, 05:48:22,540 	 DEBUG 	 CAM sent 		
+CaService, 05:48:22,665 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:22,784 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:22,828 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702701 		
+CaService, 05:48:22,828 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702836 		
+CaService, 05:48:23,436 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702688 		
+CaService, 05:48:23,437 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702822 		
+CaService, 05:48:23,649 	 INFO  	 METRIC_CAM_SEND 78 3529827 		
+CaService, 05:48:23,649 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:23,649 	 INFO  	 deltaTime: 1109093132 		
+CaService, 05:48:23,649 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:23,649 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:23,649 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:23,649 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:23,649 	 DEBUG 	 CAM sent 		
+CaService, 05:48:23,649 	 DEBUG 	 CAM sent 		
+CaService, 05:48:23,750 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:23,880 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:23,939 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702668 		
+CaService, 05:48:23,939 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702803 		
+CaService, 05:48:24,559 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417684, longitude: -3.702655 		
+CaService, 05:48:24,560 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702786 		
+CaService, 05:48:24,717 	 INFO  	 METRIC_CAM_SEND 79 3530895 		
+CaService, 05:48:24,717 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:24,717 	 INFO  	 deltaTime: 1067896395 		
+CaService, 05:48:24,717 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:24,717 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:24,717 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:24,717 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:24,718 	 DEBUG 	 CAM sent 		
+CaService, 05:48:24,718 	 DEBUG 	 CAM sent 		
+CaService, 05:48:24,825 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:24,939 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:25,040 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:25,077 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417673, longitude: -3.702640 		
+CaService, 05:48:25,078 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702774 		
+CaService, 05:48:25,699 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417661, longitude: -3.702639 		
+CaService, 05:48:25,700 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702753 		
+CaService, 05:48:25,745 	 INFO  	 METRIC_CAM_SEND 80 3531924 		
+CaService, 05:48:25,745 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:25,745 	 INFO  	 deltaTime: 1027920849 		
+CaService, 05:48:25,745 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:25,745 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:25,745 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:25,745 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:25,747 	 DEBUG 	 CAM sent 		
+CaService, 05:48:25,747 	 DEBUG 	 CAM sent 		
+CaService, 05:48:25,848 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:25,963 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:26,073 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:26,177 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:26,217 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417647, longitude: -3.702639 		
+CaService, 05:48:26,218 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702741 		
+CaService, 05:48:26,794 	 INFO  	 METRIC_CAM_SEND 81 3532972 		
+CaService, 05:48:26,794 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:26,794 	 INFO  	 deltaTime: 1048073648 		
+CaService, 05:48:26,794 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:26,794 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:26,794 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:26,794 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:26,794 	 DEBUG 	 CAM sent 		
+CaService, 05:48:26,794 	 DEBUG 	 CAM sent 		
+CaService, 05:48:26,826 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417630, longitude: -3.702639 		
+CaService, 05:48:26,826 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702725 		
+CaService, 05:48:27,334 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417620, longitude: -3.702639 		
+CaService, 05:48:27,335 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702703 		
+CaService, 05:48:27,809 	 INFO  	 METRIC_CAM_SEND 82 3533987 		
+CaService, 05:48:27,810 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:27,810 	 INFO  	 deltaTime: 1014755785 		
+CaService, 05:48:27,810 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:27,810 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:27,810 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:27,810 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:27,810 	 DEBUG 	 CAM sent 		
+CaService, 05:48:27,810 	 DEBUG 	 CAM sent 		
+CaService, 05:48:27,911 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:27,938 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417604, longitude: -3.702639 		
+CaService, 05:48:27,939 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702690 		
+CaService, 05:48:28,466 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417594, longitude: -3.702639 		
+CaService, 05:48:28,467 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417684, longitude: -3.702675 		
+CaService, 05:48:28,897 	 INFO  	 METRIC_CAM_SEND 83 3535075 		
+CaService, 05:48:28,897 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:28,897 	 INFO  	 deltaTime: 1086375288 		
+CaService, 05:48:28,898 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:28,898 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:28,898 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:28,898 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:28,898 	 DEBUG 	 CAM sent 		
+CaService, 05:48:28,898 	 DEBUG 	 CAM sent 		
+CaService, 05:48:28,998 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:29,087 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417584, longitude: -3.702639 		
+CaService, 05:48:29,088 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417683, longitude: -3.702653 		
+CaService, 05:48:29,599 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417570, longitude: -3.702639 		
+CaService, 05:48:29,599 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417672, longitude: -3.702639 		
+CaService, 05:48:29,645 	 INFO  	 METRIC_CAM_SEND 84 3535823 		
+CaService, 05:48:29,645 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:29,645 	 INFO  	 deltaHeading: 28.004433 		
+CaService, 05:48:29,645 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:29,645 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:29,645 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:29,645 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:29,645 	 DEBUG 	 CAM sent 		
+CaService, 05:48:29,645 	 DEBUG 	 CAM sent 		
+CaService, 05:48:29,749 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:29,854 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:29,956 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:30,068 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:30,170 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:30,222 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417559, longitude: -3.702639 		
+CaService, 05:48:30,224 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417656, longitude: -3.702639 		
+CaService, 05:48:30,271 	 INFO  	 METRIC_CAM_SEND 85 3536449 		
+CaService, 05:48:30,271 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:30,271 	 INFO  	 deltaHeading: 61.080005 		
+CaService, 05:48:30,271 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:30,271 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:30,271 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:30,271 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:30,271 	 DEBUG 	 CAM sent 		
+CaService, 05:48:30,271 	 DEBUG 	 CAM sent 		
+CaService, 05:48:30,377 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:30,481 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:30,597 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:30,717 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:30,729 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417541, longitude: -3.702639 		
+CaService, 05:48:30,732 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417642, longitude: -3.702639 		
+CaService, 05:48:31,273 	 INFO  	 METRIC_CAM_SEND 86 3537452 		
+CaService, 05:48:31,274 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:31,274 	 INFO  	 deltaTime: 1002517406 		
+CaService, 05:48:31,274 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:31,274 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:31,274 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:31,274 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:31,274 	 DEBUG 	 CAM sent 		
+CaService, 05:48:31,274 	 DEBUG 	 CAM sent 		
+CaService, 05:48:31,368 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417531, longitude: -3.702639 		
+CaService, 05:48:31,369 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417630, longitude: -3.702639 		
+CaService, 05:48:31,881 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417514, longitude: -3.702639 		
+CaService, 05:48:31,882 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417616, longitude: -3.702639 		
+CaService, 05:48:32,363 	 INFO  	 METRIC_CAM_SEND 87 3538542 		
+CaService, 05:48:32,364 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:32,364 	 INFO  	 deltaTime: 1089409918 		
+CaService, 05:48:32,364 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:32,364 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:32,364 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:32,364 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:32,364 	 DEBUG 	 CAM sent 		
+CaService, 05:48:32,364 	 DEBUG 	 CAM sent 		
+CaService, 05:48:32,464 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:32,489 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417496, longitude: -3.702639 		
+CaService, 05:48:32,489 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417599, longitude: -3.702639 		
+CaService, 05:48:32,991 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417484, longitude: -3.702639 		
+CaService, 05:48:32,993 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417587, longitude: -3.702639 		
+CaService, 05:48:33,409 	 INFO  	 METRIC_CAM_SEND 88 3539588 		
+CaService, 05:48:33,409 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:33,409 	 INFO  	 deltaTime: 1045401738 		
+CaService, 05:48:33,409 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:33,409 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:33,409 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:33,409 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:33,409 	 DEBUG 	 CAM sent 		
+CaService, 05:48:33,410 	 DEBUG 	 CAM sent 		
+CaService, 05:48:33,512 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:33,615 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:33,617 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417469, longitude: -3.702639 		
+CaService, 05:48:33,618 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417571, longitude: -3.702639 		
+CaService, 05:48:34,134 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417457, longitude: -3.702639 		
+CaService, 05:48:34,139 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417555, longitude: -3.702639 		
+CaService, 05:48:34,501 	 INFO  	 METRIC_CAM_SEND 89 3540679 		
+CaService, 05:48:34,501 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:34,501 	 INFO  	 deltaTime: 1091689099 		
+CaService, 05:48:34,501 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:34,501 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:34,501 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:34,501 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:34,501 	 DEBUG 	 CAM sent 		
+CaService, 05:48:34,501 	 DEBUG 	 CAM sent 		
+CaService, 05:48:34,602 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:34,722 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:34,757 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417440, longitude: -3.702639 		
+CaService, 05:48:34,757 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417544, longitude: -3.702639 		
+CaService, 05:48:35,259 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417430, longitude: -3.702639 		
+CaService, 05:48:35,259 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417535, longitude: -3.702639 		
+CaService, 05:48:35,558 	 INFO  	 METRIC_CAM_SEND 90 3541737 		
+CaService, 05:48:35,559 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:35,559 	 INFO  	 deltaTime: 1057253310 		
+CaService, 05:48:35,559 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:35,559 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:35,559 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:35,559 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:35,559 	 DEBUG 	 CAM sent 		
+CaService, 05:48:35,559 	 DEBUG 	 CAM sent 		
+CaService, 05:48:35,661 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:35,763 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:35,861 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417418, longitude: -3.702639 		
+CaService, 05:48:35,862 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417526, longitude: -3.702639 		
+CaService, 05:48:36,364 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417403, longitude: -3.702639 		
+CaService, 05:48:36,367 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417511, longitude: -3.702639 		
+CaService, 05:48:36,595 	 INFO  	 METRIC_CAM_SEND 91 3542773 		
+CaService, 05:48:36,595 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:36,595 	 INFO  	 deltaTime: 1036404346 		
+CaService, 05:48:36,595 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:36,595 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:36,595 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:36,595 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:36,595 	 DEBUG 	 CAM sent 		
+CaService, 05:48:36,595 	 DEBUG 	 CAM sent 		
+CaService, 05:48:36,700 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:36,801 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:36,908 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:36,972 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417387, longitude: -3.702639 		
+CaService, 05:48:36,972 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417500, longitude: -3.702639 		
+CaService, 05:48:37,479 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417377, longitude: -3.702639 		
+CaService, 05:48:37,479 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417487, longitude: -3.702639 		
+CaService, 05:48:37,647 	 INFO  	 METRIC_CAM_SEND 92 3543826 		
+CaService, 05:48:37,647 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:37,647 	 INFO  	 deltaTime: 1051943522 		
+CaService, 05:48:37,647 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:37,647 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:37,647 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:37,647 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:37,648 	 DEBUG 	 CAM sent 		
+CaService, 05:48:37,648 	 DEBUG 	 CAM sent 		
+CaService, 05:48:37,758 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:37,869 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:37,982 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:38,083 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:38,084 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417360, longitude: -3.702639 		
+CaService, 05:48:38,085 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417472, longitude: -3.702639 		
+CaService, 05:48:38,593 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417348, longitude: -3.702639 		
+CaService, 05:48:38,593 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417457, longitude: -3.702639 		
+CaService, 05:48:38,729 	 INFO  	 METRIC_CAM_SEND 93 3544907 		
+CaService, 05:48:38,729 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:38,729 	 INFO  	 deltaTime: 1081438210 		
+CaService, 05:48:38,729 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:38,729 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:38,729 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:38,729 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:38,729 	 DEBUG 	 CAM sent 		
+CaService, 05:48:38,729 	 DEBUG 	 CAM sent 		
+CaService, 05:48:38,859 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:39,002 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:39,102 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:39,203 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:39,203 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417335, longitude: -3.702639 		
+CaService, 05:48:39,206 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417445, longitude: -3.702639 		
+CaService, 05:48:39,713 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417324, longitude: -3.702639 		
+CaService, 05:48:39,713 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417433, longitude: -3.702639 		
+CaService, 05:48:39,739 	 INFO  	 METRIC_CAM_SEND 94 3545918 		
+CaService, 05:48:39,740 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:39,740 	 INFO  	 deltaTime: 1010193447 		
+CaService, 05:48:39,740 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:39,740 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:39,740 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:39,740 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:39,740 	 DEBUG 	 CAM sent 		
+CaService, 05:48:39,740 	 DEBUG 	 CAM sent 		
+CaService, 05:48:39,846 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:39,960 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:40,061 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:40,169 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:40,270 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:40,323 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417311, longitude: -3.702639 		
+CaService, 05:48:40,323 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417416, longitude: -3.702639 		
+CaService, 05:48:40,813 	 INFO  	 METRIC_CAM_SEND 95 3546992 		
+CaService, 05:48:40,814 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:40,814 	 INFO  	 deltaTime: 1073587980 		
+CaService, 05:48:40,814 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:40,814 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:40,814 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:40,814 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:40,814 	 DEBUG 	 CAM sent 		
+CaService, 05:48:40,815 	 DEBUG 	 CAM sent 		
+CaService, 05:48:40,825 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417294, longitude: -3.702639 		
+CaService, 05:48:40,826 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417403, longitude: -3.702639 		
+CaService, 05:48:41,436 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417279, longitude: -3.702639 		
+CaService, 05:48:41,437 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417391, longitude: -3.702639 		
+CaService, 05:48:41,866 	 INFO  	 METRIC_CAM_SEND 96 3548045 		
+CaService, 05:48:41,866 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:41,866 	 INFO  	 deltaTime: 1051775947 		
+CaService, 05:48:41,866 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:41,866 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:41,866 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:41,866 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:41,866 	 DEBUG 	 CAM sent 		
+CaService, 05:48:41,866 	 DEBUG 	 CAM sent 		
+CaService, 05:48:41,951 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417269, longitude: -3.702639 		
+CaService, 05:48:41,951 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417376, longitude: -3.702639 		
+CaService, 05:48:42,564 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417251, longitude: -3.702639 		
+CaService, 05:48:42,564 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417362, longitude: -3.702639 		
+CaService, 05:48:42,910 	 INFO  	 METRIC_CAM_SEND 97 3549089 		
+CaService, 05:48:42,911 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:42,911 	 INFO  	 deltaTime: 1044067736 		
+CaService, 05:48:42,911 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:42,911 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:42,911 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:42,911 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:42,911 	 DEBUG 	 CAM sent 		
+CaService, 05:48:42,911 	 DEBUG 	 CAM sent 		
+CaService, 05:48:43,018 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:43,067 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417236, longitude: -3.702639 		
+CaService, 05:48:43,068 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417348, longitude: -3.702639 		
+CaService, 05:48:43,676 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417225, longitude: -3.702639 		
+CaService, 05:48:43,679 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417331, longitude: -3.702639 		
+CaService, 05:48:43,981 	 INFO  	 METRIC_CAM_SEND 98 3550160 		
+CaService, 05:48:43,982 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:43,982 	 INFO  	 deltaTime: 1070547181 		
+CaService, 05:48:43,982 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:43,982 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:43,982 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:43,982 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:43,982 	 DEBUG 	 CAM sent 		
+CaService, 05:48:43,982 	 DEBUG 	 CAM sent 		
+CaService, 05:48:44,090 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:44,191 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417212, longitude: -3.702639 		
+CaService, 05:48:44,193 	 INFO  	 METRIC_CAM_SEND 99 3550371 		
+CaService, 05:48:44,193 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:44,193 	 INFO  	 distance: 13.281847 		
+CaService, 05:48:44,193 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:44,193 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:44,193 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:44,193 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:44,193 	 DEBUG 	 CAM sent 		
+CaService, 05:48:44,193 	 DEBUG 	 CAM sent 		
+CaService, 05:48:44,196 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417318, longitude: -3.702639 		
+CaService, 05:48:44,294 	 INFO  	 METRIC_CAM_SEND 100 3550473 		
+CaService, 05:48:44,295 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:44,295 	 INFO  	 distance: 11.866754 		
+CaService, 05:48:44,296 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:44,296 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:44,296 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:44,296 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:44,296 	 DEBUG 	 CAM sent 		
+CaService, 05:48:44,296 	 DEBUG 	 CAM sent 		
+CaService, 05:48:44,412 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:44,519 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:44,636 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:44,737 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:44,803 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417195, longitude: -3.702639 		
+CaService, 05:48:44,804 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417301, longitude: -3.702639 		
+CaService, 05:48:44,837 	 INFO  	 METRIC_CAM_SEND 101 3551016 		
+CaService, 05:48:44,838 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:44,838 	 INFO  	 deltaHeading: 180.000000 		
+CaService, 05:48:44,838 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:44,838 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:44,838 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:44,838 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:44,838 	 DEBUG 	 CAM sent 		
+CaService, 05:48:44,838 	 DEBUG 	 CAM sent 		
+CaService, 05:48:44,972 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:45,082 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:45,195 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:45,296 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:45,311 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417183, longitude: -3.702639 		
+CaService, 05:48:45,311 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417292, longitude: -3.702639 		
+CaService, 05:48:45,930 	 INFO  	 METRIC_CAM_SEND 102 3552108 		
+CaService, 05:48:45,930 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:45,930 	 INFO  	 deltaTime: 1092391504 		
+CaService, 05:48:45,930 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:45,930 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:45,930 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:45,931 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:45,931 	 DEBUG 	 CAM sent 		
+CaService, 05:48:45,931 	 DEBUG 	 CAM sent 		
+CaService, 05:48:45,934 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417170, longitude: -3.702639 		
+CaService, 05:48:45,934 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417279, longitude: -3.702639 		
+CaService, 05:48:46,457 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417159, longitude: -3.702639 		
+CaService, 05:48:46,457 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417263, longitude: -3.702639 		
+CaService, 05:48:46,968 	 INFO  	 METRIC_CAM_SEND 103 3553147 		
+CaService, 05:48:46,968 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:46,968 	 INFO  	 deltaTime: 1037810435 		
+CaService, 05:48:46,968 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:46,968 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:46,968 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:46,968 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:46,968 	 DEBUG 	 CAM sent 		
+CaService, 05:48:46,968 	 DEBUG 	 CAM sent 		
+CaService, 05:48:47,065 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417144, longitude: -3.702639 		
+CaService, 05:48:47,065 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417252, longitude: -3.702639 		
+CaService, 05:48:47,571 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417128, longitude: -3.702639 		
+CaService, 05:48:47,571 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417242, longitude: -3.702639 		
+CaService, 05:48:48,134 	 INFO  	 METRIC_CAM_SEND 104 3554312 		
+CaService, 05:48:48,134 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:48,134 	 INFO  	 deltaTime: 1165265075 		
+CaService, 05:48:48,134 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:48,134 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:48,134 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:48,134 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:48,134 	 DEBUG 	 CAM sent 		
+CaService, 05:48:48,137 	 DEBUG 	 CAM sent 		
+CaService, 05:48:48,236 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417111, longitude: -3.702639 		
+CaService, 05:48:48,237 	 INFO  	 METRIC_CAM_SEND 105 3554415 		
+CaService, 05:48:48,237 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:48,237 	 INFO  	 distance: 14.512083 		
+CaService, 05:48:48,238 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:48,238 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:48,238 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:48,238 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:48,238 	 DEBUG 	 CAM sent 		
+CaService, 05:48:48,238 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417227, longitude: -3.702639 		
+CaService, 05:48:48,238 	 DEBUG 	 CAM sent 		
+CaService, 05:48:48,356 	 INFO  	 METRIC_CAM_SEND 106 3554535 		
+CaService, 05:48:48,356 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:48,356 	 INFO  	 distance: 12.847431 		
+CaService, 05:48:48,356 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:48,356 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:48,356 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:48,357 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:48,357 	 DEBUG 	 CAM sent 		
+CaService, 05:48:48,357 	 DEBUG 	 CAM sent 		
+CaService, 05:48:48,468 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:48,574 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:48,675 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:48,752 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417097, longitude: -3.702639 		
+CaService, 05:48:48,757 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417212, longitude: -3.702639 		
+CaService, 05:48:48,777 	 INFO  	 METRIC_CAM_SEND 107 3554956 		
+CaService, 05:48:48,777 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:48,777 	 INFO  	 deltaHeading: 180.000000 		
+CaService, 05:48:48,778 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:48,778 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:48,778 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:48,778 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:48,778 	 DEBUG 	 CAM sent 		
+CaService, 05:48:48,778 	 DEBUG 	 CAM sent 		
+CaService, 05:48:48,893 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:48,996 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:49,103 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:49,203 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:49,304 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:49,376 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417081, longitude: -3.702639 		
+CaService, 05:48:49,377 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417199, longitude: -3.702639 		
+CaService, 05:48:49,822 	 INFO  	 METRIC_CAM_SEND 108 3556001 		
+CaService, 05:48:49,823 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:49,823 	 INFO  	 deltaTime: 1044685071 		
+CaService, 05:48:49,823 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:49,823 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:49,823 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:49,824 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:49,824 	 DEBUG 	 CAM sent 		
+CaService, 05:48:49,824 	 DEBUG 	 CAM sent 		
+CaService, 05:48:49,882 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417066, longitude: -3.702639 		
+CaService, 05:48:49,885 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417188, longitude: -3.702639 		
+CaService, 05:48:50,509 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417054, longitude: -3.702639 		
+CaService, 05:48:50,511 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417174, longitude: -3.702639 		
+CaService, 05:48:50,904 	 INFO  	 METRIC_CAM_SEND 109 3557082 		
+CaService, 05:48:50,904 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:50,904 	 INFO  	 deltaTime: 1081028163 		
+CaService, 05:48:50,904 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:50,904 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:50,905 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:50,905 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:50,905 	 DEBUG 	 CAM sent 		
+CaService, 05:48:50,905 	 DEBUG 	 CAM sent 		
+CaService, 05:48:51,006 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:51,016 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417039, longitude: -3.702639 		
+CaService, 05:48:51,019 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417159, longitude: -3.702639 		
+CaService, 05:48:51,635 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417025, longitude: -3.702639 		
+CaService, 05:48:51,635 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417142, longitude: -3.702639 		
+CaService, 05:48:51,960 	 INFO  	 METRIC_CAM_SEND 110 3558139 		
+CaService, 05:48:51,960 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:51,961 	 INFO  	 deltaTime: 1055851590 		
+CaService, 05:48:51,961 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:51,961 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:51,961 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:51,961 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:51,961 	 DEBUG 	 CAM sent 		
+CaService, 05:48:51,961 	 DEBUG 	 CAM sent 		
+CaService, 05:48:52,064 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:52,148 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417015, longitude: -3.702639 		
+CaService, 05:48:52,153 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417131, longitude: -3.702639 		
+CaService, 05:48:52,777 	 DEBUG 	 Received GPS from veh0, with latitude: 40.417002, longitude: -3.702639 		
+CaService, 05:48:52,778 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417120, longitude: -3.702639 		
+CaService, 05:48:53,032 	 INFO  	 METRIC_CAM_SEND 111 3559210 		
+CaService, 05:48:53,032 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:53,032 	 INFO  	 deltaTime: 1071190355 		
+CaService, 05:48:53,032 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:53,032 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:53,032 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:53,032 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:53,032 	 DEBUG 	 CAM sent 		
+CaService, 05:48:53,032 	 DEBUG 	 CAM sent 		
+CaService, 05:48:53,134 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:53,235 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:53,283 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416987, longitude: -3.702639 		
+CaService, 05:48:53,285 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417105, longitude: -3.702639 		
+CaService, 05:48:53,901 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416977, longitude: -3.702639 		
+CaService, 05:48:53,902 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417090, longitude: -3.702639 		
+CaService, 05:48:54,075 	 INFO  	 METRIC_CAM_SEND 112 3560254 		
+CaService, 05:48:54,075 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:54,075 	 INFO  	 deltaTime: 1042818259 		
+CaService, 05:48:54,075 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:54,075 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:54,076 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:54,076 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:54,076 	 DEBUG 	 CAM sent 		
+CaService, 05:48:54,076 	 DEBUG 	 CAM sent 		
+CaService, 05:48:54,179 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:54,281 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:54,382 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:54,427 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416965, longitude: -3.702639 		
+CaService, 05:48:54,427 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417073, longitude: -3.702639 		
+CaService, 05:48:55,034 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416954, longitude: -3.702639 		
+CaService, 05:48:55,035 	 INFO  	 METRIC_CAM_SEND 113 3561213 		
+CaService, 05:48:55,035 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:55,035 	 INFO  	 distance: 15.132199 		
+CaService, 05:48:55,035 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:55,035 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:55,035 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:55,035 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:55,035 	 DEBUG 	 CAM sent 		
+CaService, 05:48:55,035 	 DEBUG 	 CAM sent 		
+CaService, 05:48:55,036 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417057, longitude: -3.702639 		
+CaService, 05:48:55,141 	 INFO  	 METRIC_CAM_SEND 114 3561320 		
+CaService, 05:48:55,142 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:55,142 	 INFO  	 distance: 11.538025 		
+CaService, 05:48:55,142 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:55,142 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:55,142 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:55,142 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:55,142 	 DEBUG 	 CAM sent 		
+CaService, 05:48:55,142 	 DEBUG 	 CAM sent 		
+CaService, 05:48:55,247 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:55,347 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:55,449 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:55,548 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416939, longitude: -3.702639 		
+CaService, 05:48:55,548 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417041, longitude: -3.702639 		
+CaService, 05:48:55,550 	 INFO  	 METRIC_CAM_SEND 115 3561728 		
+CaService, 05:48:55,550 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:55,550 	 INFO  	 deltaHeading: 180.000000 		
+CaService, 05:48:55,550 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:55,550 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:55,550 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:55,550 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:55,550 	 DEBUG 	 CAM sent 		
+CaService, 05:48:55,550 	 DEBUG 	 CAM sent 		
+CaService, 05:48:55,651 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:55,758 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:55,861 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:55,961 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:56,062 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:56,156 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416930, longitude: -3.702639 		
+CaService, 05:48:56,158 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417030, longitude: -3.702639 		
+CaService, 05:48:56,600 	 INFO  	 METRIC_CAM_SEND 116 3562778 		
+CaService, 05:48:56,600 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:56,600 	 INFO  	 deltaTime: 1050075530 		
+CaService, 05:48:56,600 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:56,600 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:56,601 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:56,601 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:56,601 	 DEBUG 	 CAM sent 		
+CaService, 05:48:56,601 	 DEBUG 	 CAM sent 		
+CaService, 05:48:56,681 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416919, longitude: -3.702639 		
+CaService, 05:48:56,682 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417019, longitude: -3.702639 		
+CaService, 05:48:57,288 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416909, longitude: -3.702639 		
+CaService, 05:48:57,288 	 DEBUG 	 Received GPS from veh1, with latitude: 40.417008, longitude: -3.702639 		
+CaService, 05:48:57,626 	 INFO  	 METRIC_CAM_SEND 117 3563804 		
+CaService, 05:48:57,626 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:57,626 	 INFO  	 deltaTime: 1025424005 		
+CaService, 05:48:57,626 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:57,626 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:57,626 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:57,626 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:57,626 	 DEBUG 	 CAM sent 		
+CaService, 05:48:57,627 	 DEBUG 	 CAM sent 		
+CaService, 05:48:57,735 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:57,795 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416896, longitude: -3.702639 		
+CaService, 05:48:57,796 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416997, longitude: -3.702639 		
+CaService, 05:48:58,407 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416886, longitude: -3.702639 		
+CaService, 05:48:58,407 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416980, longitude: -3.702639 		
+CaService, 05:48:58,696 	 INFO  	 METRIC_CAM_SEND 118 3564874 		
+CaService, 05:48:58,696 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:58,696 	 INFO  	 deltaTime: 1069468167 		
+CaService, 05:48:58,696 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:58,696 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:58,696 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:58,696 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:58,696 	 DEBUG 	 CAM sent 		
+CaService, 05:48:58,696 	 DEBUG 	 CAM sent 		
+CaService, 05:48:58,808 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:58,909 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:58,912 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416871, longitude: -3.702639 		
+CaService, 05:48:58,914 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416963, longitude: -3.702639 		
+CaService, 05:48:59,534 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416856, longitude: -3.702639 		
+CaService, 05:48:59,535 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416951, longitude: -3.702639 		
+CaService, 05:48:59,740 	 INFO  	 METRIC_CAM_SEND 119 3565918 		
+CaService, 05:48:59,740 	 DEBUG 	 camInfo sent 		
+CaService, 05:48:59,740 	 INFO  	 deltaTime: 1043175085 		
+CaService, 05:48:59,740 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:48:59,740 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:48:59,740 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:48:59,740 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:48:59,740 	 DEBUG 	 CAM sent 		
+CaService, 05:48:59,740 	 DEBUG 	 CAM sent 		
+CaService, 05:48:59,846 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:48:59,965 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:00,036 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416838, longitude: -3.702639 		
+CaService, 05:49:00,036 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416936, longitude: -3.702639 		
+CaService, 05:49:00,701 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416823, longitude: -3.702640 		
+CaService, 05:49:00,701 	 INFO  	 METRIC_CAM_SEND 120 3566880 		
+CaService, 05:49:00,702 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:00,702 	 INFO  	 distance: 14.236476 		
+CaService, 05:49:00,702 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:00,703 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:00,703 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:00,703 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:00,703 	 DEBUG 	 CAM sent 		
+CaService, 05:49:00,703 	 DEBUG 	 CAM sent 		
+CaService, 05:49:00,703 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416921, longitude: -3.702639 		
+CaService, 05:49:00,818 	 INFO  	 METRIC_CAM_SEND 121 3566996 		
+CaService, 05:49:00,818 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:00,818 	 INFO  	 distance: 10.945753 		
+CaService, 05:49:00,818 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:00,818 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:00,818 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:00,818 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:00,818 	 DEBUG 	 CAM sent 		
+CaService, 05:49:00,818 	 DEBUG 	 CAM sent 		
+CaService, 05:49:00,932 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:01,052 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:01,173 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:01,219 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416815, longitude: -3.702654 		
+CaService, 05:49:01,219 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416911, longitude: -3.702639 		
+CaService, 05:49:01,274 	 INFO  	 METRIC_CAM_SEND 122 3567452 		
+CaService, 05:49:01,274 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:01,274 	 INFO  	 deltaHeading: 179.564706 		
+CaService, 05:49:01,274 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:01,274 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:01,274 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:01,274 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:01,274 	 DEBUG 	 CAM sent 		
+CaService, 05:49:01,274 	 DEBUG 	 CAM sent 		
+CaService, 05:49:01,387 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:01,489 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:01,595 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:01,714 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:01,816 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:01,828 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702672 		
+CaService, 05:49:01,829 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416896, longitude: -3.702639 		
+CaService, 05:49:02,341 	 INFO  	 METRIC_CAM_SEND 123 3568519 		
+CaService, 05:49:02,341 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:02,342 	 INFO  	 deltaTime: 1066498933 		
+CaService, 05:49:02,342 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:02,342 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:02,342 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:02,342 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:02,342 	 DEBUG 	 CAM sent 		
+CaService, 05:49:02,342 	 DEBUG 	 CAM sent 		
+CaService, 05:49:02,342 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702684 		
+CaService, 05:49:02,344 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416879, longitude: -3.702639 		
+CaService, 05:49:02,946 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702703 		
+CaService, 05:49:02,947 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416863, longitude: -3.702639 		
+CaService, 05:49:03,403 	 INFO  	 METRIC_CAM_SEND 124 3569581 		
+CaService, 05:49:03,403 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:03,403 	 INFO  	 deltaTime: 1061324345 		
+CaService, 05:49:03,403 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:03,403 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:03,403 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:03,404 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:03,404 	 DEBUG 	 CAM sent 		
+CaService, 05:49:03,404 	 DEBUG 	 CAM sent 		
+CaService, 05:49:03,458 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702717 		
+CaService, 05:49:03,461 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416848, longitude: -3.702639 		
+CaService, 05:49:04,080 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702734 		
+CaService, 05:49:04,081 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416831, longitude: -3.702639 		
+CaService, 05:49:04,472 	 INFO  	 METRIC_CAM_SEND 125 3570650 		
+CaService, 05:49:04,472 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:04,472 	 INFO  	 deltaTime: 1068829621 		
+CaService, 05:49:04,472 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:04,472 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:04,472 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:04,472 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:04,472 	 DEBUG 	 CAM sent 		
+CaService, 05:49:04,472 	 DEBUG 	 CAM sent 		
+CaService, 05:49:04,577 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:04,607 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702757 		
+CaService, 05:49:04,607 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416822, longitude: -3.702640 		
+CaService, 05:49:04,692 	 INFO  	 METRIC_CAM_SEND 126 3570870 		
+CaService, 05:49:04,692 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:04,692 	 INFO  	 deltaHeading: 5.921939 		
+CaService, 05:49:04,692 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:04,692 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:04,692 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:04,692 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:04,692 	 DEBUG 	 CAM sent 		
+CaService, 05:49:04,692 	 DEBUG 	 CAM sent 		
+CaService, 05:49:04,799 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:04,906 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:05,007 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:05,108 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:05,209 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:05,211 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702773 		
+CaService, 05:49:05,212 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702660 		
+CaService, 05:49:05,344 	 INFO  	 METRIC_CAM_SEND 127 3571522 		
+CaService, 05:49:05,344 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:05,344 	 INFO  	 deltaHeading: 52.105369 		
+CaService, 05:49:05,344 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:05,344 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:05,344 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:05,344 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:05,345 	 DEBUG 	 CAM sent 		
+CaService, 05:49:05,345 	 DEBUG 	 CAM sent 		
+CaService, 05:49:05,448 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:05,548 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:05,650 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:05,720 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702789 		
+CaService, 05:49:05,722 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702677 		
+CaService, 05:49:05,758 	 INFO  	 METRIC_CAM_SEND 128 3571937 		
+CaService, 05:49:05,758 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:05,758 	 INFO  	 deltaHeading: 31.972692 		
+CaService, 05:49:05,758 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:05,758 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:05,758 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:05,758 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:05,758 	 DEBUG 	 CAM sent 		
+CaService, 05:49:05,758 	 DEBUG 	 CAM sent 		
+CaService, 05:49:05,865 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:05,990 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:06,100 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:06,211 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:06,313 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:06,325 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702811 		
+CaService, 05:49:06,326 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702694 		
+CaService, 05:49:06,856 	 INFO  	 METRIC_CAM_SEND 129 3573034 		
+CaService, 05:49:06,856 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:06,856 	 INFO  	 deltaTime: 1097380353 		
+CaService, 05:49:06,856 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:06,856 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:06,856 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:06,856 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:06,856 	 DEBUG 	 CAM sent 		
+CaService, 05:49:06,856 	 DEBUG 	 CAM sent 		
+CaService, 05:49:06,861 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702830 		
+CaService, 05:49:06,862 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702712 		
+CaService, 05:49:07,469 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702843 		
+CaService, 05:49:07,470 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702724 		
+CaService, 05:49:07,929 	 INFO  	 METRIC_CAM_SEND 130 3574107 		
+CaService, 05:49:07,929 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:07,929 	 INFO  	 deltaTime: 1072436793 		
+CaService, 05:49:07,929 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:07,929 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:07,929 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:07,929 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:07,929 	 DEBUG 	 CAM sent 		
+CaService, 05:49:07,929 	 DEBUG 	 CAM sent 		
+CaService, 05:49:07,983 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702864 		
+CaService, 05:49:07,984 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702744 		
+CaService, 05:49:08,591 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702883 		
+CaService, 05:49:08,592 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702757 		
+CaService, 05:49:08,970 	 INFO  	 METRIC_CAM_SEND 131 3575148 		
+CaService, 05:49:08,970 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:08,970 	 INFO  	 deltaTime: 1040803003 		
+CaService, 05:49:08,970 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:08,970 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:08,970 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:08,970 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:08,970 	 DEBUG 	 CAM sent 		
+CaService, 05:49:08,970 	 DEBUG 	 CAM sent 		
+CaService, 05:49:09,091 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:09,098 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702903 		
+CaService, 05:49:09,099 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702774 		
+CaService, 05:49:09,704 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702920 		
+CaService, 05:49:09,706 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702790 		
+CaService, 05:49:10,051 	 INFO  	 METRIC_CAM_SEND 132 3576230 		
+CaService, 05:49:10,051 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:10,052 	 INFO  	 deltaTime: 1081387581 		
+CaService, 05:49:10,052 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:10,052 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:10,052 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:10,052 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:10,052 	 DEBUG 	 CAM sent 		
+CaService, 05:49:10,052 	 DEBUG 	 CAM sent 		
+CaService, 05:49:10,153 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:10,207 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702937 		
+CaService, 05:49:10,207 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702808 		
+CaService, 05:49:10,838 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702955 		
+CaService, 05:49:10,839 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702831 		
+CaService, 05:49:11,106 	 INFO  	 METRIC_CAM_SEND 133 3577284 		
+CaService, 05:49:11,106 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:11,106 	 INFO  	 deltaTime: 1053920125 		
+CaService, 05:49:11,106 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:11,106 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:11,106 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:11,106 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:11,106 	 DEBUG 	 CAM sent 		
+CaService, 05:49:11,107 	 DEBUG 	 CAM sent 		
+CaService, 05:49:11,209 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:11,310 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:11,347 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702970 		
+CaService, 05:49:11,347 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702850 		
+CaService, 05:49:11,947 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.702990 		
+CaService, 05:49:11,947 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702872 		
+CaService, 05:49:12,138 	 INFO  	 METRIC_CAM_SEND 134 3578317 		
+CaService, 05:49:12,138 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:12,138 	 INFO  	 deltaTime: 1031844566 		
+CaService, 05:49:12,138 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:12,139 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:12,139 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:12,139 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:12,139 	 DEBUG 	 CAM sent 		
+CaService, 05:49:12,139 	 DEBUG 	 CAM sent 		
+CaService, 05:49:12,239 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:12,339 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:12,440 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:12,448 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703012 		
+CaService, 05:49:12,449 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702886 		
+CaService, 05:49:13,059 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703036 		
+CaService, 05:49:13,060 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702909 		
+CaService, 05:49:13,165 	 INFO  	 METRIC_CAM_SEND 135 3579344 		
+CaService, 05:49:13,166 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:13,166 	 INFO  	 deltaTime: 1026890545 		
+CaService, 05:49:13,166 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:13,166 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:13,166 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:13,166 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:13,166 	 DEBUG 	 CAM sent 		
+CaService, 05:49:13,166 	 DEBUG 	 CAM sent 		
+CaService, 05:49:13,273 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:13,373 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:13,484 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:13,575 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703055 		
+CaService, 05:49:13,578 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702930 		
+CaService, 05:49:14,180 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703067 		
+CaService, 05:49:14,181 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702952 		
+CaService, 05:49:14,214 	 INFO  	 METRIC_CAM_SEND 136 3580393 		
+CaService, 05:49:14,214 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:14,214 	 INFO  	 deltaTime: 1048542126 		
+CaService, 05:49:14,214 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:14,214 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:14,214 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:14,214 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:14,214 	 DEBUG 	 CAM sent 		
+CaService, 05:49:14,214 	 DEBUG 	 CAM sent 		
+CaService, 05:49:14,315 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:14,415 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:14,516 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:14,622 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:14,682 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703086 		
+CaService, 05:49:14,686 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702969 		
+CaService, 05:49:15,275 	 INFO  	 METRIC_CAM_SEND 137 3581454 		
+CaService, 05:49:15,276 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:15,276 	 INFO  	 deltaTime: 1061029269 		
+CaService, 05:49:15,276 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:15,276 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:15,276 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:15,276 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:15,276 	 DEBUG 	 CAM sent 		
+CaService, 05:49:15,276 	 DEBUG 	 CAM sent 		
+CaService, 05:49:15,287 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703109 		
+CaService, 05:49:15,288 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.702985 		
+CaService, 05:49:15,795 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703125 		
+CaService, 05:49:15,795 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703008 		
+CaService, 05:49:16,318 	 INFO  	 METRIC_CAM_SEND 138 3582496 		
+CaService, 05:49:16,318 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:16,318 	 INFO  	 deltaTime: 1042307684 		
+CaService, 05:49:16,318 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:16,318 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:16,318 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:16,318 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:16,318 	 DEBUG 	 CAM sent 		
+CaService, 05:49:16,318 	 DEBUG 	 CAM sent 		
+CaService, 05:49:16,399 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703142 		
+CaService, 05:49:16,400 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703031 		
+CaService, 05:49:16,902 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703160 		
+CaService, 05:49:16,902 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703045 		
+CaService, 05:49:17,405 	 INFO  	 METRIC_CAM_SEND 139 3583584 		
+CaService, 05:49:17,406 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:17,406 	 INFO  	 deltaTime: 1087198682 		
+CaService, 05:49:17,406 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:17,406 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:17,406 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:17,406 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:17,406 	 DEBUG 	 CAM sent 		
+CaService, 05:49:17,406 	 DEBUG 	 CAM sent 		
+CaService, 05:49:17,518 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:17,519 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703176 		
+CaService, 05:49:17,521 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703063 		
+CaService, 05:49:18,035 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703192 		
+CaService, 05:49:18,035 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703079 		
+CaService, 05:49:18,456 	 INFO  	 METRIC_CAM_SEND 140 3584635 		
+CaService, 05:49:18,457 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:18,457 	 INFO  	 deltaTime: 1050626427 		
+CaService, 05:49:18,457 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:18,457 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:18,457 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:18,457 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:18,457 	 DEBUG 	 CAM sent 		
+CaService, 05:49:18,457 	 DEBUG 	 CAM sent 		
+CaService, 05:49:18,563 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:18,640 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703209 		
+CaService, 05:49:18,640 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703102 		
+CaService, 05:49:19,191 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703223 		
+CaService, 05:49:19,192 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703114 		
+CaService, 05:49:19,499 	 INFO  	 METRIC_CAM_SEND 141 3585677 		
+CaService, 05:49:19,499 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:19,499 	 INFO  	 deltaTime: 1041704617 		
+CaService, 05:49:19,499 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:19,499 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:19,499 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:19,499 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:19,499 	 DEBUG 	 CAM sent 		
+CaService, 05:49:19,499 	 DEBUG 	 CAM sent 		
+CaService, 05:49:19,603 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:19,703 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:19,811 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:19,814 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703242 		
+CaService, 05:49:19,814 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703125 		
+CaService, 05:49:20,316 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703266 		
+CaService, 05:49:20,316 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703140 		
+CaService, 05:49:20,529 	 INFO  	 METRIC_CAM_SEND 142 3586707 		
+CaService, 05:49:20,529 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:20,529 	 INFO  	 deltaTime: 1029837729 		
+CaService, 05:49:20,529 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:20,529 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:20,529 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:20,529 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:20,529 	 DEBUG 	 CAM sent 		
+CaService, 05:49:20,529 	 DEBUG 	 CAM sent 		
+CaService, 05:49:20,630 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:20,731 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:20,832 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:20,932 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:20,934 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703281 		
+CaService, 05:49:20,935 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703163 		
+CaService, 05:49:21,453 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703295 		
+CaService, 05:49:21,454 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703178 		
+CaService, 05:49:21,556 	 INFO  	 METRIC_CAM_SEND 143 3587734 		
+CaService, 05:49:21,556 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:21,556 	 INFO  	 deltaTime: 1026485270 		
+CaService, 05:49:21,556 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:21,556 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:21,556 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:21,556 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:21,556 	 DEBUG 	 CAM sent 		
+CaService, 05:49:21,556 	 DEBUG 	 CAM sent 		
+CaService, 05:49:21,658 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:21,765 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:21,867 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:21,988 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:22,067 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703317 		
+CaService, 05:49:22,068 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703197 		
+CaService, 05:49:22,574 	 INFO  	 METRIC_CAM_SEND 144 3588752 		
+CaService, 05:49:22,574 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:22,574 	 INFO  	 deltaTime: 1017926295 		
+CaService, 05:49:22,574 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:22,574 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:22,574 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:22,574 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:22,574 	 DEBUG 	 CAM sent 		
+CaService, 05:49:22,574 	 DEBUG 	 CAM sent 		
+CaService, 05:49:22,577 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703331 		
+CaService, 05:49:22,577 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703214 		
+CaService, 05:49:23,188 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703348 		
+CaService, 05:49:23,190 	 INFO  	 METRIC_CAM_SEND 145 3589369 		
+CaService, 05:49:23,190 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:23,190 	 INFO  	 distance: 12.844201 		
+CaService, 05:49:23,190 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:23,190 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703228 		
+CaService, 05:49:23,191 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:23,191 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:23,191 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:23,191 	 DEBUG 	 CAM sent 		
+CaService, 05:49:23,191 	 DEBUG 	 CAM sent 		
+CaService, 05:49:23,291 	 INFO  	 METRIC_CAM_SEND 146 3589469 		
+CaService, 05:49:23,292 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:23,292 	 INFO  	 distance: 10.143126 		
+CaService, 05:49:23,292 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:23,292 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:23,292 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:23,292 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:23,292 	 DEBUG 	 CAM sent 		
+CaService, 05:49:23,292 	 DEBUG 	 CAM sent 		
+CaService, 05:49:23,398 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:23,505 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:23,606 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:23,707 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:23,709 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703366 		
+CaService, 05:49:23,712 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703246 		
+CaService, 05:49:23,867 	 INFO  	 METRIC_CAM_SEND 147 3590045 		
+CaService, 05:49:23,868 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:23,868 	 INFO  	 deltaHeading: 180.000000 		
+CaService, 05:49:23,868 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:23,869 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:23,869 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:23,869 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:23,869 	 DEBUG 	 CAM sent 		
+CaService, 05:49:23,869 	 DEBUG 	 CAM sent 		
+CaService, 05:49:23,973 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:24,074 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:24,190 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:24,291 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:24,317 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703389 		
+CaService, 05:49:24,318 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703269 		
+CaService, 05:49:24,853 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703411 		
+CaService, 05:49:24,854 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703289 		
+CaService, 05:49:24,953 	 INFO  	 METRIC_CAM_SEND 148 3591131 		
+CaService, 05:49:24,953 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:24,953 	 INFO  	 deltaTime: 1084174172 		
+CaService, 05:49:24,953 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:24,953 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:24,953 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:24,953 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:24,953 	 DEBUG 	 CAM sent 		
+CaService, 05:49:24,954 	 DEBUG 	 CAM sent 		
+CaService, 05:49:25,060 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:25,161 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:25,263 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:25,370 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:25,463 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703428 		
+CaService, 05:49:25,464 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703303 		
+CaService, 05:49:25,969 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703442 		
+CaService, 05:49:25,969 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703321 		
+CaService, 05:49:25,993 	 INFO  	 METRIC_CAM_SEND 149 3592171 		
+CaService, 05:49:25,993 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:25,993 	 INFO  	 deltaTime: 1039366203 		
+CaService, 05:49:25,993 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:25,993 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:25,993 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:25,993 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:25,993 	 DEBUG 	 CAM sent 		
+CaService, 05:49:25,993 	 DEBUG 	 CAM sent 		
+CaService, 05:49:26,100 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:26,215 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:26,371 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:26,472 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:26,572 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:26,572 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703462 		
+CaService, 05:49:26,576 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703340 		
+CaService, 05:49:27,006 	 INFO  	 METRIC_CAM_SEND 150 3593184 		
+CaService, 05:49:27,006 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:27,006 	 INFO  	 deltaTime: 1012968563 		
+CaService, 05:49:27,006 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:27,006 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:27,007 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:27,007 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:27,007 	 DEBUG 	 CAM sent 		
+CaService, 05:49:27,007 	 DEBUG 	 CAM sent 		
+CaService, 05:49:27,080 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703484 		
+CaService, 05:49:27,080 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703360 		
+CaService, 05:49:27,697 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703502 		
+CaService, 05:49:27,697 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703378 		
+CaService, 05:49:28,047 	 INFO  	 METRIC_CAM_SEND 151 3594225 		
+CaService, 05:49:28,047 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:28,047 	 INFO  	 deltaTime: 1040465942 		
+CaService, 05:49:28,047 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:28,047 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:28,047 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:28,047 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:28,047 	 DEBUG 	 CAM sent 		
+CaService, 05:49:28,048 	 DEBUG 	 CAM sent 		
+CaService, 05:49:28,193 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:28,202 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703522 		
+CaService, 05:49:28,202 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703395 		
+CaService, 05:49:28,822 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703536 		
+CaService, 05:49:28,822 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703410 		
+CaService, 05:49:29,104 	 INFO  	 METRIC_CAM_SEND 152 3595283 		
+CaService, 05:49:29,104 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:29,105 	 INFO  	 deltaTime: 1056894301 		
+CaService, 05:49:29,105 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:29,105 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:29,105 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:29,105 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:29,105 	 DEBUG 	 CAM sent 		
+CaService, 05:49:29,105 	 DEBUG 	 CAM sent 		
+CaService, 05:49:29,224 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:29,325 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:29,325 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703559 		
+CaService, 05:49:29,326 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703429 		
+CaService, 05:49:29,951 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703572 		
+CaService, 05:49:29,952 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703443 		
+CaService, 05:49:30,163 	 INFO  	 METRIC_CAM_SEND 153 3596341 		
+CaService, 05:49:30,163 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:30,163 	 INFO  	 deltaTime: 1058339570 		
+CaService, 05:49:30,163 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:30,163 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:30,163 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:30,163 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:30,163 	 DEBUG 	 CAM sent 		
+CaService, 05:49:30,163 	 DEBUG 	 CAM sent 		
+CaService, 05:49:30,264 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:30,365 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:30,456 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703584 		
+CaService, 05:49:30,457 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703460 		
+CaService, 05:49:31,100 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703597 		
+CaService, 05:49:31,100 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703475 		
+CaService, 05:49:31,200 	 INFO  	 METRIC_CAM_SEND 154 3597379 		
+CaService, 05:49:31,200 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:31,200 	 INFO  	 deltaTime: 1036827841 		
+CaService, 05:49:31,200 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:31,200 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:31,200 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:31,200 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:31,201 	 DEBUG 	 CAM sent 		
+CaService, 05:49:31,201 	 DEBUG 	 CAM sent 		
+CaService, 05:49:31,301 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:31,403 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:31,509 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:31,606 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703620 		
+CaService, 05:49:31,610 	 INFO  	 METRIC_CAM_SEND 155 3597788 		
+CaService, 05:49:31,610 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:31,611 	 INFO  	 distance: 12.242638 		
+CaService, 05:49:31,611 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:31,611 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:31,611 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:31,611 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:31,611 	 DEBUG 	 CAM sent 		
+CaService, 05:49:31,611 	 DEBUG 	 CAM sent 		
+CaService, 05:49:31,611 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703496 		
+CaService, 05:49:31,720 	 INFO  	 METRIC_CAM_SEND 156 3597898 		
+CaService, 05:49:31,720 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:31,720 	 INFO  	 distance: 10.490004 		
+CaService, 05:49:31,720 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:31,720 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:31,721 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:31,721 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:31,721 	 DEBUG 	 CAM sent 		
+CaService, 05:49:31,721 	 DEBUG 	 CAM sent 		
+CaService, 05:49:31,824 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:31,947 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:32,066 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:32,179 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:32,237 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703632 		
+CaService, 05:49:32,237 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703517 		
+CaService, 05:49:32,289 	 INFO  	 METRIC_CAM_SEND 157 3598468 		
+CaService, 05:49:32,289 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:32,289 	 INFO  	 deltaHeading: 180.000000 		
+CaService, 05:49:32,289 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:32,289 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:32,289 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:32,289 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:32,289 	 DEBUG 	 CAM sent 		
+CaService, 05:49:32,289 	 DEBUG 	 CAM sent 		
+CaService, 05:49:32,406 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:32,511 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:32,622 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:32,725 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:32,752 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703651 		
+CaService, 05:49:32,755 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703533 		
+CaService, 05:49:33,349 	 INFO  	 METRIC_CAM_SEND 158 3599527 		
+CaService, 05:49:33,349 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:33,349 	 INFO  	 deltaTime: 1059425549 		
+CaService, 05:49:33,349 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:33,349 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:33,349 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:33,349 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:33,349 	 DEBUG 	 CAM sent 		
+CaService, 05:49:33,350 	 DEBUG 	 CAM sent 		
+CaService, 05:49:33,361 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703674 		
+CaService, 05:49:33,362 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703549 		
+CaService, 05:49:33,872 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703692 		
+CaService, 05:49:33,874 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703566 		
+CaService, 05:49:34,404 	 INFO  	 METRIC_CAM_SEND 159 3600582 		
+CaService, 05:49:34,404 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:34,404 	 INFO  	 deltaTime: 1054856538 		
+CaService, 05:49:34,404 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:34,404 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:34,404 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:34,404 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:34,405 	 DEBUG 	 CAM sent 		
+CaService, 05:49:34,405 	 DEBUG 	 CAM sent 		
+CaService, 05:49:34,495 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703708 		
+CaService, 05:49:34,496 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703587 		
+CaService, 05:49:35,013 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703720 		
+CaService, 05:49:35,014 	 INFO  	 METRIC_CAM_SEND 160 3601193 		
+CaService, 05:49:35,014 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:35,014 	 INFO  	 distance: 13.067400 		
+CaService, 05:49:35,014 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:35,014 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:35,014 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:35,014 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:35,014 	 DEBUG 	 CAM sent 		
+CaService, 05:49:35,014 	 DEBUG 	 CAM sent 		
+CaService, 05:49:35,015 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703600 		
+CaService, 05:49:35,114 	 INFO  	 METRIC_CAM_SEND 161 3601293 		
+CaService, 05:49:35,115 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:35,115 	 INFO  	 distance: 10.236854 		
+CaService, 05:49:35,115 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:35,115 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:35,115 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:35,115 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:35,115 	 DEBUG 	 CAM sent 		
+CaService, 05:49:35,115 	 DEBUG 	 CAM sent 		
+CaService, 05:49:35,235 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:35,336 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:35,442 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:35,546 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:35,624 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703735 		
+CaService, 05:49:35,625 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703612 		
+CaService, 05:49:35,648 	 INFO  	 METRIC_CAM_SEND 162 3601826 		
+CaService, 05:49:35,648 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:35,648 	 INFO  	 deltaHeading: 180.000000 		
+CaService, 05:49:35,648 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:35,648 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:35,648 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:35,648 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:35,648 	 DEBUG 	 CAM sent 		
+CaService, 05:49:35,648 	 DEBUG 	 CAM sent 		
+CaService, 05:49:35,748 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:35,860 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:36,003 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:36,103 	 DEBUG 	 Ignore heading: not moved more than 0.300000 meters. 		
+CaService, 05:49:36,131 	 DEBUG 	 Received GPS from veh0, with latitude: 40.416814, longitude: -3.703748 		
+CaService, 05:49:36,132 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703633 		
+CaService, 05:49:36,727 	 INFO  	 METRIC_CAM_SEND 163 3602906 		
+CaService, 05:49:36,727 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:36,727 	 INFO  	 deltaTime: 1079439651 		
+CaService, 05:49:36,727 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:36,727 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:36,727 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:36,727 	 INFO  	 Send new CAM to DCC and LDM
+ 		
+CaService, 05:49:36,728 	 DEBUG 	 CAM sent 		
+CaService, 05:49:36,728 	 DEBUG 	 CAM sent 		
+CaService, 05:49:36,755 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703656 		
+CaService, 05:49:37,259 	 DEBUG 	 Received GPS from veh1, with latitude: 40.416814, longitude: -3.703669 		
+CaService, 05:49:37,811 	 INFO  	 METRIC_CAM_SEND 164 3603990 		
+CaService, 05:49:37,811 	 DEBUG 	 camInfo sent 		
+CaService, 05:49:37,811 	 INFO  	 deltaTime: 1083803758 		
+CaService, 05:49:37,811 	 DEBUG 	 Generating CAM as per UPER 		
+CaService, 05:49:37,811 	 INFO  	 Encoded bytes: 327 		
+CaService, 05:49:37,812 	 DEBUG 	 Encoded CAM size: 41 		
+CaService, 05:49:37,812 	 INFO  	 Send new CAM to DCC and LDM

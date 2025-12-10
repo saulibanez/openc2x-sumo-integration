@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+
+    <!-- Tipos de vehículo -->
+    <vType id="car_1" accel="2.6" decel="4.5" length="5" maxSpeed="2"  sigma="0.5" color="1,0,0"/>
+    <vType id="car_2" accel="2.6" decel="4.5" length="5" maxSpeed="3"  sigma="0.5" color="0,1,0"/>
+    <vType id="car_3" accel="2.6" decel="4.5" length="5" maxSpeed="4" sigma="0.5" color="0,0,1"/>
+    <vType id="car_4" accel="2.6" decel="4.5" length="5" maxSpeed="5" sigma="0.5" color="1,1,0"/>
+    <vType id="car_5" accel="2.6" decel="4.5" length="5" maxSpeed="5" sigma="0.5" color="1,0,1"/>
+
+    <!-- Rutas circulares -->
+    <route id="r0" edges="A0A1 A1B1 B1B0 B0A0"/>
+    <route id="r1" edges="A1A0 A0B0 B0B1 B1A1"/>
+    <route id="r2" edges="B1B0 B0A0 A0A1 A1B1"/>
+    <route id="r3" edges="B0B1 B1A1 A1A0 A0B0"/>
+
+    <route id="r4" edges="A1B1 B1B0 B0A0 A0A1"/>
+    <route id="r5" edges="A0B0 B0B1 B1A1 A1A0"/>
+    <route id="r6" edges="B0A0 A0A1 A1B1 B1B0"/>
+    <route id="r7" edges="B1A1 A1A0 A0B0 B0B1"/>
+
+    <!-- Vehículos -->
+        <vehicle id="veh0" type="car_1" route="r0" depart="0" departSpeed="max" departLane="free"/>
+    <vehicle id="veh1" type="car_2" route="r1" depart="1" departSpeed="max" departLane="free"/>
+    <vehicle id="veh2" type="car_3" route="r2" depart="2" departSpeed="max" departLane="free"/>
+    <vehicle id="veh3" type="car_4" route="r3" depart="3" departSpeed="max" departLane="free"/>
+    <vehicle id="veh4" type="car_5" route="r4" depart="4" departSpeed="max" departLane="free"/>
+    <vehicle id="veh5" type="car_1" route="r5" depart="5" departSpeed="max" departLane="free"/>
+    <vehicle id="veh6" type="car_2" route="r6" depart="6" departSpeed="max" departLane="free"/>
+    <vehicle id="veh7" type="car_3" route="r7" depart="7" departSpeed="max" departLane="free"/>
+    <vehicle id="veh8" type="car_4" route="r0" depart="8" departSpeed="max" departLane="free"/>
+    <vehicle id="veh9" type="car_5" route="r1" depart="9" departSpeed="max" departLane="free"/>
+    <vehicle id="veh10" type="car_1" route="r2" depart="10" departSpeed="max" departLane="free"/>
+    <vehicle id="veh11" type="car_2" route="r3" depart="11" departSpeed="max" departLane="free"/>
+    <vehicle id="veh12" type="car_3" route="r4" depart="12" departSpeed="max" departLane="free"/>
+    <vehicle id="veh13" type="car_4" route="r5" depart="13" departSpeed="max" departLane="free"/>
+    <vehicle id="veh14" type="car_5" route="r6" depart="14" departSpeed="max" departLane="free"/>
+    <vehicle id="veh15" type="car_1" route="r7" depart="15" departSpeed="max" departLane="free"/>
+    <vehicle id="veh16" type="car_2" route="r0" depart="16" departSpeed="max" departLane="free"/>
+    <vehicle id="veh17" type="car_3" route="r1" depart="17" departSpeed="max" departLane="free"/>
+    <vehicle id="veh18" type="car_4" route="r2" depart="18" departSpeed="max" departLane="free"/>
+    <vehicle id="veh19" type="car_5" route="r3" depart="19" departSpeed="max" departLane="free"/>
+    <vehicle id="veh20" type="car_1" route="r4" depart="20" departSpeed="max" departLane="free"/>
+    <vehicle id="veh21" type="car_2" route="r5" depart="21" departSpeed="max" departLane="free"/>
+    <vehicle id="veh22" type="car_3" route="r6" depart="22" departSpeed="max" departLane="free"/>
+    <vehicle id="veh23" type="car_4" route="r7" depart="23" departSpeed="max" departLane="free"/>
+    <vehicle id="veh24" type="car_5" route="r0" depart="24" departSpeed="max" departLane="free"/>
+    <vehicle id="veh25" type="car_1" route="r1" depart="25" departSpeed="max" departLane="free"/>
+    <vehicle id="veh26" type="car_2" route="r2" depart="26" departSpeed="max" departLane="free"/>
+    <vehicle id="veh27" type="car_3" route="r3" depart="27" departSpeed="max" departLane="free"/>
+    <vehicle id="veh28" type="car_4" route="r4" depart="28" departSpeed="max" departLane="free"/>
+    <vehicle id="veh29" type="car_5" route="r5" depart="29" departSpeed="max" departLane="free"/>
+    <vehicle id="veh30" type="car_1" route="r6" depart="30" departSpeed="max" departLane="free"/>
+    <vehicle id="veh31" type="car_2" route="r7" depart="31" departSpeed="max" departLane="free"/>
+    <vehicle id="veh32" type="car_3" route="r0" depart="32" departSpeed="max" departLane="free"/>
+    <vehicle id="veh33" type="car_4" route="r1" depart="33" departSpeed="max" departLane="free"/>
+    <vehicle id="veh34" type="car_5" route="r2" depart="34" departSpeed="max" departLane="free"/>
+    <vehicle id="veh35" type="car_1" route="r3" depart="35" departSpeed="max" departLane="free"/>
+    <vehicle id="veh36" type="car_2" route="r4" depart="36" departSpeed="max" departLane="free"/>
+    <vehicle id="veh37" type="car_3" route="r5" depart="37" departSpeed="max" departLane="free"/>
+    <vehicle id="veh38" type="car_4" route="r6" depart="38" departSpeed="max" departLane="free"/>
+    <vehicle id="veh39" type="car_5" route="r7" depart="39" departSpeed="max" departLane="free"/>
+    <vehicle id="veh40" type="car_1" route="r0" depart="40" departSpeed="max" departLane="free"/>
+    <vehicle id="veh41" type="car_2" route="r1" depart="41" departSpeed="max" departLane="free"/>
+    <vehicle id="veh42" type="car_3" route="r2" depart="42" departSpeed="max" departLane="free"/>
+    <vehicle id="veh43" type="car_4" route="r3" depart="43" departSpeed="max" departLane="free"/>
+    <vehicle id="veh44" type="car_5" route="r4" depart="44" departSpeed="max" departLane="free"/>
+    <vehicle id="veh45" type="car_1" route="r5" depart="45" departSpeed="max" departLane="free"/>
+    <vehicle id="veh46" type="car_2" route="r6" depart="46" departSpeed="max" departLane="free"/>
+    <vehicle id="veh47" type="car_3" route="r7" depart="47" departSpeed="max" departLane="free"/>
+    <vehicle id="veh48" type="car_4" route="r0" depart="48" departSpeed="max" departLane="free"/>
+    <vehicle id="veh49" type="car_5" route="r1" depart="49" departSpeed="max" departLane="free"/>
+    <vehicle id="veh50" type="car_1" route="r2" depart="50" departSpeed="max" departLane="free"/>
+    <vehicle id="veh51" type="car_2" route="r3" depart="51" departSpeed="max" departLane="free"/>
+    <vehicle id="veh52" type="car_3" route="r4" depart="52" departSpeed="max" departLane="free"/>
+    <vehicle id="veh53" type="car_4" route="r5" depart="53" departSpeed="max" departLane="free"/>
+    <vehicle id="veh54" type="car_5" route="r6" depart="54" departSpeed="max" departLane="free"/>
+    <vehicle id="veh55" type="car_1" route="r7" depart="55" departSpeed="max" departLane="free"/>
+    <vehicle id="veh56" type="car_2" route="r0" depart="56" departSpeed="max" departLane="free"/>
+    <vehicle id="veh57" type="car_3" route="r1" depart="57" departSpeed="max" departLane="free"/>
+    <vehicle id="veh58" type="car_4" route="r2" depart="58" departSpeed="max" departLane="free"/>
+    <vehicle id="veh59" type="car_5" route="r3" depart="59" departSpeed="max" departLane="free"/>
+    <vehicle id="veh60" type="car_1" route="r4" depart="60" departSpeed="max" departLane="free"/>
+    <vehicle id="veh61" type="car_2" route="r5" depart="61" departSpeed="max" departLane="free"/>
+    <vehicle id="veh62" type="car_3" route="r6" depart="62" departSpeed="max" departLane="free"/>
+    <vehicle id="veh63" type="car_4" route="r7" depart="63" departSpeed="max" departLane="free"/>
+    <vehicle id="veh64" type="car_5" route="r0" depart="64" departSpeed="max" departLane="free"/>
+    <vehicle id="veh65" type="car_1" route="r1" depart="65" departSpeed="max" departLane="free"/>
+    <vehicle id="veh66" type="car_2" route="r2" depart="66" departSpeed="max" departLane="free"/>
+    <vehicle id="veh67" type="car_3" route="r3" depart="67" departSpeed="max" departLane="free"/>
+    <vehicle id="veh68" type="car_4" route="r4" depart="68" departSpeed="max" departLane="free"/>
+    <vehicle id="veh69" type="car_5" route="r5" depart="69" departSpeed="max" departLane="free"/>
+    <vehicle id="veh70" type="car_1" route="r6" depart="70" departSpeed="max" departLane="free"/>
+    <vehicle id="veh71" type="car_2" route="r7" depart="71" departSpeed="max" departLane="free"/>
+    <vehicle id="veh72" type="car_3" route="r0" depart="72" departSpeed="max" departLane="free"/>
+    <vehicle id="veh73" type="car_4" route="r1" depart="73" departSpeed="max" departLane="free"/>
+    <vehicle id="veh74" type="car_5" route="r2" depart="74" departSpeed="max" departLane="free"/>
+    <vehicle id="veh75" type="car_1" route="r3" depart="75" departSpeed="max" departLane="free"/>
+    <vehicle id="veh76" type="car_2" route="r4" depart="76" departSpeed="max" departLane="free"/>
+    <vehicle id="veh77" type="car_3" route="r5" depart="77" departSpeed="max" departLane="free"/>
+    <vehicle id="veh78" type="car_4" route="r6" depart="78" departSpeed="max" departLane="free"/>
+    <vehicle id="veh79" type="car_5" route="r7" depart="79" departSpeed="max" departLane="free"/>
+    <vehicle id="veh80" type="car_1" route="r0" depart="80" departSpeed="max" departLane="free"/>
+    <vehicle id="veh81" type="car_2" route="r1" depart="81" departSpeed="max" departLane="free"/>
+    <vehicle id="veh82" type="car_3" route="r2" depart="82" departSpeed="max" departLane="free"/>
+    <vehicle id="veh83" type="car_4" route="r3" depart="83" departSpeed="max" departLane="free"/>
+    <vehicle id="veh84" type="car_5" route="r4" depart="84" departSpeed="max" departLane="free"/>
+    <vehicle id="veh85" type="car_1" route="r5" depart="85" departSpeed="max" departLane="free"/>
+    <vehicle id="veh86" type="car_2" route="r6" depart="86" departSpeed="max" departLane="free"/>
+    <vehicle id="veh87" type="car_3" route="r7" depart="87" departSpeed="max" departLane="free"/>
+    <vehicle id="veh88" type="car_4" route="r0" depart="88" departSpeed="max" departLane="free"/>
+    <vehicle id="veh89" type="car_5" route="r1" depart="89" departSpeed="max" departLane="free"/>
+    <vehicle id="veh90" type="car_1" route="r2" depart="90" departSpeed="max" departLane="free"/>
+    <vehicle id="veh91" type="car_2" route="r3" depart="91" departSpeed="max" departLane="free"/>
+    <vehicle id="veh92" type="car_3" route="r4" depart="92" departSpeed="max" departLane="free"/>
+    <vehicle id="veh93" type="car_4" route="r5" depart="93" departSpeed="max" departLane="free"/>
+    <vehicle id="veh94" type="car_5" route="r6" depart="94" departSpeed="max" departLane="free"/>
+    <vehicle id="veh95" type="car_1" route="r7" depart="95" departSpeed="max" departLane="free"/>
+    <vehicle id="veh96" type="car_2" route="r0" depart="96" departSpeed="max" departLane="free"/>
+    <vehicle id="veh97" type="car_3" route="r1" depart="97" departSpeed="max" departLane="free"/>
+    <vehicle id="veh98" type="car_4" route="r2" depart="98" departSpeed="max" departLane="free"/>
+    <vehicle id="veh99" type="car_5" route="r3" depart="99" departSpeed="max" departLane="free"/>
+
+</routes>

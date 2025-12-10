@@ -1,0 +1,1051 @@
+Ldm, 05:47:15,817 	 INFO  	 METRIC_CAM_RECV 8 3461996 		
+Ldm, 05:47:16,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:16,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:16,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:16,297 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:16,534 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:16,534 	 DEBUG 	 CAM received 		
+Ldm, 05:47:16,534 	 INFO  	 METRIC_CAM_RECV 9 3462713 		
+Ldm, 05:47:17,151 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:17,153 	 DEBUG 	 CAM received 		
+Ldm, 05:47:17,153 	 INFO  	 METRIC_CAM_RECV 10 3463332 		
+Ldm, 05:47:17,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:17,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:17,293 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:17,293 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:17,558 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:17,559 	 DEBUG 	 CAM received 		
+Ldm, 05:47:17,559 	 INFO  	 METRIC_CAM_RECV 11 3463737 		
+Ldm, 05:47:18,283 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:18,283 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:18,283 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:18,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:18,609 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:18,609 	 DEBUG 	 CAM received 		
+Ldm, 05:47:18,609 	 INFO  	 METRIC_CAM_RECV 12 3464787 		
+Ldm, 05:47:19,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:19,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:19,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:19,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:19,618 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:19,619 	 DEBUG 	 CAM received 		
+Ldm, 05:47:19,619 	 INFO  	 METRIC_CAM_RECV 13 3465797 		
+Ldm, 05:47:20,283 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:20,283 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:20,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:20,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:20,626 	 DEBUG 	 CAM received 		
+Ldm, 05:47:20,628 	 INFO  	 METRIC_CAM_RECV 14 3466807 		
+Ldm, 05:47:20,628 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:21,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:21,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:21,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:21,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:21,637 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:21,638 	 DEBUG 	 CAM received 		
+Ldm, 05:47:21,638 	 INFO  	 METRIC_CAM_RECV 15 3467816 		
+Ldm, 05:47:22,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:22,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:22,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:22,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:22,655 	 DEBUG 	 CAM received 		
+Ldm, 05:47:22,655 	 INFO  	 METRIC_CAM_RECV 16 3468833 		
+Ldm, 05:47:22,655 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:23,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:23,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:23,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:23,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:23,671 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:23,671 	 DEBUG 	 CAM received 		
+Ldm, 05:47:23,671 	 INFO  	 METRIC_CAM_RECV 17 3469850 		
+Ldm, 05:47:24,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:24,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:24,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:24,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:24,690 	 DEBUG 	 CAM received 		
+Ldm, 05:47:24,690 	 INFO  	 METRIC_CAM_RECV 18 3470869 		
+Ldm, 05:47:24,690 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:25,283 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:25,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:25,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:25,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:25,726 	 DEBUG 	 CAM received 		
+Ldm, 05:47:25,726 	 INFO  	 METRIC_CAM_RECV 19 3471905 		
+Ldm, 05:47:25,726 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:26,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:26,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:26,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:26,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:26,789 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:26,789 	 DEBUG 	 CAM received 		
+Ldm, 05:47:26,789 	 INFO  	 METRIC_CAM_RECV 20 3472968 		
+Ldm, 05:47:27,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:27,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:27,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:27,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:27,827 	 DEBUG 	 CAM received 		
+Ldm, 05:47:27,827 	 INFO  	 METRIC_CAM_RECV 21 3474005 		
+Ldm, 05:47:27,827 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:28,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:28,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:28,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:28,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:28,866 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:28,866 	 DEBUG 	 CAM received 		
+Ldm, 05:47:28,866 	 INFO  	 METRIC_CAM_RECV 22 3475045 		
+Ldm, 05:47:29,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:29,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:29,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:29,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:29,895 	 DEBUG 	 CAM received 		
+Ldm, 05:47:29,895 	 INFO  	 METRIC_CAM_RECV 23 3476073 		
+Ldm, 05:47:29,895 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:30,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:30,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:30,293 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:30,293 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:30,927 	 DEBUG 	 CAM received 		
+Ldm, 05:47:30,927 	 INFO  	 METRIC_CAM_RECV 24 3477105 		
+Ldm, 05:47:30,927 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:31,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:31,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:31,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:31,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:31,949 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:31,950 	 DEBUG 	 CAM received 		
+Ldm, 05:47:31,950 	 INFO  	 METRIC_CAM_RECV 25 3478128 		
+Ldm, 05:47:32,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:32,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:32,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:32,294 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:32,976 	 DEBUG 	 CAM received 		
+Ldm, 05:47:32,976 	 INFO  	 METRIC_CAM_RECV 26 3479155 		
+Ldm, 05:47:32,976 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:33,297 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:33,298 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:33,299 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:33,299 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:34,000 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:34,000 	 DEBUG 	 CAM received 		
+Ldm, 05:47:34,000 	 INFO  	 METRIC_CAM_RECV 27 3480179 		
+Ldm, 05:47:34,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:34,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:34,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:34,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:35,016 	 DEBUG 	 CAM received 		
+Ldm, 05:47:35,016 	 INFO  	 METRIC_CAM_RECV 28 3481194 		
+Ldm, 05:47:35,016 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:35,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:35,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:35,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:35,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:36,042 	 DEBUG 	 CAM received 		
+Ldm, 05:47:36,042 	 INFO  	 METRIC_CAM_RECV 29 3482220 		
+Ldm, 05:47:36,042 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:36,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:36,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:36,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:36,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:37,065 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:37,066 	 DEBUG 	 CAM received 		
+Ldm, 05:47:37,066 	 INFO  	 METRIC_CAM_RECV 30 3483244 		
+Ldm, 05:47:37,283 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:37,283 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:37,283 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:37,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:38,091 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:38,091 	 DEBUG 	 CAM received 		
+Ldm, 05:47:38,091 	 INFO  	 METRIC_CAM_RECV 31 3484269 		
+Ldm, 05:47:38,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:38,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:38,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:38,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:39,136 	 DEBUG 	 CAM received 		
+Ldm, 05:47:39,136 	 INFO  	 METRIC_CAM_RECV 32 3485315 		
+Ldm, 05:47:39,136 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:39,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:39,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:39,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:39,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:40,172 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:40,172 	 DEBUG 	 CAM received 		
+Ldm, 05:47:40,172 	 INFO  	 METRIC_CAM_RECV 33 3486350 		
+Ldm, 05:47:40,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:40,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:40,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:40,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:41,202 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:41,202 	 DEBUG 	 CAM received 		
+Ldm, 05:47:41,202 	 INFO  	 METRIC_CAM_RECV 34 3487381 		
+Ldm, 05:47:41,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:41,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:41,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:41,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:42,244 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:42,246 	 DEBUG 	 CAM received 		
+Ldm, 05:47:42,246 	 INFO  	 METRIC_CAM_RECV 35 3488425 		
+Ldm, 05:47:42,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:42,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:42,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:42,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:43,271 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:43,271 	 DEBUG 	 CAM received 		
+Ldm, 05:47:43,271 	 INFO  	 METRIC_CAM_RECV 36 3489449 		
+Ldm, 05:47:43,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:43,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:43,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:43,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:44,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:44,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:44,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:44,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:44,303 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:44,303 	 DEBUG 	 CAM received 		
+Ldm, 05:47:44,303 	 INFO  	 METRIC_CAM_RECV 37 3490482 		
+Ldm, 05:47:45,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:45,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:45,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:45,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:45,370 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:45,370 	 DEBUG 	 CAM received 		
+Ldm, 05:47:45,370 	 INFO  	 METRIC_CAM_RECV 38 3491549 		
+Ldm, 05:47:46,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:46,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:46,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:46,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:46,396 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:46,396 	 DEBUG 	 CAM received 		
+Ldm, 05:47:46,396 	 INFO  	 METRIC_CAM_RECV 39 3492574 		
+Ldm, 05:47:47,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:47,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:47,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:47,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:47,430 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:47,430 	 DEBUG 	 CAM received 		
+Ldm, 05:47:47,430 	 INFO  	 METRIC_CAM_RECV 40 3493609 		
+Ldm, 05:47:48,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:48,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:48,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:48,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:48,507 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:48,508 	 DEBUG 	 CAM received 		
+Ldm, 05:47:48,508 	 INFO  	 METRIC_CAM_RECV 41 3494687 		
+Ldm, 05:47:49,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:49,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:49,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:49,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:49,574 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:49,575 	 DEBUG 	 CAM received 		
+Ldm, 05:47:49,575 	 INFO  	 METRIC_CAM_RECV 42 3495753 		
+Ldm, 05:47:50,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:50,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:50,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:50,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:50,647 	 DEBUG 	 CAM received 		
+Ldm, 05:47:50,647 	 INFO  	 METRIC_CAM_RECV 43 3496825 		
+Ldm, 05:47:50,648 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:51,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:51,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:51,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:51,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:51,702 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:51,702 	 DEBUG 	 CAM received 		
+Ldm, 05:47:51,702 	 INFO  	 METRIC_CAM_RECV 44 3497881 		
+Ldm, 05:47:51,824 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:51,825 	 DEBUG 	 CAM received 		
+Ldm, 05:47:51,825 	 INFO  	 METRIC_CAM_RECV 45 3498003 		
+Ldm, 05:47:52,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:52,297 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:52,297 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:52,297 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:52,365 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:52,366 	 DEBUG 	 CAM received 		
+Ldm, 05:47:52,367 	 INFO  	 METRIC_CAM_RECV 46 3498545 		
+Ldm, 05:47:52,893 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:52,893 	 DEBUG 	 CAM received 		
+Ldm, 05:47:52,893 	 INFO  	 METRIC_CAM_RECV 47 3499072 		
+Ldm, 05:47:53,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:53,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:53,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:53,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:53,921 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:53,922 	 DEBUG 	 CAM received 		
+Ldm, 05:47:53,923 	 INFO  	 METRIC_CAM_RECV 48 3500101 		
+Ldm, 05:47:54,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:54,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:54,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:54,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:54,970 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:54,971 	 DEBUG 	 CAM received 		
+Ldm, 05:47:54,971 	 INFO  	 METRIC_CAM_RECV 49 3501150 		
+Ldm, 05:47:55,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:55,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:55,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:55,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:56,014 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:56,014 	 DEBUG 	 CAM received 		
+Ldm, 05:47:56,014 	 INFO  	 METRIC_CAM_RECV 50 3502193 		
+Ldm, 05:47:56,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:56,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:56,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:56,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:57,090 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:57,091 	 DEBUG 	 CAM received 		
+Ldm, 05:47:57,091 	 INFO  	 METRIC_CAM_RECV 51 3503269 		
+Ldm, 05:47:57,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:57,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:57,293 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:57,294 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:58,109 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:58,109 	 DEBUG 	 CAM received 		
+Ldm, 05:47:58,109 	 INFO  	 METRIC_CAM_RECV 52 3504288 		
+Ldm, 05:47:58,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:58,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:58,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:58,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:59,136 	 DEBUG 	 CAM received 		
+Ldm, 05:47:59,137 	 INFO  	 METRIC_CAM_RECV 53 3505315 		
+Ldm, 05:47:59,137 	 DEBUG 	 camInfo received 		
+Ldm, 05:47:59,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:59,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:59,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:47:59,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:00,181 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:00,181 	 DEBUG 	 CAM received 		
+Ldm, 05:48:00,181 	 INFO  	 METRIC_CAM_RECV 54 3506360 		
+Ldm, 05:48:00,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:00,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:00,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:00,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:01,269 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:01,269 	 DEBUG 	 CAM received 		
+Ldm, 05:48:01,269 	 INFO  	 METRIC_CAM_RECV 55 3507448 		
+Ldm, 05:48:01,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:01,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:01,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:01,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:02,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:02,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:02,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:02,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:02,305 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:02,306 	 DEBUG 	 CAM received 		
+Ldm, 05:48:02,306 	 INFO  	 METRIC_CAM_RECV 56 3508484 		
+Ldm, 05:48:03,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:03,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:03,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:03,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:03,342 	 DEBUG 	 CAM received 		
+Ldm, 05:48:03,342 	 INFO  	 METRIC_CAM_RECV 57 3509520 		
+Ldm, 05:48:03,342 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:04,293 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:04,293 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:04,294 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:04,294 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:04,477 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:04,477 	 DEBUG 	 CAM received 		
+Ldm, 05:48:04,477 	 INFO  	 METRIC_CAM_RECV 58 3510656 		
+Ldm, 05:48:05,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:05,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:05,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:05,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:05,557 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:05,558 	 DEBUG 	 CAM received 		
+Ldm, 05:48:05,558 	 INFO  	 METRIC_CAM_RECV 59 3511736 		
+Ldm, 05:48:06,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:06,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:06,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:06,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:06,653 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:06,654 	 DEBUG 	 CAM received 		
+Ldm, 05:48:06,654 	 INFO  	 METRIC_CAM_RECV 60 3512833 		
+Ldm, 05:48:07,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:07,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:07,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:07,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:07,692 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:07,693 	 DEBUG 	 CAM received 		
+Ldm, 05:48:07,693 	 INFO  	 METRIC_CAM_RECV 61 3513871 		
+Ldm, 05:48:08,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:08,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:08,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:08,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:08,764 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:08,764 	 DEBUG 	 CAM received 		
+Ldm, 05:48:08,764 	 INFO  	 METRIC_CAM_RECV 62 3514943 		
+Ldm, 05:48:09,301 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:09,303 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:09,304 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:09,304 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:09,825 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:09,825 	 DEBUG 	 CAM received 		
+Ldm, 05:48:09,825 	 INFO  	 METRIC_CAM_RECV 63 3516004 		
+Ldm, 05:48:10,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:10,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:10,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:10,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:10,848 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:10,849 	 DEBUG 	 CAM received 		
+Ldm, 05:48:10,849 	 INFO  	 METRIC_CAM_RECV 64 3517027 		
+Ldm, 05:48:11,293 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:11,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:11,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:11,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:11,946 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:11,946 	 DEBUG 	 CAM received 		
+Ldm, 05:48:11,946 	 INFO  	 METRIC_CAM_RECV 65 3518125 		
+Ldm, 05:48:12,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:12,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:12,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:12,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:13,078 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:13,079 	 DEBUG 	 CAM received 		
+Ldm, 05:48:13,079 	 INFO  	 METRIC_CAM_RECV 66 3519258 		
+Ldm, 05:48:13,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:13,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:13,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:13,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:14,124 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:14,124 	 DEBUG 	 CAM received 		
+Ldm, 05:48:14,124 	 INFO  	 METRIC_CAM_RECV 67 3520303 		
+Ldm, 05:48:14,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:14,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:14,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:14,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:15,144 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:15,145 	 DEBUG 	 CAM received 		
+Ldm, 05:48:15,145 	 INFO  	 METRIC_CAM_RECV 68 3521323 		
+Ldm, 05:48:15,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:15,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:15,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:15,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:16,201 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:16,201 	 DEBUG 	 CAM received 		
+Ldm, 05:48:16,201 	 INFO  	 METRIC_CAM_RECV 69 3522379 		
+Ldm, 05:48:16,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:16,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:16,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:16,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:17,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:17,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:17,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:17,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:17,290 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:17,291 	 DEBUG 	 CAM received 		
+Ldm, 05:48:17,291 	 INFO  	 METRIC_CAM_RECV 70 3523469 		
+Ldm, 05:48:18,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:18,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:18,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:18,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:18,326 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:18,327 	 DEBUG 	 CAM received 		
+Ldm, 05:48:18,327 	 INFO  	 METRIC_CAM_RECV 71 3524505 		
+Ldm, 05:48:19,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:19,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:19,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:19,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:19,357 	 DEBUG 	 CAM received 		
+Ldm, 05:48:19,357 	 INFO  	 METRIC_CAM_RECV 72 3525535 		
+Ldm, 05:48:19,357 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:20,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:20,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:20,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:20,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:20,422 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:20,422 	 DEBUG 	 CAM received 		
+Ldm, 05:48:20,422 	 INFO  	 METRIC_CAM_RECV 73 3526601 		
+Ldm, 05:48:21,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:21,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:21,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:21,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:21,532 	 DEBUG 	 CAM received 		
+Ldm, 05:48:21,532 	 INFO  	 METRIC_CAM_RECV 74 3527710 		
+Ldm, 05:48:21,532 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:22,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:22,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:22,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:22,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:22,540 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:22,541 	 DEBUG 	 CAM received 		
+Ldm, 05:48:22,541 	 INFO  	 METRIC_CAM_RECV 75 3528719 		
+Ldm, 05:48:23,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:23,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:23,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:23,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:23,650 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:23,651 	 DEBUG 	 CAM received 		
+Ldm, 05:48:23,651 	 INFO  	 METRIC_CAM_RECV 76 3529829 		
+Ldm, 05:48:24,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:24,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:24,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:24,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:24,718 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:24,719 	 DEBUG 	 CAM received 		
+Ldm, 05:48:24,719 	 INFO  	 METRIC_CAM_RECV 77 3530897 		
+Ldm, 05:48:25,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:25,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:25,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:25,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:25,746 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:25,747 	 DEBUG 	 CAM received 		
+Ldm, 05:48:25,748 	 INFO  	 METRIC_CAM_RECV 78 3531926 		
+Ldm, 05:48:26,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:26,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:26,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:26,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:26,794 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:26,795 	 DEBUG 	 CAM received 		
+Ldm, 05:48:26,795 	 INFO  	 METRIC_CAM_RECV 79 3532973 		
+Ldm, 05:48:27,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:27,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:27,301 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:27,301 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:27,810 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:27,811 	 DEBUG 	 CAM received 		
+Ldm, 05:48:27,811 	 INFO  	 METRIC_CAM_RECV 80 3533990 		
+Ldm, 05:48:28,299 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:28,300 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:28,300 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:28,300 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:28,897 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:28,899 	 DEBUG 	 CAM received 		
+Ldm, 05:48:28,899 	 INFO  	 METRIC_CAM_RECV 81 3535077 		
+Ldm, 05:48:29,294 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:29,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:29,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:29,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:29,645 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:29,645 	 DEBUG 	 CAM received 		
+Ldm, 05:48:29,645 	 INFO  	 METRIC_CAM_RECV 82 3535824 		
+Ldm, 05:48:30,271 	 DEBUG 	 CAM received 		
+Ldm, 05:48:30,271 	 INFO  	 METRIC_CAM_RECV 83 3536450 		
+Ldm, 05:48:30,272 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:30,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:30,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:30,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:30,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:31,274 	 DEBUG 	 CAM received 		
+Ldm, 05:48:31,274 	 INFO  	 METRIC_CAM_RECV 84 3537453 		
+Ldm, 05:48:31,274 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:31,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:31,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:31,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:31,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:32,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:32,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:32,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:32,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:32,364 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:32,365 	 DEBUG 	 CAM received 		
+Ldm, 05:48:32,365 	 INFO  	 METRIC_CAM_RECV 85 3538544 		
+Ldm, 05:48:33,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:33,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:33,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:33,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:33,410 	 DEBUG 	 CAM received 		
+Ldm, 05:48:33,410 	 INFO  	 METRIC_CAM_RECV 86 3539588 		
+Ldm, 05:48:33,410 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:34,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:34,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:34,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:34,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:34,501 	 DEBUG 	 CAM received 		
+Ldm, 05:48:34,501 	 INFO  	 METRIC_CAM_RECV 87 3540680 		
+Ldm, 05:48:34,502 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:35,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:35,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:35,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:35,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:35,559 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:35,559 	 DEBUG 	 CAM received 		
+Ldm, 05:48:35,559 	 INFO  	 METRIC_CAM_RECV 88 3541738 		
+Ldm, 05:48:36,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:36,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:36,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:36,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:36,595 	 DEBUG 	 CAM received 		
+Ldm, 05:48:36,596 	 INFO  	 METRIC_CAM_RECV 89 3542774 		
+Ldm, 05:48:36,596 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:37,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:37,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:37,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:37,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:37,647 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:37,650 	 DEBUG 	 CAM received 		
+Ldm, 05:48:37,650 	 INFO  	 METRIC_CAM_RECV 90 3543828 		
+Ldm, 05:48:38,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:38,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:38,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:38,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:38,730 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:38,732 	 DEBUG 	 CAM received 		
+Ldm, 05:48:38,732 	 INFO  	 METRIC_CAM_RECV 91 3544911 		
+Ldm, 05:48:39,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:39,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:39,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:39,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:39,740 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:39,740 	 DEBUG 	 CAM received 		
+Ldm, 05:48:39,740 	 INFO  	 METRIC_CAM_RECV 92 3545919 		
+Ldm, 05:48:40,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:40,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:40,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:40,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:40,814 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:40,815 	 DEBUG 	 CAM received 		
+Ldm, 05:48:40,815 	 INFO  	 METRIC_CAM_RECV 93 3546994 		
+Ldm, 05:48:41,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:41,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:41,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:41,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:41,867 	 DEBUG 	 CAM received 		
+Ldm, 05:48:41,867 	 INFO  	 METRIC_CAM_RECV 94 3548045 		
+Ldm, 05:48:41,867 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:42,293 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:42,294 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:42,294 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:42,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:42,912 	 DEBUG 	 CAM received 		
+Ldm, 05:48:42,912 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:42,912 	 INFO  	 METRIC_CAM_RECV 95 3549090 		
+Ldm, 05:48:43,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:43,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:43,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:43,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:43,982 	 DEBUG 	 CAM received 		
+Ldm, 05:48:43,983 	 INFO  	 METRIC_CAM_RECV 96 3550161 		
+Ldm, 05:48:43,983 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:44,195 	 DEBUG 	 CAM received 		
+Ldm, 05:48:44,195 	 INFO  	 METRIC_CAM_RECV 97 3550374 		
+Ldm, 05:48:44,195 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:44,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:44,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:44,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:44,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:44,295 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:44,296 	 DEBUG 	 CAM received 		
+Ldm, 05:48:44,296 	 INFO  	 METRIC_CAM_RECV 98 3550475 		
+Ldm, 05:48:44,838 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:44,838 	 DEBUG 	 CAM received 		
+Ldm, 05:48:44,838 	 INFO  	 METRIC_CAM_RECV 99 3551016 		
+Ldm, 05:48:45,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:45,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:45,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:45,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:45,931 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:45,931 	 DEBUG 	 CAM received 		
+Ldm, 05:48:45,932 	 INFO  	 METRIC_CAM_RECV 100 3552110 		
+Ldm, 05:48:46,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:46,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:46,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:46,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:46,969 	 DEBUG 	 CAM received 		
+Ldm, 05:48:46,969 	 INFO  	 METRIC_CAM_RECV 101 3553147 		
+Ldm, 05:48:46,969 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:47,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:47,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:47,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:47,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:48,135 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:48,138 	 DEBUG 	 CAM received 		
+Ldm, 05:48:48,138 	 INFO  	 METRIC_CAM_RECV 102 3554317 		
+Ldm, 05:48:48,237 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:48,238 	 DEBUG 	 CAM received 		
+Ldm, 05:48:48,238 	 INFO  	 METRIC_CAM_RECV 103 3554417 		
+Ldm, 05:48:48,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:48,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:48,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:48,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:48,357 	 DEBUG 	 CAM received 		
+Ldm, 05:48:48,357 	 INFO  	 METRIC_CAM_RECV 104 3554536 		
+Ldm, 05:48:48,357 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:48,777 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:48,778 	 DEBUG 	 CAM received 		
+Ldm, 05:48:48,778 	 INFO  	 METRIC_CAM_RECV 105 3554956 		
+Ldm, 05:48:49,294 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:49,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:49,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:49,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:49,823 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:49,824 	 DEBUG 	 CAM received 		
+Ldm, 05:48:49,824 	 INFO  	 METRIC_CAM_RECV 106 3556003 		
+Ldm, 05:48:50,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:50,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:50,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:50,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:50,904 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:50,905 	 DEBUG 	 CAM received 		
+Ldm, 05:48:50,905 	 INFO  	 METRIC_CAM_RECV 107 3557084 		
+Ldm, 05:48:51,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:51,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:51,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:51,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:51,961 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:51,961 	 DEBUG 	 CAM received 		
+Ldm, 05:48:51,961 	 INFO  	 METRIC_CAM_RECV 108 3558140 		
+Ldm, 05:48:52,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:52,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:52,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:52,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:53,032 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:53,032 	 DEBUG 	 CAM received 		
+Ldm, 05:48:53,033 	 INFO  	 METRIC_CAM_RECV 109 3559211 		
+Ldm, 05:48:53,293 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:53,293 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:53,294 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:53,294 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:54,076 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:54,076 	 DEBUG 	 CAM received 		
+Ldm, 05:48:54,076 	 INFO  	 METRIC_CAM_RECV 110 3560255 		
+Ldm, 05:48:54,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:54,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:54,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:54,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:55,037 	 DEBUG 	 CAM received 		
+Ldm, 05:48:55,037 	 INFO  	 METRIC_CAM_RECV 111 3561215 		
+Ldm, 05:48:55,038 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:55,142 	 DEBUG 	 CAM received 		
+Ldm, 05:48:55,143 	 INFO  	 METRIC_CAM_RECV 112 3561321 		
+Ldm, 05:48:55,143 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:55,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:55,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:55,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:55,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:55,550 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:55,550 	 DEBUG 	 CAM received 		
+Ldm, 05:48:55,550 	 INFO  	 METRIC_CAM_RECV 113 3561729 		
+Ldm, 05:48:56,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:56,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:56,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:56,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:56,601 	 DEBUG 	 CAM received 		
+Ldm, 05:48:56,601 	 INFO  	 METRIC_CAM_RECV 114 3562780 		
+Ldm, 05:48:56,602 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:57,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:57,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:57,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:57,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:57,627 	 DEBUG 	 CAM received 		
+Ldm, 05:48:57,627 	 INFO  	 METRIC_CAM_RECV 115 3563805 		
+Ldm, 05:48:57,627 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:58,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:58,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:58,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:58,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:58,697 	 DEBUG 	 CAM received 		
+Ldm, 05:48:58,697 	 INFO  	 METRIC_CAM_RECV 116 3564876 		
+Ldm, 05:48:58,697 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:59,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:59,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:59,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:59,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:48:59,740 	 DEBUG 	 camInfo received 		
+Ldm, 05:48:59,741 	 DEBUG 	 CAM received 		
+Ldm, 05:48:59,741 	 INFO  	 METRIC_CAM_RECV 117 3565919 		
+Ldm, 05:49:00,305 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:00,305 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:00,313 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:00,313 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:00,702 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:00,703 	 DEBUG 	 CAM received 		
+Ldm, 05:49:00,703 	 INFO  	 METRIC_CAM_RECV 118 3566882 		
+Ldm, 05:49:00,818 	 DEBUG 	 CAM received 		
+Ldm, 05:49:00,819 	 INFO  	 METRIC_CAM_RECV 119 3566997 		
+Ldm, 05:49:00,819 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:01,274 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:01,275 	 DEBUG 	 CAM received 		
+Ldm, 05:49:01,275 	 INFO  	 METRIC_CAM_RECV 120 3567453 		
+Ldm, 05:49:01,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:01,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:01,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:01,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:02,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:02,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:02,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:02,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:02,343 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:02,343 	 DEBUG 	 CAM received 		
+Ldm, 05:49:02,343 	 INFO  	 METRIC_CAM_RECV 121 3568521 		
+Ldm, 05:49:03,298 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:03,299 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:03,299 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:03,299 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:03,403 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:03,404 	 DEBUG 	 CAM received 		
+Ldm, 05:49:03,404 	 INFO  	 METRIC_CAM_RECV 122 3569582 		
+Ldm, 05:49:04,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:04,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:04,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:04,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:04,473 	 DEBUG 	 CAM received 		
+Ldm, 05:49:04,473 	 INFO  	 METRIC_CAM_RECV 123 3570651 		
+Ldm, 05:49:04,473 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:04,693 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:04,694 	 DEBUG 	 CAM received 		
+Ldm, 05:49:04,694 	 INFO  	 METRIC_CAM_RECV 124 3570872 		
+Ldm, 05:49:05,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:05,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:05,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:05,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:05,344 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:05,345 	 DEBUG 	 CAM received 		
+Ldm, 05:49:05,345 	 INFO  	 METRIC_CAM_RECV 125 3571524 		
+Ldm, 05:49:05,759 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:05,759 	 DEBUG 	 CAM received 		
+Ldm, 05:49:05,759 	 INFO  	 METRIC_CAM_RECV 126 3571937 		
+Ldm, 05:49:06,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:06,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:06,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:06,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:06,857 	 DEBUG 	 CAM received 		
+Ldm, 05:49:06,857 	 INFO  	 METRIC_CAM_RECV 127 3573035 		
+Ldm, 05:49:06,858 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:07,299 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:07,301 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:07,301 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:07,301 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:07,929 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:07,930 	 DEBUG 	 CAM received 		
+Ldm, 05:49:07,930 	 INFO  	 METRIC_CAM_RECV 128 3574108 		
+Ldm, 05:49:08,293 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:08,294 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:08,294 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:08,294 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:08,971 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:08,971 	 DEBUG 	 CAM received 		
+Ldm, 05:49:08,971 	 INFO  	 METRIC_CAM_RECV 129 3575150 		
+Ldm, 05:49:09,294 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:09,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:09,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:09,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:10,052 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:10,052 	 DEBUG 	 CAM received 		
+Ldm, 05:49:10,052 	 INFO  	 METRIC_CAM_RECV 130 3576231 		
+Ldm, 05:49:10,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:10,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:10,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:10,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:11,107 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:11,107 	 DEBUG 	 CAM received 		
+Ldm, 05:49:11,107 	 INFO  	 METRIC_CAM_RECV 131 3577286 		
+Ldm, 05:49:11,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:11,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:11,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:11,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:12,139 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:12,139 	 DEBUG 	 CAM received 		
+Ldm, 05:49:12,140 	 INFO  	 METRIC_CAM_RECV 132 3578318 		
+Ldm, 05:49:12,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:12,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:12,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:12,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:13,166 	 DEBUG 	 CAM received 		
+Ldm, 05:49:13,167 	 INFO  	 METRIC_CAM_RECV 133 3579345 		
+Ldm, 05:49:13,167 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:13,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:13,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:13,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:13,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:14,215 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:14,215 	 DEBUG 	 CAM received 		
+Ldm, 05:49:14,215 	 INFO  	 METRIC_CAM_RECV 134 3580393 		
+Ldm, 05:49:14,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:14,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:14,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:14,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:15,276 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:15,277 	 DEBUG 	 CAM received 		
+Ldm, 05:49:15,277 	 INFO  	 METRIC_CAM_RECV 135 3581455 		
+Ldm, 05:49:15,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:15,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:15,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:15,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:16,284 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:16,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:16,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:16,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:16,319 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:16,319 	 DEBUG 	 CAM received 		
+Ldm, 05:49:16,319 	 INFO  	 METRIC_CAM_RECV 136 3582497 		
+Ldm, 05:49:17,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:17,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:17,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:17,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:17,406 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:17,408 	 DEBUG 	 CAM received 		
+Ldm, 05:49:17,408 	 INFO  	 METRIC_CAM_RECV 137 3583586 		
+Ldm, 05:49:18,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:18,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:18,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:18,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:18,457 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:18,458 	 DEBUG 	 CAM received 		
+Ldm, 05:49:18,458 	 INFO  	 METRIC_CAM_RECV 138 3584637 		
+Ldm, 05:49:19,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:19,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:19,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:19,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:19,500 	 DEBUG 	 CAM received 		
+Ldm, 05:49:19,500 	 INFO  	 METRIC_CAM_RECV 139 3585678 		
+Ldm, 05:49:19,500 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:20,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:20,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:20,293 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:20,293 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:20,529 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:20,529 	 DEBUG 	 CAM received 		
+Ldm, 05:49:20,529 	 INFO  	 METRIC_CAM_RECV 140 3586708 		
+Ldm, 05:49:21,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:21,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:21,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:21,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:21,556 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:21,556 	 DEBUG 	 CAM received 		
+Ldm, 05:49:21,556 	 INFO  	 METRIC_CAM_RECV 141 3587735 		
+Ldm, 05:49:22,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:22,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:22,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:22,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:22,575 	 DEBUG 	 CAM received 		
+Ldm, 05:49:22,575 	 INFO  	 METRIC_CAM_RECV 142 3588754 		
+Ldm, 05:49:22,576 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:23,191 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:23,192 	 DEBUG 	 CAM received 		
+Ldm, 05:49:23,192 	 INFO  	 METRIC_CAM_RECV 143 3589370 		
+Ldm, 05:49:23,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:23,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:23,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:23,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:23,294 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:23,294 	 DEBUG 	 CAM received 		
+Ldm, 05:49:23,294 	 INFO  	 METRIC_CAM_RECV 144 3589473 		
+Ldm, 05:49:23,868 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:23,869 	 DEBUG 	 CAM received 		
+Ldm, 05:49:23,869 	 INFO  	 METRIC_CAM_RECV 145 3590048 		
+Ldm, 05:49:24,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:24,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:24,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:24,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:24,954 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:24,954 	 DEBUG 	 CAM received 		
+Ldm, 05:49:24,954 	 INFO  	 METRIC_CAM_RECV 146 3591133 		
+Ldm, 05:49:25,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:25,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:25,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:25,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:25,993 	 DEBUG 	 CAM received 		
+Ldm, 05:49:25,993 	 INFO  	 METRIC_CAM_RECV 147 3592172 		
+Ldm, 05:49:25,994 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:26,285 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:26,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:26,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:26,286 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:27,007 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:27,007 	 DEBUG 	 CAM received 		
+Ldm, 05:49:27,007 	 INFO  	 METRIC_CAM_RECV 148 3593186 		
+Ldm, 05:49:27,300 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:27,301 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:27,301 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:27,301 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:28,048 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:28,048 	 DEBUG 	 CAM received 		
+Ldm, 05:49:28,048 	 INFO  	 METRIC_CAM_RECV 149 3594227 		
+Ldm, 05:49:28,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:28,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:28,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:28,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:29,105 	 DEBUG 	 CAM received 		
+Ldm, 05:49:29,106 	 INFO  	 METRIC_CAM_RECV 150 3595284 		
+Ldm, 05:49:29,106 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:29,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:29,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:29,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:29,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:30,164 	 DEBUG 	 CAM received 		
+Ldm, 05:49:30,164 	 INFO  	 METRIC_CAM_RECV 151 3596343 		
+Ldm, 05:49:30,164 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:30,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:30,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:30,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:30,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:31,202 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:31,203 	 DEBUG 	 CAM received 		
+Ldm, 05:49:31,203 	 INFO  	 METRIC_CAM_RECV 152 3597381 		
+Ldm, 05:49:31,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:31,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:31,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:31,296 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:31,611 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:31,612 	 DEBUG 	 CAM received 		
+Ldm, 05:49:31,612 	 INFO  	 METRIC_CAM_RECV 153 3597790 		
+Ldm, 05:49:31,721 	 DEBUG 	 CAM received 		
+Ldm, 05:49:31,722 	 INFO  	 METRIC_CAM_RECV 154 3597900 		
+Ldm, 05:49:31,722 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:32,293 	 DEBUG 	 CAM received 		
+Ldm, 05:49:32,293 	 INFO  	 METRIC_CAM_RECV 155 3598472 		
+Ldm, 05:49:32,296 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:32,305 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:32,306 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:32,306 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:32,306 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:33,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:33,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:33,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:33,290 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:33,349 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:33,349 	 DEBUG 	 CAM received 		
+Ldm, 05:49:33,349 	 INFO  	 METRIC_CAM_RECV 156 3599528 		
+Ldm, 05:49:34,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:34,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:34,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:34,292 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:34,405 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:34,409 	 DEBUG 	 CAM received 		
+Ldm, 05:49:34,409 	 INFO  	 METRIC_CAM_RECV 157 3600588 		
+Ldm, 05:49:35,015 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:35,015 	 DEBUG 	 CAM received 		
+Ldm, 05:49:35,015 	 INFO  	 METRIC_CAM_RECV 158 3601193 		
+Ldm, 05:49:35,115 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:35,115 	 DEBUG 	 CAM received 		
+Ldm, 05:49:35,115 	 INFO  	 METRIC_CAM_RECV 159 3601294 		
+Ldm, 05:49:35,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:35,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:35,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:35,288 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:35,648 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:35,648 	 DEBUG 	 CAM received 		
+Ldm, 05:49:35,648 	 INFO  	 METRIC_CAM_RECV 160 3601827 		
+Ldm, 05:49:36,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:36,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:36,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:36,289 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:36,728 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:36,729 	 DEBUG 	 CAM received 		
+Ldm, 05:49:36,729 	 INFO  	 METRIC_CAM_RECV 161 3602907 		
+Ldm, 05:49:37,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:37,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:37,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:37,287 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:37,812 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:37,812 	 DEBUG 	 CAM received 		
+Ldm, 05:49:37,812 	 INFO  	 METRIC_CAM_RECV 162 3603991 		
+Ldm, 05:49:38,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:38,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:38,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:38,291 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:38,839 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:38,840 	 DEBUG 	 CAM received 		
+Ldm, 05:49:38,840 	 INFO  	 METRIC_CAM_RECV 163 3605018 		
+Ldm, 05:49:39,294 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:39,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:39,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:39,295 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:39,879 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:39,880 	 DEBUG 	 CAM received 		
+Ldm, 05:49:39,880 	 INFO  	 METRIC_CAM_RECV 164 3606059 		
+Ldm, 05:49:40,303 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:40,303 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:40,303 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:40,303 	 DEBUG 	 dccInfo received 		
+Ldm, 05:49:40,949 	 DEBUG 	 camInfo received 		
+Ldm, 05:49:40,949 	 DEBUG 	 CAM received

@@ -1,0 +1,11 @@
+<launch xmlns="http://sumo.dlr.de/xsd/launch_file.xsd">
+    <app>
+        <tool>sumo-gui</tool>
+        <arg value="--collision.action=none"/>
+        <arg value="--remote-port=9999"/>
+        <arg value="--start"/>
+        <arg value="--no-step-log"/>
+        <arg value="-c"/>
+        <arg value="two_vehicles.sumocfg"/>
+    </app>
+</launch>
