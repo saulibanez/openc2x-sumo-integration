@@ -60,11 +60,11 @@ cmake ..
 make -j$(nproc)
 ```
 ## 3. Running V2V and V2I scenarios
-###Inside SUMO/sumo_v2v/:
+### Inside SUMO/sumo_v2v/:
 ``` bash
 ./runv2v.sh
 ```
-###Inside SUMO/sumo_v2i/:
+### Inside SUMO/sumo_v2i/:
 ``` bash
 ./runv2i.sh
 ```
@@ -80,6 +80,7 @@ python3 analyze_v2i.py gps.log ldm.log
 ```
 
 ## 5. Project structure
+```text
 openc2x-sumo-integration/
 │
 ├── OpenC2X-standalone/
@@ -129,3 +130,4 @@ openc2x-sumo-integration/
 └── memoria/
        LaTeX sources of the TFM
        Final PDF of the thesis
+```
