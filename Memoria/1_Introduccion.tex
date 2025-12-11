@@ -1,0 +1,130 @@
+\section{Introducción}
+
+\subsection{Contexto y justificación del trabajo}
+Las tecnologías \textit{V2X (Vehicle-to-Everything)} representan uno de los pilares fundamentales de la movilidad conectada y de los sistemas de transporte cooperativos. Su capacidad para mejorar la seguridad vial, optimizar el tráfico y habilitar nuevos servicios inteligentes ha impulsado un creciente interés académico y profesional en el estudio, evaluación y despliegue de estas tecnologías. En este contexto, surge la necesidad de contar con entornos de simulación que permitan analizar el comportamiento de los sistemas V2X de forma controlada, reproducible y accesible.
+
+Este trabajo se enmarca en dicha necesidad, proponiendo el diseño e implementación de un entorno de simulación que integra SUMO y OpenC2X para analizar la comunicación V2V. La presente sección desarrolla el contexto general del proyecto, su motivación, el ámbito en el que se sitúa, el problema que pretende abordar y su relevancia en el marco del Máster Universitario en Ingeniería de Telecomunicación.
+
+    \subsubsection{Motivación del proyecto}
+    La evolución hacia las ciudades inteligentes y la movilidad conectada está impulsando el desarrollo de nuevas tecnologías de comunicación vehicular. En este contexto, las redes vehiculares (VANETs) y, en particular, la comunicación \textit{V2X} (Vehicle-to-Everything), permiten el intercambio de información entre vehículos (\textit{V2V}), vehículo a red (\textit{V2N}) y entre vehículos e infraestructuras (V2I), contribuyendo a mejorar la seguridad vial, reducir los accidentes y optimizar el flujo del tráfico urbano.
+
+    El presente Trabajo Fin de Máster surge del interés por explorar estas tecnologías desde un enfoque práctico y simulado, que permita evaluar el comportamiento y las prestaciones de la comunicación V2V. La propuesta combina conocimientos de telemática, simulación y comunicaciones, y se alinea con las tendencias actuales del sector y las líneas de investigación en movilidad conectada.
+
+    Además, a raíz del reciente apagón eléctrico, he reflexionado sobre cómo podría haberse gestionado mejor el tráfico en las grandes ciudades y en las carreteras, especialmente mediante los semáforos y la coordinación vial. Esta experiencia me impulsó a explorar la comunicación V2X como una herramienta que, incluso en situaciones críticas, pueda ayudar a mejorar la eficiencia y la seguridad del transporte.
+
+    \subsubsection{Ámbito del proyecto}
+    El trabajo se desarrolla en el ámbito de la telemática y las comunicaciones vehiculares, combinando redes de comunicación, simulación y sistemas inteligentes de transporte (ITS). En particular, el proyecto se centra en la integración de un entorno de simulación que conecte el tráfico urbano (\textit{SUMO}) con el sistema de comunicaciones \textit{OpenC2X}, permitiendo analizar las interacciones y métricas de rendimiento en escenarios controlados.
+
+    El enfoque principal del proyecto es la comunicación \textit{Vehicle-to-Vehicle} (V2V), basada en el intercambio de mensajes CAM entre vehículos simulados.
+    Además, se incorpora una extensión funcional \textit{Vehicle-to-Infrastructure} (V2I), mediante la cual la infraestructura (un semáforo gestionado desde SUMO) puede generar eventos que desencadenan la transmisión de mensajes DENM.
+
+    No se van a abordar aspectos como la autenticación, seguridad PKI o simulación de canales radioeléctricos físicos.
+
+    \subsubsection{Problema que intenta resolver}
+    La validación práctica de tecnologías V2X suele requerir infraestructuras costosas y entornos de prueba complejos. Este proyecto propone un entorno de simulación reproducible y económico, basado en herramientas de código abierto, que permita estudiar la comunicación V2V y evaluar su rendimiento en distintos contextos de movilidad.
+
+    El objetivo es disponer de una plataforma flexible que facilite el análisis de parámetros como la latencia, la tasa de entrega de mensajes o la estabilidad de la conexión entre nodos.
+
+    \subsubsection{Relevancia en el contexto del máster}
+    El proyecto está directamente alineado con las competencias del Máster Universitario en Ingeniería de Telecomunicaciones, al integrar conocimientos de redes, simulación, comunicaciones inalámbricas y análisis de sistemas distribuidos. Además, aporta una aplicación práctica orientada a la investigación y al desarrollo de tecnologías emergentes en el ámbito de las comunicaciones vehiculares.
+
+\subsection{Objetivos del trabajo}
+
+El objetivo general del proyecto es diseñar y evaluar un entorno de simulación que permita analizar la comunicación \textit{V2V (Vehicle-to-Vehicle)} mediante la integración de \textit{SUMO} y \textit{OpenC2X}, estudiando el comportamiento y las métricas básicas del sistema en escenarios urbanos simulados.
+
+Además, se incorpora una extensión funcional \textit{V2I (Vehicle-to-Infrastructure)}, en la que la infraestructura (un semáforo gestionado desde SUMO) puede generar eventos que desencadenan la creación de mensajes DENM por parte de OpenC2X.
+Esta funcionalidad complementa el análisis V2V principal, ampliando el alcance del sistema hacia comunicaciones vehículo-infraestructura.
+
+Para lograrlo, se establecen los siguientes objetivos técnicos, clasificados por prioridad:
+    \subsubsection{Objetivo principal}
+    El proyecto presenta un objetivo principal, desglosado en tres líneas de trabajo técnicas:
+    \begin{enumerate}[label=O\arabic*.]
+        \item Integrar \textit{SUMO} y \textit{OpenC2X} para permitir la simulación conjunta de tráfico y comunicaciones \textit{V2V}.
+        Este objetivo abarca la adaptación del entorno, el desarrollo de módulos de comunicación y la conexión entre ambas plataformas mediante la interfaz \textit{TraCI (Traffic Control Interface)}.
+
+        \item Adaptar y configurar \textit{OpenC2X} para su correcta ejecución en los sistemas actuales (Ubuntu 24.04).
+        Incluirá la migración del código, resolución de dependencias, actualización de librerías y validación funcional de los módulos base de \textit{OpenC2X}.
+        
+        \item Desarrollar y probar módulos adicionales que amplíen la funcionalidad de \textit{OpenC2X}.
+        Implementación o modificación de módulos orientados a la comunicación y sincronización con SUMO, asegurando la compatibilidad con TraCI.
+    \end{enumerate}
+
+    \subsubsection{Objetivos secundarios}
+
+    \begin{enumerate}[label=O\arabic*., start=4]
+    
+        \item Validar el funcionamiento de los módulos de comunicación, incluyendo \textit{CAM}, \textit{GPS} y otros servicios básicos de \textit{OpenC2X}, así como la recepción y procesamiento de eventos externos que desencadenan mensajes DENM en el flujo V2I.
+        \item Diseñar y ejecutar escenarios de simulación controlados.
+        Creación de distintos escenarios vehiculares en SUMO (densidad baja, media y alta) que sirvan para analizar la influencia de la densidad del tráfico en el intercambio de mensajes V2V.
+        \item Diseñar y ejecutar escenarios de simulación para la comunicación V2I.Creación de escenarios con distinto número de semáforos controlados desde SUMO, destinados a analizar el comportamiento del sistema ante múltiples eventos de infraestructura.
+        \item Medir y analizar métricas básicas de rendimiento.
+        Evaluación de parámetros como latencia, tasa de entrega de mensajes y estabilidad de comunicación entre vehículos, utilizando los datos generados por OpenC2X y SUMO.
+    \end{enumerate}
+
+    \subsubsection{Requisitos técnicos}
+
+    A continuación se definen los requisitos técnicos que debe cumplir el simulador integrado SUMO$\leftrightarrow$OpenC2X. 
+    Estos requisitos representan las capacidades mínimas, medibles y verificables que 
+    el sistema final debe proporcionar.
+
+    \begin{enumerate}[label=\textbf{R\arabic*}.]
+
+    \item \textbf{Comunicación SUMO$\leftrightarrow$OpenC2X.}  
+    El simulador debe permitir comunicación bidireccional mediante la interfaz TraCI.  
+    \textit{Criterio de validación:} conexión TCP estable y lectura continua de posición, velocidad y orientación desde SUMO.
+
+    \item \textbf{Correspondencia vehículo$\leftrightarrow$nodo.}  
+    Cada vehículo definido en SUMO debe estar asociado a un nodo independiente en OpenC2X.  
+    \textit{Criterio de validación:} mapeo 1:1 vehicleID$\leftrightarrow$nodeID registrado en logs.
+
+    \item \textbf{Generación de mensajes CAM.}  
+    Los nodos OpenC2X deben generar y transmitir mensajes CAM.  
+    \textit{Criterio de validación:} presencia de mensajes CAM en los registros de envío y recepción.
+
+    \item \textbf{Actualización de posición desde SUMO.}  
+    La posición de cada nodo OpenC2X debe provenir exclusivamente de los datos obtenidos vía TraCI.  
+    \textit{Criterio de validación:} coincidencia entre trazas SUMO y OpenC2X, sin desfases superiores a un tick.
+
+    \item \textbf{Latencia de comunicaciones.}  
+    La latencia extremo a extremo en la entrega de mensajes CAM debe ser inferior a 40ms (valor de referencia para ITS-G5).
+    \textit{Criterio de validación:} cálculo de latencia media en simulaciones de prueba.
+
+    \item \textbf{Registro de métricas.}  
+    El sistema debe registrar métricas de rendimiento, incluyendo latencia, tasa de entrega y frecuencia de mensajes CAM y DENM.
+    \textit{Criterio de validación:} generación de ficheros de log completos y analizados.
+
+    \item \textbf{Procesamiento de eventos V2I.}
+    OpenC2X debe ser capaz de recibir eventos externos provenientes de SUMO (p.\,ej., semáforo en rojo) y generar un mensaje DENM asociado.  
+    \textit{Criterio de validación:} recepción del evento, generación del DENM y su registro en los logs de DENM, DCC y LDM.
+
+    \item \textbf{Estabilidad operativa.}  
+    El simulador debe ser estable en las ejecuciones.
+    \textit{Criterio de validación:} ejecución de los escenarios sin fallos TraCI ni desconexiones.
+
+    \end{enumerate}
+
+\subsection{Impacto en sostenibilidad, ética y diversidad}
+El desarrollo de este Trabajo Final de Máster presenta un impacto positivo en términos de sostenibilidad, ética y diversidad.
+
+En primer lugar, el proyecto se basa íntegramente en herramientas de software libre y accesible(SUMO, OpenC2X, Ubuntu 24.04 y VirtualBox), lo que reduce la dependencia de soluciones propietarias, promueve la transparencia tecnológica y facilita la accesibilidad al conocimiento. Asimismo, el uso de entornos completamente simulados elimina la necesidad de vehículos reales o equipamiento físico, disminuyendo el consumo de recursos materiales y minimizando la huella ambiental del proyecto.
+
+Desde una perspectiva ética, el trabajo contribuye al avance de los sistemas cooperativos ITS orientados a la seguridad vial. La simulación de comunicaciones V2X permite reproducir situaciones de riesgo sin poner en peligro a personas, infraestructuras o vehículos, garantizando así un enfoque responsable en el análisis experimental.
+
+En términos de diversidad e inclusión, las tecnologías V2X tienen el potencial de mejorar la movilidad urbana y la seguridad de colectivos especialmente vulnerables, como personas mayores, peatones, ciclistas o usuarios con movilidad reducida. Aunque este TFM aborda la integración desde un punto de vista técnico, el desarrollo de sistemas de transporte más eficientes y cooperativos contribuye a un entorno urbano más seguro, accesible e igualitario.
+
+\subsection{Enfoque y metodología seguida}
+El trabajo se ha desarrollado siguiendo un enfoque incremental y basado en validación continua. En una primera fase se aseguró la correcta instalación, compilación y ejecución de OpenC2X en un entorno moderno, resolviendo incompatibilidades con bibliotecas y dependencias. Posteriormente, se integró SUMO mediante la API TraCI, desarrollando el módulo SumoInterface para sincronizar en tiempo real la movilidad simulada con los servicios internos de OpenC2X. Cada avance técnico se verificó mediante pruebas unitarias y funcionales, siguiendo una metodología experimental en la que se comparaban los resultados obtenidos con el comportamiento esperado del sistema. Finalmente, se definieron escenarios de simulación progresivos y se evaluó el rendimiento del sistema utilizando métricas estandarizadas en el ámbito de las comunicaciones V2X.
+
+\subsection{Breve resumen de los resultados}
+Las pruebas realizadas confirman que la integración SUMO$\leftrightarrow$OpenC2X funciona de manera estable, permitiendo sincronizar en tiempo real la movilidad simulada con la generación de mensajes CAM. El sistema mantiene latencias internas muy bajas (1-2 ms) y una tasa de entrega del 100\% en todos los escenarios evaluados. Además, se observa que el mecanismo DCC tiene un papel clave en la estabilidad del sistema, ya que su desactivación incrementa la latencia y altera el intervalo de generación de mensajes. En conjunto, los resultados validan la plataforma como herramienta adecuada para el análisis de comunicaciones V2V en entornos controlados.
+
+
+De forma complementaria, se desarrolló una extensión funcional \textit{V2I} que permite generar mensajes DENM a partir de eventos de infraestructura, en particular desde semáforos modelados en SUMO. Las pruebas verificaron el flujo completo SUMO~$\rightarrow$~OpenC2X~$\rightarrow$~DENM~$\rightarrow$~LDM, mostrando una latencia reducida (2-3\,ms) y una tasa de entrega cercana al 100\,\%. Asimismo, se comprobó que la presencia de múltiples semáforos no afecta al rendimiento del sistema.
+
+Los resultados obtenidos validan la plataforma desarrollada como una herramienta adecuada para el análisis de comunicaciones V2V y V2I en entornos controlados.
+
+\subsection{Estructura de la memoria}
+La memoria se organiza en varios capítulos. El \textbf{Capítulo 1} introduce el contexto del trabajo, sus objetivos, la metodología seguida y un breve resumen de los resultados. El \textbf{Capítulo 2} presenta el estado del arte relativo a las tecnologías V2X y a las herramientas utilizadas en el proyecto. El \textbf{Capítulo 3} describe el diseño y la arquitectura del sistema propuesto. El \textbf{Capítulo 4} detalla el desarrollo e implementación de los distintos módulos y la integración entre SUMO y OpenC2X. El \textbf{Capítulo 5} recoge la evaluación experimental del sistema y el análisis de los resultados obtenidos. El \textbf{Capítulo 6} incluye el estudio de viabilidad técnica, económica y ambiental del proyecto. El \textbf{Capítulo 7} presenta las conclusiones, las limitaciones del trabajo y posibles líneas de mejora futuras. Finalmente, se incorporan el glosario, la bibliografía y los anexos.
+
+
+%\enlargethispage{1\baselineskip}

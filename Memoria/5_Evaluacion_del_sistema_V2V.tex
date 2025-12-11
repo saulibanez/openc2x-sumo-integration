@@ -1,0 +1,226 @@
+\section{Evaluación del sistema}
+
+En este capítulo se presenta la evaluación del entorno integrado SUMO $\leftrightarrow$ OpenC2X desarrollado en el proyecto. 
+El objetivo de esta fase es validar el funcionamiento de los módulos de comunicación, comprobar la coherencia temporal entre SUMO y OpenC2X y analizar métricas fundamentales como la latencia, la tasa de entrega de mensajes (PDR) y la estabilidad operativa del sistema en distintos escenarios simulados.
+
+La evaluación se estructura en dos partes. En primer lugar, se analizan los experimentos de comunicación V2V mediante mensajes CAM, verificando la correcta sincronización entre movilidad y generación de mensajes. 
+En segundo lugar, se estudian los experimentos de comunicación V2I, donde un nodo fijo (semáforo) genera eventos DENM desencadenados por el estado del tráfico. 
+Ambos análisis permiten validar que el sistema funciona de forma robusta y reproducible en los distintos escenarios planteados.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 5.1. Evaluación del sistema V2V
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Evaluación del sistema V2V}
+
+El objetivo de esta sección es analizar el comportamiento del sistema integrado SUMO$\leftrightarrow$OpenC2X bajo distintos niveles de carga vehicular. La evaluación se ha centrado en estudiar la estabilidad temporal del sistema, los intervalos reales de generación de CAM y la latencia interna entre el módulo CAM (emisión) y el módulo LDM (recepción).
+
+Es importante destacar que, en este proyecto, OpenC2X se ejecuta en un único nodo software que concentra simultáneamente los servicios GPS, CAM, DCC y LDM. En esta arquitectura centralizada, SUMO proporciona la movilidad de todos los vehículos del escenario, pero el módulo CAM únicamente genera mensajes CAM para el vehículo local asociado al \texttt{node\_id}. El resto de vehículos no ejecutan una instancia independiente de OpenC2X, sino que actúan como carga computacional adicional en la simulación.
+
+Por tanto, las métricas obtenidas en este capítulo no representan la latencia de transmisión ITS-G5, sino la \textbf{latencia de procesamiento interna} entre los módulos CAM y LDM dentro del mismo nodo, así como la estabilidad temporal del pipeline SUMO $\rightarrow$ GPS $\rightarrow$ CAM $\rightarrow$ LDM. Las métricas obtenidas caracterizan el funcionamiento interno del pipeline CAM$\rightarrow$LDM, y permiten evaluar su comportamiento temporal en un entorno controlado de simulación.
+
+\subsubsection{Metodología de evaluación}
+
+Para cada escenario (10, 20, 50 y 100 vehículos) se ejecutó el sistema utilizando un script que lanzaba SUMO y OpenC2X de forma sincronizada. La salida del módulo CAM y la del módulo LDM fueron redirigidas a ficheros \texttt{log}, permitiendo un análisis posterior reproducible.
+
+El análisis se realizó mediante un script en Python que extrae los eventos \texttt{METRIC\_CAM\_SEND} y \texttt{METRIC\_CAM\_RECV} generados explícitamente en el código fuente. Cada evento incluye un timestamp en milisegundos generado a partir de funciones añadidas en la clase \texttt{Utils}. Esto ha permitido calcular:
+
+\begin{itemize}
+    \item \textbf{Latencia interna}: diferencia entre envío de CAM y recepción interna en LDM.
+    \item \textbf{PDR interno}: porcentaje de CAM emitidos que llegan al módulo LDM.
+    \item \textbf{Intervalo CAM}: tiempo real transcurrido entre mensajes CAM consecutivos.
+\end{itemize}
+
+Dado que el escenario de 5 vehículos era demasiado pequeño y no generaba carga significativa, se descartó del análisis comparativo final.
+
+\subsubsection{Problemas iniciales en el escenario de 100 vehículos}
+
+Durante las primeras pruebas con 100 vehículos, SUMO no logró insertar todos los vehículos definidos en el fichero \texttt{routes.rou.xml}, estabilizándose alrededor de 79 vehículos activos. Este comportamiento no se debía a colisiones, sino a que la red original (segmentos de 100\,m) no disponía de espacio suficiente para realizar inserciones seguras.
+
+Para resolverlo, se regeneró la red con segmentos de 200\,m mediante:
+
+\begin{verbatim}
+netgenerate --grid --grid.number=2 --length=200 
+--output-file=net.net.xml
+\end{verbatim}
+
+Con esta ampliación, SUMO pudo insertar los 100 vehículos sin saturación y el escenario pudo ejecutarse correctamente.
+
+\subsubsection{Resultados experimentales}
+
+En la Tabla~\ref{tab:resultados_v2v} se resumen los resultados obtenidos para los escenarios analizados, tanto con DCC activado como desactivado.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.4}
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{|>{\centering\arraybackslash}p{1.8cm}|>{\centering\arraybackslash}p{1.6cm}|>{\centering\arraybackslash}p{1.6cm}|>{\centering\arraybackslash}p{1.6cm}|>{\centering\arraybackslash}p{1.7cm}|>{\centering\arraybackslash}p{2.8cm}|>{\centering\arraybackslash}p{1.8cm}}
+%\begin{tabular}{|C{1.8cm}|C{1.6cm}|C{1.8cm}|C{1.6cm}|C{1.7cm}|C{2.6cm}|C{1.8cm}|}
+\hline
+\rowcolor{gris} 
+Vehículos & DCC & Lat. media (ms) & Lat. min & Lat. máx & Intervalo (ms) & PDR (\%) \\
+\hline
+10  & Si & 1.50 & 0 & 12   & 861.17 & 100 \\
+10  & No & 1.25 & 0 & 4    & 910.00 & 100 \\
+20  & Si & 1.40 & 0 & 16   & 836.51 & 100 \\
+20  & No & 859.94 & 101 & 1113 & 857.46 & 100 \\
+50  & Si & 1.76 & 0 & 10   & 678.25 & 100 \\
+50  & No & 749.88 & 101 & 1119 & 747.39 & 100 \\
+100 & Si & 1.42 & 0 & 37   & 646.93 & 100 \\
+100 & No & 629.41 & 100 & 1627 & 637.52 & 100 \\
+\end{tabular}
+\caption{Resumen de métricas V2V por escenario y configuración.}
+\label{tab:resultados_v2v}
+\end{table}
+
+Los resultados muestran una tendencia clara: al aumentar el número de vehículos en SUMO, el intervalo medio entre CAMs disminuye ligeramente debido al incremento en la actividad del sistema, mientras que la latencia interna se mantiene estable y baja (1-2\,ms) en todos los escenarios con DCC activado. Esto confirma la robustez del pipeline interno entre los módulos CAM y LDM.
+
+En el caso de las pruebas con DCC desactivado, la latencia aumenta significativamente en los escenarios de 20, 50 y 100 vehículos, alcanzando valores de cientos de milisegundos. Esto sugiere que la ausencia de regulación provoca más carga interna y ralentiza el procesamiento.
+
+\subsubsection{Visualización comparativa de resultados}
+
+Para complementar los valores resumidos en el Cuadro~\ref{tab:resultados_v2v}, se incluyen a continuación las tres gráficas principales obtenidas a partir del análisis de los escenarios de 10, 20, 50 y 100 vehículos, tanto con DCC activado como desactivado.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.72\linewidth]{images/Intervalo_CAM_vs_num_veh.jpg}
+    \caption{Intervalo medio entre CAMs en función del número de vehículos.}
+    \label{fig:intervalo_cam}
+\end{figure}
+
+La Figura~\ref{fig:intervalo_cam} muestra que el intervalo medio entre CAMs disminuye a medida que aumenta la carga computacional. Tanto con DCC como sin él se observa esta tendencia, aunque los valores son ligeramente menores cuando DCC está activado.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.72\linewidth]{images/latencia_media_vs_num_veh.jpg}
+    \caption{Latencia interna media CAM $\rightarrow$ LDM en función del número de vehículos.}
+    \label{fig:latencia_media}
+\end{figure}
+
+En la Figura~\ref{fig:latencia_media} se aprecia una diferencia muy marcada entre los escenarios con y sin DCC.  
+Cuando DCC está activado, la latencia interna permanece estable alrededor de 1--2\,ms, incluso para 100 vehículos.  
+Sin embargo, al desactivar DCC, la latencia crece de forma significativa en escenarios con 20, 50 y 100 vehículos, alcanzando valores de varios cientos de milisegundos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{images/latencias_min_y_max.jpg}
+    \caption{Latencias mínimas y máximas internas registradas en cada escenario.}
+    \label{fig:latencias_extremas}
+\end{figure}
+
+Finalmente, la Figura~\ref{fig:latencias_extremas} muestra que, cuando el DCC está activado, tanto la latencia mínima como la máxima se mantienen en valores muy bajos (en el orden de unos pocos milisegundos) para todos los escenarios. En cambio, al desactivar el DCC, las latencias mínimas se sitúan en torno a 100~ms y las latencias máximas llegan a superar los 1600~ms en los escenarios de mayor carga. Este comportamiento refuerza el papel del DCC como un mecanismo esencial para evitar la saturación interna del sistema y mantener un tiempo de procesamiento acotado.
+
+\subsubsection{Escenario multivehículo con 100 nodos}
+
+La Figura~\ref{fig:multi_veh_100} muestra la ejecución del escenario con 100 vehículos en la red ampliada. En la parte superior se visualizan las trazas generadas por los módulos principales de OpenC2X: el módulo CAM produce los eventos \texttt{METRIC\_CAM\_SEND}, que registran cada mensaje CAM emitido por el vehículo local, mientras que el módulo LDM muestra los eventos \texttt{METRIC\_CAM\_RECV}, correspondientes a la recepción interna de dichos mensajes.
+En la parte inferior se observa la simulación de SUMO con 100 vehículos, cuya movilidad sirve como entrada para las actualizaciones GPS procesadas por OpenC2X.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{images/100_veh.PNG}
+    \caption{Ejecución del escenario de 100 vehículos en SUMO$\leftrightarrow$OpenC2X.}
+    \label{fig:multi_veh_100}
+\end{figure}
+
+Es importante señalar que, aunque se reciben los datos GPS de todos los vehículos del escenario, sólo se genera un CAM por tick para el vehículo local, según el parámetro \texttt{node\_id}. El resto actúa como carga para la simulación pero no como nodos V2V independientes.
+
+\subsubsection{Discusión de resultados}
+
+Los resultados obtenidos permiten extraer varias conclusiones relevantes:
+
+\begin{itemize}
+    \item El pipeline SUMO $\rightarrow$ GPS $\rightarrow$ CAM $\rightarrow$ LDM funciona correctamente y se mantiene estable en todos los escenarios.
+    \item La latencia interna se mantiene en valores muy bajos con DCC activado, incluso en escenarios de 100 vehículos.
+    \item El impacto del número de vehículos afecta principalmente al intervalo entre CAMs, especialmente en escenarios de alta densidad.
+    \item La ausencia de DCC incrementa significativamente la latencia interna en escenarios medios y altos.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 5.2. Evaluación del sistema V2I
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Evaluación del sistema V2I}
+La segunda parte de la evaluación se centra en analizar el funcionamiento del sistema ante eventos \textit{V2I} (Vehicle-to-Infrastructure), en los que un  elemento fijo de la infraestructura (en este caso un semáforo) genera un mensaje DENM cuando detecta que un vehículo se aproxima mientras la fase se encuentra en rojo. Este mecanismo se desarrolló específicamente para este proyecto integrando la API \textit{TraCI} con el módulo \textit{GpsService}, permitiendo que la infraestructura active eventos en tiempo real.
+
+\subsubsection{Metodología}
+Para evaluar la comunicación \textit{V2I} se realizaron pruebas basadas en el número de semáforos activos en el escenario. Cada semáforo genera uno o varios \textit{triggers} cuando el vehículo se aproxima en fase roja, y cada uno de ellos debe transformarse en un mensaje DENM procesado por el módulo \textit{LDM}. 
+
+Con el fin de medir la latencia extremo a extremo del flujo:
+\[
+\text{Trigger (GPS)} \rightarrow \text{DENM} \rightarrow \text{LDM},
+\]
+
+El análisis se realizó mediante un script en Python que extrae los eventos \texttt{METRIC\_TRIGGER\_SEND} y \texttt{METRIC\_DENM\_RECV} generados explícitamente en el código fuente de \texttt{GpsService} y \texttt{ldm}. Cada evento incluye un timestamp en milisegundos generado a partir de funciones añadidas en la clase \texttt{Utils}.
+
+A partir de estos registros se calcularon la latencia, la tasa de entrega (PDR), la presencia de duplicados y la correspondencia exacta entre triggers y DENM.
+
+\subsubsection{Escenario de pruebas}
+El escenario consiste en una red urbana cuadrada generada con \texttt{netgenerate}, sobre la que se insertan varios semáforos configurados con ciclos fijos.
+El vehículo circula siguiendo una ruta predefinida en SUMO que le lleva a pasar por todos los semáforos. El número de elementos de la infraestructura se varió entre uno y cinco, generando distintos niveles de carga en los módulos \textit{GpsService}, \textit{DENM} y \textit{LDM}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{images/v2i_map.png}
+    \caption{Escenario SUMO utilizado con 4 semáforos activos.}
+    \label{fig:v2i_scenario}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.60\textwidth]{images/5_semaforos.PNG}
+    \caption{Distribución de los semáforos.}
+    \label{fig:v2i_semaphores}
+\end{figure}
+
+La Figura~\ref{fig:v2i_semaphores} muestra la disposición de los semáforos utilizados en el escenario V2I. Dependiendo del experimento, se activaron entre 1 y 5 de estos semáforos, lo que permitió evaluar cómo el sistema reaccionaba ante diferentes niveles de carga en la infraestructura. Cada semáforo genera un evento DENM independiente cuando el vehículo se aproxima durante una fase roja, lo que incrementa el número total de disparos a medida que se amplía el número de intersecciones activas.
+
+
+Durante las pruebas se permitió que cada semáforo generase múltiples activaciones mientras el vehículo se mantenía dentro del umbral de distancia y con fase roja, para evaluar el comportamiento del sistema ante ráfagas de eventos.
+
+\subsubsection{Consideración sobre el número de vehículos}
+Además del estudio basado en el número de semáforos, se realizaron pruebas aumentando la movilidad en SUMO (10, 20, 50 y 100 vehículos). 
+El objetivo era comprobar si la carga vehicular afectaba a la latencia o al PDR.  
+No obstante, en este escenario el flujo \textit{Trigger $\rightarrow$ DENM $\rightarrow$ LDM} sólo depende del vehículo que recibe la información del semáforo. Los vehículos adicionales no participan en la comunicación V2I, ya que el evento lo genera únicamente el nodo fijo asociado al semáforo. Por este motivo, el número de vehículos no introduce carga adicional en el sistema ni afecta al flujo de procesamiento del evento.
+Los resultados confirmaron que la latencia y el PDR permanecen constantes independientemente del número de vehículos simulados.
+
+\subsubsection{Justificación del envío de múltiples triggers}
+Aunque sería posible emitir un único evento por semáforo, se decidió mantener la generación de todos los triggers detectados.
+Esto permite:
+\begin{itemize}
+    \item Evaluar el sistema en condiciones de mayor carga.
+    \item Verificar emparejamientos uno a uno entre trigger y DENM.
+    \item Detectar duplicados, pérdidas o latencias anómalas.
+    \item Comprobar la estabilidad del módulo LDM ante ráfagas de mensajes.
+\end{itemize}
+
+\subsubsection{Resultados}
+La Tabla~\ref{tab:v2i_results} resume los resultados obtenidos para 1, 2, 3, 4 y 5 semáforos con 10 vehículos circulando en el escenario.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.4}
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{1.8cm}|>{\centering\arraybackslash}p{1.6cm}|>{\centering\arraybackslash}p{1.6cm}|>{\centering\arraybackslash}p{2.8cm}|>{\centering\arraybackslash}p{2.8cm}|}
+%\begin{tabular}{|C{3cm}|C{1.8cm}|C{1.6cm}|C{1.6cm}|C{2.8cm}|C{2.8cm}|}
+\hline
+\rowcolor{gris} 
+\textbf{Semáforos} & \textbf{Triggers} & \textbf{DENM} & \textbf{PDR (\%)} & \textbf{Lat. media (ms)} & \textbf{Lat. max (ms)} \\
+\hline
+1 & 32  & 32  & 100 & 2.41 & 5  \\
+2 & 62  & 62  & 100 & 2.81 & 9  \\
+3 & 90  & 90  & 100 & 2.91 & 9  \\
+4 & 144 & 143 & 99.31 & 2.68 & 9 \\
+5 & 192 & 192 & 100 & 2.76 & 15 \\
+\end{tabular}
+\caption{Resultados de latencia y PDR en el escenario V2I.}
+\label{tab:v2i_results}
+\end{table}
+
+\subsubsection{Análisis}
+Los resultados muestran una latencia muy baja y estable (2-3 ms) incluso cuando el número de semáforos aumenta significativamente.  
+El PDR permanece en el 100\% en todos los casos salvo para 4 semáforos, donde se detectó un único emparejamiento no válido debido a una latencia negativa puntual en el log.
+
+No se detectaron duplicados, pérdidas reales ni inconsistencias en los identificadores.  
+Esto confirma que el flujo \textit{Trigger $\rightarrow$ DENM $\rightarrow$ LDM} es robusto, reproducible y estable bajo distintos niveles de carga de infraestructura.
+
+Finalmente, los resultados muestran que el módulo \textit{LDM} es capaz de gestionar ráfagas de eventos sin degradación temporal, y que el sistema completo presenta un comportamiento determinista y predecible en escenarios V2I.

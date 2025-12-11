@@ -1,0 +1,180 @@
+\section{Estudio de viabilidad}
+
+\subsection{Alcance y suposiciones}
+
+El proyecto tiene como objetivo integrar \textbf{SUMO} y \textbf{OpenC2X} para simular la comunicación \textbf{V2V mediante mensajes CAM}, registrando métricas de latencia, tasa de entrega de paquetes y estabilidad del canal bajo distintos escenarios de tráfico.
+
+Adicionalmente, se incorpora una extensión funcional de comunicación \textbf{V2I}, en la que 
+la infraestructura (semáforos definidos en SUMO) puede generar eventos que desencadenan la transmisión de mensajes DENM por parte de OpenC2X.
+
+Para garantizar un entorno controlado y reproducible, se establecen las siguientes suposiciones y condiciones de partida:
+
+\begin{itemize}
+    \item El sistema se ejecutará en un único \textit{host} (máquina virtual) con Ubuntu 24.04.
+    \item Se empleará la pila ITS-G5 simulada, sin hardware radio real.
+    \item Los escenarios se limitarán a densidad baja, media y alta con redes SUMO simples.
+    \item No se considerará la capa de seguridad (PKI) ni mecanismos de autenticación.
+    % \item No se evaluarán tecnologías alternativas como C-V2X o 5G NR-V2X.
+\end{itemize}
+
+Con estas condiciones, el proyecto es técnicamente viable usando únicamente software libre y recursos de hardware estándar. El principal reto identificado fue la integración con TraCI y la migración del código de OpenC2X a versiones modernas de Linux, ambos superados durante el desarrollo.
+
+\subsection{Herramientas utilizadas}
+Para el desarrollo e integración del sistema se han empleado exclusivamente herramientas de software libre y componentes accesibles, lo que facilita la reproducibilidad del proyecto. Las principales herramientas utilizadas son:
+\begin{itemize}
+    \item \textbf{Sistema operativo:} Ubuntu 24.04 (máquina virtual). 
+    \item \textbf{Simulador de movilidad:} SUMO (\texttt{sumo}, \texttt{sumo-gui}).
+    \item \textbf{API tiempo real:} TraCI, mediante un cliente C++ desarrollando el módulo \texttt{SumoInterface}.
+    \item \textbf{Plataforma V2X:} OpenC2X (módulos CAM, DCC, LDM y GPS).
+    \item \textbf{Mensajería interna:} ZeroMQ.
+    \item \textbf{Lenguaje de programación:} \texttt{C++}.
+    \item \textbf{Herramientas de compilación:} \texttt{gcc}, \texttt{clang}, \texttt{CMake}, \texttt{pkg-config}.
+    \item \textbf{Dependencias:} \texttt{gpsd}, \texttt{libubox}, \texttt{uci}.
+    \item \textbf{Scripts de automatización:} Bash (para la ejecución de módulos).
+    \item \textbf{Análisis y validación de resultados:} Logs de OpenC2X y scritps en Python.
+\end{itemize}
+
+\subsection{Plan técnico por fases}
+El desarrollo del sistema se ha llevado a cabo siguiendo una estrategia incremental, validando cada componente de forma independiente antes de integrarlo en el entorno final SUMO$\leftrightarrow$OpenC2X. El plan técnico se centró en los siguientes objetivos principales: 
+
+\begin{enumerate}
+    \item \textbf{Migración de OpenC2X a Ubuntu 24.04:} OpenC2X fue diseñado originalmente para Ubuntu 16.04, por lo que fue necesario adaptar su código, actualizar dependencias y resolver incompatibilidades con versiones modernas de \textit{gcc}, \textit{libzmq}, \textit{gpsd}, \textit{libubox} y \textit{uci}.
+    \item \textbf{Integración TraCI $\leftrightarrow$ OpenC2X:} Conexión entre \texttt{GpsService.cpp} y el nuevo módulo \texttt{SumoInterface}, lectura por \textit{tick} de posición, velocidad y orientación.
+    \item \textbf{Escenarios SUMO:} Creación de redes sintéticas variando la densidad vehicular.
+    \item \textbf{Ejecución y métricas:} Obtención de latencia, tasa de entrega de mensajes y tasa CAM efectiva bajo distintos escenarios.
+    \item \textbf{Análisis y validación:} Evaluación de los resultados, comparación con referencias teóricas y documentación de las pruebas.
+\end{enumerate}
+
+% A lo largo del proyecto se identificaron varios riesgos técnicos asociados a la integración de herramientas heterogéneas, la carga computacional del sistema y la adaptación del código de OpenC2X a versiones modernas de Linux. La Tabla~\ref{tab:riesgos} resume los riesgos más relevantes, su impacto estimado, probabilidad de aparición y las medidas de mitigación aplicadas.
+La Tabla~\ref{tab:riesgos} resume los principales riesgos técnicos detectados durante el proyecto, junto con su impacto, probabilidad y las acciones de mitigación aplicadas.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.4}
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{|p{3.2cm}|p{1.8cm}|p{1.6cm}|p{7.2cm}|}
+\hline
+\rowcolor{gris} 
+\textbf{Riesgo} & \textbf{Impacto} & \textbf{Prob.} & \textbf{Mitigación / Plan B} \\
+\hline
+
+
+Desfase temporal SUMO $\leftrightarrow$~OpenC2X &
+Medio & Media &
+Usar \texttt{step-length} fijo, sincronizar la llamada a TraCI por tick y asegurar que la
+actualización del GPS se realice siempre con el mismo orden de ejecución. Validar
+desfases con escenarios multivehículo. \\
+\hline
+
+Inconsistencia entre la frecuencia de actualización de SUMO y la frecuencia de envío CAM &
+Medio & Media &
+Ajustar intervalos CAM; forzar actualización del GPS antes de cada CAM; 
+registrar el orden de ejecución para la depuración y su posterior análisis. \\
+\hline
+
+Sobrecarga con muchos vehículos &
+Alto & Media &
+Escalar gradualmente; medir el uso de CPU y ajustar la frecuencia CAM. \\
+\hline
+
+Latencias elevadas sin DCC en escenarios densos &
+Alto & Media &
+Comparar los resultados con y sin DCC; mantener intervalos CAM constantes; analizar la degradación y ajustar los parámetros de transmisión. \\
+\hline
+
+Problemas de compilación y migración &
+Alto & Media &
+Fijar versiones del compilador y dependencias; automatizar la compilación mediante \texttt{CMake}; validar la instalación completa en Ubuntu 24.04. \\
+\hline
+
+Dependencia del rendimiento de la máquina virtual &
+Medio & Media &
+Asignar recursos adecuados; repetir pruebas para garantizar reproducibilidad. \\
+\hline
+
+\end{tabular}
+\caption{Riesgos técnicos identificados y medidas de mitigación.}
+\label{tab:riesgos}
+\end{table}
+
+\subsubsection*{Criterios de éxito}
+Para considerar completada la integración SUMO~$\leftrightarrow$~OpenC2X y validar el correcto funcionamiento del sistema, se establecieron los siguientes criterios de éxito:
+
+\begin{itemize}
+    \item \textbf{Sincronización estable} entre SUMO y OpenC2X, sin desfases superiores a un \textit{tick} y manteniendo la coherencia temporal del pipeline SUMO~$\rightarrow$~TraCI~$\rightarrow$~GPS~$\rightarrow$~CAM~$\rightarrow$~LDM.
+
+    \item \textbf{Envío y recepción continua de mensajes CAM} durante al menos cinco minutos de simulación sin interrupciones ni errores críticos.
+
+    \item \textbf{Obtención de métricas reproducibles}, incluyendo latencia interna y tasa de entrega (PDR), en los tres escenarios definidos (baja, media y alta densidad vehicular).
+
+\end{itemize}
+
+El cumplimiento de estos criterios garantiza que el sistema integrado es estable, funcional y adecuado para la evaluación experimental desarrollada en el capítulo 5.
+
+\subsection{Viabilidad económica}
+
+El proyecto se desarrolla íntegramente con herramientas de software libre (OpenC2X, SUMO, Ubuntu 24.04, gpsd), por lo que no existen costes asociados a licencias. Asimismo, el hardware empleado consiste en un equipo físico estándar y una máquina virtual, por lo que no se requiere inversión adicional en infraestructura.
+
+El principal coste del proyecto corresponde al tiempo de dedicación necesario para la adaptación del código de OpenC2X a un entorno moderno, la resolución de incompatibilidades, la integración con TraCI mediante el módulo \texttt{SumoInterface}, el diseño de los escenarios de movilidad y la realización de pruebas. Dada la complejidad técnica de estas tareas, se ha estimado un coste horario acorde al perfil de un ingeniero sénior.
+
+La estimación económica se desglosa de la siguiente manera:
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|p{7cm}|>{\centering\arraybackslash}p{5cm}|}
+\hline
+\rowcolor{gris}
+\textbf{Concepto} & \textbf{Coste estimado (€)} \\
+\hline
+Tiempo de desarrollo técnico (160 h $\times$ 30 €/h) & 4800 \\
+\hline
+Tiempo de documentación y análisis (100 h $\times$ 20 €/h) & 2000 \\
+\hline
+Consumo eléctrico aproximado & 20 \\
+\hline
+Hardware y licencias adicionales & 0 \\
+\hline
+\rowcolor{gris}
+\textbf{Coste total estimado} & \textbf{6820} \\
+\hline
+\end{tabular}
+\caption{Coste estimado del proyecto}
+\label{tab:coste}
+\end{table}
+
+El proyecto resulta económicamente viable, ya que el coste total se asocia exclusivamente al tiempo invertido en su desarrollo. El uso de herramientas abiertas reduce significativamente el presupuesto, manteniendo un entorno de trabajo potente y flexible sin necesidad de adquirir software o equipamiento especializado.
+
+\subsubsection*{Retorno de la inversión (ROI)}
+
+Aunque el proyecto no está orientado a la explotación comercial directa, sí presenta un retorno económico claro desde el punto de vista de investigación, desarrollo e innovación (I+D). En particular:
+
+\begin{itemize}
+    \item Reducir costes frente a pruebas con hardware real o infraestructura ITS-G5.
+    \item Evaluar múltiples escenarios de movilidad sin riesgo para personas o vehículos.
+    \item Experimentar con diferentes configuraciones V2X antes de invertir en equipamiento físico.
+    \item Facilitar futuros proyectos de simulación, investigación o docencia.
+\end{itemize}
+
+Así, el proyecto presenta una relación coste-beneficio favorable, especialmente para universidades, centros de investigación y empresas que deseen explorar tecnologías V2X minimizando riesgos e inversión inicial.
+
+\subsection{Impacto medioambiental}
+El impacto medioambiental del proyecto es reducido, ya que todo el desarrollo se realiza en un entorno de simulación software y no requiere el uso de vehículos reales, antenas ITS-G5 ni equipos radioeléctricos. Esto evita el consumo de combustible y la generación de emisiones asociadas a pruebas físicas.
+
+La ejecución del proyecto en una máquina virtual supone un consumo eléctrico limitado, comparable al uso habitual de un equipo informático. Asimismo, el uso de herramientas de software libre contribuye a la sostenibilidad tecnológica, ya que elimina la necesidad de adquirir hardware especializado.
+
+Además, la posibilidad de repetir experimentos de forma automatizada y sin recursos adicionales permite disminuir el impacto energético del ciclo de desarrollo. Los escenarios de movilidad pueden evaluarse tantas veces como sea necesario sin incrementos significativos de consumo, algo que no sería posible en un entorno físico.
+
+A nivel indirecto, este trabajo puede contribuir positivamente al medio ambiente, ya que la investigación en sistemas V2X permite mejorar la eficiencia del tráfico, reducir congestiones y disminuir emisiones derivadas del transporte urbano.
+
+\subsection{Planes de contingencia}
+Para garantizar la continuidad del proyecto ante posibles incidencias técnicas, se definieron distintos planes de contingencia:
+
+\begin{itemize}
+    \item \textbf{Fallo del cliente TraCI o pérdida de sincronización SUMO~$\leftrightarrow$ ~OpenC2X}: Utilizar el modo \textit{replay} con trazas previamente exportadas desde SUMO, lo que permite reproducir exactamente el escenario sin depender de la ejecución en tiempo real.
+    \item \textbf{Tasa CAM efectiva baja}: Reducir temporalmente la frecuencia de emisión de mensajes o el tamaño del escenario. 
+    \item \textbf{Inestabilidad en la ejecución en tiempo real}: Ejecutar la simulación en modo no interactivo, registrando el comportamiento en los \textit{logs} para su análisis posterior.
+    \item \textbf{Errores de compilación o dependencias inconsistentes}: Revertir al entorno validado documentado (versión de Ubuntu 24.04, dependencias exactas y configuración CMake).
+    \item \textbf{Problemas de rendimiento en la máquina virtual}: Aumentar recursos asignados (CPU y RAM).
+\end{itemize}
+

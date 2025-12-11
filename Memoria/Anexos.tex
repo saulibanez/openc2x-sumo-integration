@@ -1,0 +1,87 @@
+\section*{Anexos}
+\addcontentsline{toc}{section}{Anexos}
+
+\subsection*{A. Código fuente y materiales del proyecto}
+
+Todo el código desarrollado para este Trabajo de Fin de Máster se encuentra
+disponible en el repositorio público de GitHub:
+
+\begin{center}
+\textbf{\url{https://github.com/saulibanez/openc2x-sumo-integration}}
+\end{center}
+
+El repositorio está organizado en varios directorios:
+
+\begin{itemize}
+    \item \textbf{OpenC2X-standalone/}  
+    Versión adaptada a Ubuntu~24.04 con soporte TraCI integrado y modificaciones en:
+    \begin{itemize}
+        \item \textbf{common/interface/}: 
+        Contiene el módulo \textit{SumoInterface}, desarrollado para integrar SUMO mediante TraCI.
+        \item \textbf{gps/}:
+        Incluye las modificaciones necesarias para recibir posiciones desde SUMO y generar eventos \textit{trigger} que activan mensajes DENM.
+        \item \textbf{resto de módulos en \texttt{common/}}:  
+        Conjunto de componentes donde se aplicaron diversas correcciones y adaptaciones para permitir la compilación y ejecución de OpenC2X en Ubuntu~24.04 (actualización de librerías, CMake, rutas e \textit{includes}).
+        \item \textbf{cam/, denm/ y ldm/}:
+        La lógica funcional de estos módulos no se modifica.  
+        Únicamente se añadieron (y se dejaron comentadas) trazas de instrumentación destinadas a medir métricas del sistema utilizadas durante las pruebas V2V y V2I.
+    \end{itemize}
+
+    \item \textbf{SUMO/}  
+    Contiene los escenarios empleados en la evaluación:
+    \begin{itemize}
+        \item \texttt{hello\_openc2x/}: Validación básica SUMO $\leftrightarrow$ TraCI.
+        \item \texttt{sumo\_v2v/}: Escenarios de evaluación V2V.
+        \item \texttt{sumo\_v2i/}: Escenarios de evaluación V2I.
+
+        \item Dentro de cada escenario:
+            \begin{itemize}
+                \item \textbf{Scripts de simulación} (\texttt{runv2v.sh}, \texttt{runv2i.sh})  
+                que lanzan SUMO y cada módulo de OpenC2X en sesiones separadas.
+                \item \textbf{Scripts auxiliares}, como \texttt{generar\_vehiculos.sh},  
+                utilizados para generar automáticamente un número configurable de vehículos.
+                \item \textbf{Carpeta \texttt{log/}} con:
+                \begin{itemize}
+                    \item Ficheros de trazas de cada simulación.
+                    \item El script de análisis Python empleado para calcular la latencia y el PDR (Packet Delivery Ratio).
+                \end{itemize}
+            \end{itemize}
+    \end{itemize}
+
+    \item \textbf{Memoria/}  
+    Contendrá:
+    \begin{itemize}
+        \item El código LaTeX completo del TFM.
+        \item Las figuras utilizadas.
+        \item El PDF final del documento.
+    \end{itemize}
+
+\end{itemize}
+
+\subsection*{B. Reproducción del entorno}
+Para ejecutar el sistema es suficiente con clonar el repositorio y seguir
+los pasos indicados en el archivo \texttt{README.md}, que detalla:
+
+\begin{itemize}
+    \item Requisitos de compilación.
+    \item Construcción de OpenC2X.
+    \item Ejecución de SUMO con TraCI.
+    \item Lanzamiento de escenarios V2V y V2I.
+    \item Análisis de resultados con los scripts proporcionados.
+\end{itemize}
+
+\subsection*{C. Scripts proporcionados}
+
+El repositorio incluye varios scripts destacados:
+\begin{itemize}
+    \item \texttt{generar\_vehiculos.sh}:  
+    Genera automáticamente vehículos en SUMO según el número indicado por el usuario.
+    \item \texttt{runv2v.sh}:  
+    Ejecuta SUMO y lanza los módulos GPS, CAM, DCC y LDM para las pruebas de comunicación V2V.
+    \item \texttt{runv2i.sh}:  
+    Ejecuta SUMO con semáforos y lanza GPS, DENM, DCC y LDM para las pruebas V2I.
+    \item \texttt{analyze\_v2v.py}:  
+    Script de análisis utilizado para calcular latencia, intervalo entre CAM y PDR en los escenarios V2V.
+    \item \texttt{analyze\_v2i.py}:  
+    Script de análisis para calcular latencia, PDR y emparejamiento de eventos DENM en los escenarios V2I.
+\end{itemize}

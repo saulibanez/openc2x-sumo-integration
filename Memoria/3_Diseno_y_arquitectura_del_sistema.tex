@@ -1,0 +1,71 @@
+\section{Diseño y Arquitectura del sistema}
+\subsection{Vista general}
+En esta sección se presenta la arquitectura general del sistema, mostrando los principales módulos involucrados y el flujo de información entre ellos.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/Diagrama de bloques.PNG}
+    \caption{Arquitectura del sistema SUMO $\leftrightarrow$ OpenC2X (escenario V2V)}
+    \label{fig:diagrama_de_bloques}
+\end{figure}
+
+\subsection{Bloques y funciones (descripción breve)}
+
+\begin{enumerate}[label=\arabic*.]
+    \item \textit{SUMO (escenario de tráfico)}
+    \begin{itemize}
+        \item Simula la movilidad de los vehículos (trayectorias, velocidades, interacciones).
+        \item Ficheros: red (.net.xml), rutas (.rou.xml) y configuración (.sumocfg).
+        \item Expone los estados de cada vehículo a través de \textit{TraCI}.
+    \end{itemize}
+
+    \item \textit{Módulo SumoInterface (bridge TraCI $\leftrightarrow$ OpenC2X)}
+    \begin{itemize}
+        \item El módulo SumoInterface implementa un cliente \textit{TraCI} basado en la librería oficial libtraci (SUMO 1.23.1), estableciendo una conexión TCP con SUMO en el puerto configurado (por defecto, 9999).
+        \item En cada tick, este cliente consulta las variables de movilidad (posición, velocidad, orientación) y publica los estados actualizados a los nodos \textit{OpenC2X}.
+    \end{itemize}
+
+    \item \textit{Nodos OpenC2X (Vehículo A, B, …)}
+    \begin{itemize}
+        \item Procesos independientes que representan "vehículos conectados".
+        \item \textit{CAM}: generación y recepción de mensajes V2V.
+        \item \textit{GPS}: actualiza la posición usando los datos recibidos desde SUMO.
+        \item \textit{DENM}: módulo encargado de generar mensajes de alerta a partir de \textit{triggers} internos o externos.
+        \item Otros (DCC, LDM)
+    \end{itemize}
+
+    \item \textit{Módulo de registro}
+    \begin{itemize}
+        \item Recoge logs de los nodos (timestamps, IDs, payloads, pérdidas).
+        \item Genera métricas básicas.
+        \item Exporta los resultados.
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Flujo de datos}
+\begin{enumerate}[label=\arabic*.]
+    \item \textit{SUMO} avanza el tiempo y actualiza los estados vehiculares.
+    \item \textit{SumoInterface (TraCI)} lee el estado de cada vehículo y lo distribuye a los nodos \textit{OpenC2X} correspondientes.
+    \item Cada nodo \textit{OpenC2X}:
+    \begin{itemize}
+        \item Actualiza el \textit{GPS}.
+        \item Genera y recibe mensajes \textit{V2X} mediante \textit{CAM}.
+    \end{itemize}
+    \item Los mensajes \textit{V2V} se intercambian entre nodos mediante \textit{sockets} internos.
+    \item El módulo \textit{DENM} puede generar alertas a partir de \textit{triggers} externos recibidos (flujo V2I), activados cuando \textit{SumoInterface} detecta un evento en la infraestructura.
+    \item El módulo de registro revisa los logs y genera las métricas básicas.
+    \item El usuario revisa las métricas y ajusta los parámetros o escenarios.
+\end{enumerate}
+
+\subsection{Entorno físico y red}
+\begin{itemize}
+    \item \textit{Host con virtualización}
+        \begin{itemize}
+            \item VirtualBox.
+            \item Máquina virtual configurada con \textit{Ubuntu 24.04 LTS}, \textit{10 GB de RAM}, \textit{2 núcleos asignados} y \textit{50 GB de almacenamiento en disco}.
+        \end{itemize}
+    \item \textit{Red}: comunicación intra-host basada en \textit{sockets}; no se requiere de una interfaz inalámbrica real.
+    \item \textit{Escalabilidad}: añadir más vehículos implica más procesos/nodos \textit{OpenC2X} y más suscripciones \textit{TraCI}.
+\end{itemize}
+
+\subsection{Interacción con el Usuario}
+La ejecución se realiza mediante scricps de arranque, con los parámetros en los ficheros de configuración. Los resultados se analizan revisando los logs generados por \textit{OpenC2X}.

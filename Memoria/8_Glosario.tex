@@ -1,0 +1,35 @@
+\section{Glosario}
+\addcontentsline{toc}{section}{Glosario}
+
+\begin{description}[labelwidth=1cm, leftmargin=1.2cm]
+    \item[API (Interfaz de Programación de Aplicaciones):] 
+    Conjunto de reglas y protocolos que permite a diferentes programas software comunicarse entre si; en este proyecto, principalmente la interfaz TraCI de SUMO.
+    \item[CAM (Cooperative Awareness Message):] 
+    Mensaje V2X periódico que transmite información básica de estado del vehículo, como posición, velocidad y orientación.
+    \item[DCC (Decentralized Congestion Control):] 
+    Mecanismo encargado de regular el acceso al canal ITS-G5 evitando congestión.
+    \item[DENM (Decentralized Environmental Notification Message):] 
+    Mensaje V2X generado ante un evento concreto (como peligro o aviso de infraestructura).
+    \item[GPS Service (GpsService):] 
+    Servicio de OpenC2X encargado de proporcionar a los nodos la posición y el tiempo de referencia. En esta memoria se modifica para recibir posiciones desde SUMO y para generar los eventos V2I.
+    \item[ITS (Intelligent Transportation Systems):] 
+    Conjunto de tecnologías aplicadas al transporte para mejorar la eficiencia y la seguridad mediante comunicaciones vehículo-vehículo y vehículo-infraestructura.
+    \item[ITS-G5:]
+    Tecnología de comunicaciones basada en IEEE 802.11p para sistemas ITS. Es el estándar asumido por OpenC2X en la simulación.
+    \item[LDM (Local Dynamic Map):] 
+    Base de datos local donde cada nodo OpenC2X almacena la información recibida de otros vehículos o de la infraestructura.
+    \item[OpenC2X:]
+    Framework de comunicaciones V2X de código abierto empleado para simular servicios ITS-G5. En este TFM se adapta a Ubuntu 24.04 y se amplía para integrar SUMO mediante TraCI.
+    \item[PDR (Packet Delivery Ratio):] 
+    Porcentaje de mensajes recibidos respecto a los enviados.
+    \item[SUMO (Simulation of Urban MObility):]
+    Simulador de movilidad vehicular utilizado para modelar el tráfico.
+    \item[TraCI (Traffic Control Interface):] 
+    Interfaz de control remoto que permite a SUMO comunicarse con aplicaciones externas mediante TCP.
+    \item[V2I (Vehicle-to-Infrastructure):]
+    Comunicación entre vehículo e infraestructura.
+    \item[V2V (Vehicle-to-Vehicle):]
+    Comunicación cooperativa entre vehículos.
+    \item[V2X (Vehicle-to-Everything):]
+    Término general que engloba V2V, V2I y otras modalidades de comunicación vehicular.
+\end{description}

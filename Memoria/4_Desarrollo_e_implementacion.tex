@@ -1,0 +1,645 @@
+\section{Desarrollo del proyecto}
+
+Durante el desarrollo del proyecto se han completado diversos hitos técnicos que permiten disponer de una versión funcional del entorno de simulación integrando OpenC2X con SUMO. A continuación se describen los avances más relevantes, agrupados por áreas de trabajo.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 4.1. Migración, instalación y validación de OpenC2X
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Migración, instalación y validación de OpenC2X}
+
+OpenC2X fue originalmente desarrollado y probado en sistemas basados en Ubuntu 16.04, por lo que su instalación directa en un entorno moderno (Ubuntu 24.04 LTS) provocó diversos errores de compilación relacionados con versiones obsoletas de bibliotecas, cambios en dependencias externas y funciones retiradas en Boost y gpsd.
+Para garantizar la compatibilidad con el sistema actual fue necesario realizar una migración completa del entorno de compilación.
+
+En primer lugar, se descargó el código fuente actualizado desde el repositorio oficial \textit{OpenC2X-standalone} de Florian Klingler \cite{Git_OpenC2X}. A continuación, se instalaron todas las dependencias del proyecto, incluyendo bibliotecas de red, ASN.1, GPS, SQLite, XML, ZeroMQ y herramientas de compilación (\texttt{gcc/clang}, CMake, \texttt{protobuf}, \texttt{pkg-config}). Algunas de estas dependencias no están disponibles en Ubuntu 24.04 en las versiones esperadas por OpenC2X, lo que obligó a compilar manualmente varios paquetes externos.
+
+\subsubsection*{Resolución de dependencias faltantes}
+Durante la fase de configuración del proyecto (\texttt{cmake ..}) aparecieron fallos relacionados con las bibliotecas \texttt{uci} y \texttt{libubox}, utilizadas por el módulo de configuración interna del sistema. Dado que no existen paquetes compatibles en Ubuntu 24.04, ambas bibliotecas se descargaron desde los repositorios oficiales de OpenWRT \cite{UCI} \cite{libubox} y se compilaron manualmente. Tras su instalación, fue necesario actualizar la ruta de bibliotecas mediante la variable \texttt{LD\_LIBRARY\_PATH}.
+
+\subsubsection*{Correcciones en el código fuente}
+Una vez resueltas las dependencias, la compilación volvió a fallar debido a cambios en las APIs de Boost. Concretamente, la función \texttt{\small boost::\allowbreak posix\_time::millisec()} no admite valores de tipo \texttt{double} en las versiones recientes de la biblioteca, lo que provocaba errores en varios módulos (\texttt{ChannelProber.cpp}, \texttt{PktStatsCollector.cpp}, \texttt{dcc.cpp}). La solución consistió en realizar conversiones explícitas a entero:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/conversion_a_entero.png}
+    \caption{boost::posix\_time::millisec((int)(probeInterval * 1000))}
+    \label{fig:conversion_a_entero}
+\end{figure}
+
+Durante la compilación también aparecieron errores en el módulo GPS derivados de los cambios introducidos en las versiones recientes de \texttt{gpsd}. En la implementación original de OpenC2X (orientada a Ubuntu 16.04), el campo \texttt{gps\_data.fix.time} era un valor de tipo \texttt{double}. Sin embargo, en Ubuntu 24.04 este campo ha pasado a representarse mediante una estructura \texttt{timespec}, lo que provocó dos errores
+de compilación:
+
+\begin{itemize}
+    \item No era posible comparar directamente \texttt{timespec} con un \texttt{double}:
+    \begin{verbatim}
+error: no match for operator== 
+    (operand types are timespec and double)
+    \end{verbatim}
+    \item Tampoco era posible asignar un \texttt{timespec} a una variable \texttt{double}:
+    \begin{verbatim}
+error: cannot convert ‘timespec’ to ‘double’ in assignment
+    \end{verbatim}
+\end{itemize}
+
+El código original (Figura~\ref{fig:gps_original}) utilizaba directamente el campo \texttt{fix.time} en comparaciones y asignaciones:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/gps_original_timespec_error.png}
+    \caption{Fragmento original de \texttt{GpsService.cpp} que producía errores al comparar y asignar un \texttt{timespec}.}
+    \label{fig:gps_original}
+\end{figure}
+
+Para resolver el problema fue necesario convertir manualmente la estructura \texttt{timespec} a un valor escalar en formato \texttt{double}. La solución definió un nuevo valor temporal:
+
+\begin{verbatim}
+    double currentTime =
+        mGpsData.fix.time.tv_sec +
+        mGpsData.fix.time.tv_nsec / 1e9;
+\end{verbatim}
+
+y se sustituyeron todas las comparaciones y asignaciones originales para emplear este valor escalar en lugar del \texttt{timespec}. El resultado final se muestra en la Figura~\ref{fig:gps_fixed_double}, donde se observa cómo el módulo GPS utiliza \texttt{currentTime} tanto para detectar actualizaciones de tiempo como para actualizar \texttt{mLastTime}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/gps_fixed_double.png}
+    \caption{Solución implementada: conversión de \texttt{timespec} a \texttt{double} mediante \texttt{currentTime}.}
+    \label{fig:gps_fixed_double}
+\end{figure}
+
+
+Otro conjunto de errores (Figura~\ref{fig:gps_error2}) estuvo relacionado con la eliminación de campos y constantes en la biblioteca \texttt{gpsd}. La API actual ya no incluye los campos \texttt{gps\_data.fix.status} ni constantes como \texttt{STATUS\_NO\_FIX}, y la firma de la función \texttt{gps\_read()} también ha cambiado. Estas diferencias causaban errores adicionales durante la compilación.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/gps_error_status.png}
+    \caption{Errores derivados de cambios en las estructuras y constantes de \texttt{gpsd}.}
+    \label{fig:gps_error2}
+\end{figure}
+
+Para mantener la funcionalidad, se actualizaron las comprobaciones internas utilizando los campos actuales de \texttt{gpsd} (\texttt{fix.status}, etc.) y se adaptaron las llamadas a \texttt{gps\_read()}.
+
+\subsubsection*{Compilación final}
+Tras estas modificaciones, OpenC2X pudo compilarse correctamente en Ubuntu 24.04 LTS, generando una versión estable de todos los módulos principales (CAM, DCC, LDM y GPS). Se validó la instalación mediante la ejecución individual de los servicios y la verificación manual de los logs generados.
+
+En la Figura~\ref{fig:openc2x_build} se muestra la salida final del proceso de compilación completado.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/Compilacion_OpenC2X.png}
+    \caption{Compilación de OpenC2X en Ubuntu 24.04 tras la migración del entorno}
+    \label{fig:openc2x_build}
+\end{figure}
+
+\subsubsection*{Problemas de configuración y ejecución inicial}
+
+A pesar de que la compilación se completó correctamente, la primera ejecución de OpenC2X con el script \texttt{runOpenC2X.sh} produjo nuevos fallos relacionados con la carga de paquetes de configuración. El ejecutable buscaba los ficheros de configuración exclusivamente en rutas fijas del sistema:
+
+\begin{verbatim}
+    /var/run/uci/openc2x
+    /etc/config/openc2x
+\end{verbatim}
+
+Esto se confirmó mediante un análisis con \texttt{strace}, donde se observaron accesos fallidos (\texttt{ENOENT}) a dichas rutas.
+
+Para resolverlo, se copiaron los archivos de configuración por defecto incluidos en el directorio \texttt{config/} del repositorio oficial de OpenC2X \cite{Git_OpenC2X} a la ruta esperada por el sistema:
+
+\begin{verbatim}
+    sudo mkdir -p /etc/config
+    sudo cp OpenC2X-standalone/config/* /etc/config/
+\end{verbatim}
+
+Una vez presentes los ficheros, OpenC2X pudo cargar correctamente los módulos de configuración (\texttt{openc2x}, \texttt{openc2x\_cam},\texttt{openc2x\_common}, \texttt{openc2x\_dcc}, \texttt{openc2x\_denm}, \texttt{openc2x\_gps}, \texttt{openc2x\_httpServer}, \texttt{openc2x\_ldm}, \texttt{openc2x\_obd2}).
+
+Sin embargo, durante el arranque seguía apareciendo el error:
+
+\begin{quote}
+\texttt{Invalid MAC. Check /etc/config/openc2x\_common}
+\end{quote}
+
+Tras revisar el código, se identificó que OpenC2X intentaba obtener la dirección MAC leyendo directamente el archivo:
+
+\begin{verbatim}
+    /sys/class/net/notDefined/address
+\end{verbatim}
+
+Esto ocurría porque la variable \texttt{mEthernetDevice} del módulo de configuración tomaba por defecto el valor \texttt{"notDefined"} al no estar
+inicializada correctamente. Para verificar el comportamiento, se añadieron trazas de depuración en \texttt{config.h}, observándose la ruta errónea y el valor devuelto. La solución consistió en modificar la variable \texttt{mEthernetDevice} para que tomara la interfaz de red correcta (en este caso, \texttt{enp0s3}). 
+
+\begin{verbatim}
+    sudo nano /etc/config/openc2x_common
+    option 'ethernetDevice' 'enp0s3'
+\end{verbatim}
+
+Tras esta corrección, OpenC2X pudo leer la MAC real del sistema y continuar la ejecución sin errores.
+
+\subsubsection*{Conclusión de la instalación}
+
+Con todos estos ajustes (resolución de dependencias, corrección de incompatibilidades en Boost y gpsd, creación de los módulos de configuración y fijación de la interfaz de red) OpenC2X quedó completamente operativo en Ubuntu 24.04.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/OpenC2X_funcionando.PNG}
+    \caption{Ejecución de los modulos GPS, CAM, DCC y LDM de OpenC2X en Ubuntu 24.04}
+    \label{fig:OpenC2X_funcionando}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 4.2. Instalación y validacion de SUMO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Instalación y validación de SUMO}
+
+Se instaló SUMO (Simulation of Urban Mobility) en su versión 1.23.1 mediante los repositorios oficiales, junto con las herramientas auxiliares \texttt{sumo-gui}, \texttt{netconvert}, \texttt{netgenerate} y \texttt{netedit}. La instalación no presentó incidencias, y la herramienta quedó operativa tras la comprobación inicial:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/sumo_version.png}
+    \caption{SUMO 1.23.1 instalado correctamente en Ubuntu 24.04.}
+    \label{fig:sumo_version}
+\end{figure}
+
+    \subsubsection*{Creación del escenario de pruebas}
+    Para validar SUMO y preparar la integración posterior con OpenC2X, se creó un escenario sencillo compuesto por una red cuadrada de cuatro nodos conectados entre sí. Inicialmente se utilizó un fichero de red (\texttt{net.net.xml}) generado manualmente. Aunque su estructura XML era válida (verificada mediante \texttt{xmllint}), SUMO producía un \textit{segmentation fault} al cargarlo, como se observa en la Figura~\ref{fig:sumo_segfault}.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\linewidth]{images/sumo_segfault.png}
+        \caption{Fallo \textit{segmentation fault} al cargar la red generada manualmente.}
+        \label{fig:sumo_segfault}
+    \end{figure}
+
+    Para evitar errores derivados del formato interno, se decidió generar la red de forma automática utilizando \texttt{netgenerate} \cite{netgenerate}:
+
+    \begin{verbatim}
+    netgenerate --grid --grid.number=2 --output-file=net.net.xml
+    \end{verbatim}
+
+    Posteriormente se editó la red con \texttt{netedit} para confirmar su geometría, como se muestra en la Figura~\ref{fig:netedit}.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\linewidth]{images/netedit_grid.png}
+        \caption{Red cuadrada generada con netgenerate y visualizada en netedit.}
+        \label{fig:netedit}
+    \end{figure}
+
+    \subsubsection*{Definición de rutas y vehículo}
+    A continuación, se crearon las rutas del escenario en el fichero \texttt{routes.rou.xml}. Para ello se identificaron los IDs de los edges generados automáticamente (visibles en \texttt{netedit}) y se definió un único vehículo:
+
+    \begin{verbatim}
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" length="5" 
+            maxSpeed="70"/>
+    <route id="r0" edges="A0A1 A1B1 B1B0 B0A0"/>
+    <vehicle id="veh0" type="car" route="r0" depart="0"/>
+</routes>
+    \end{verbatim}
+
+    Finalmente, se creó el archivo de configuración principal \texttt{config.sumocfg}, que referencia tanto la red como las rutas. Al ejecutar el escenario con \texttt{sumo-gui}, la simulación se ejecutó sin errores, validando la instalación:
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.85\textwidth]{images/Sumo_funcionando.png}
+        \caption{Primer escenario en SUMO funcionando correctamente}
+        \label{fig:sumo_sim_ok}
+    \end{figure}
+
+    \subsubsection*{Resultado de la validación}
+    La instalación y validación de SUMO ha permitido crear un escenario simple de prueba con un único vehículo, utilizado posteriormente en la primera validación integrada del sistema.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 4.3. Desarrollo del módulo SumoInterface
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Desarrollo del módulo SumoInterface}
+
+Uno de los avances más significativos del proyecto fue el desarrollo del módulo \texttt{SumoInterface}, encargado de establecer la comunicación entre SUMO y OpenC2X mediante la API TraCI \cite{TraCI}. Este módulo opera como un cliente TraCI integrado dentro de OpenC2X y permite obtener en tiempo real la posición, velocidad y orientación de los vehículos simulados en SUMO, sustituyendo completamente al origen GPS real del sistema.
+
+    \subsubsection*{Motivación y ubicación en la arquitectura}
+    Dado que OpenC2X no incorpora por defecto un cliente TraCI, fue necesario implementar uno nuevo dentro del directorio \texttt{common/interface/} del proyecto (véase Figura~\ref{fig:interface_structure}). El módulo está formado por los ficheros \texttt{SumoInterface.h},
+    \texttt{SumoInterface.cpp} y su correspondiente configuración en CMake.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.35\linewidth]{images/interface_folder.png}
+        \caption{Estructura del directorio interface/ con el módulo SumoInterface.}
+        \label{fig:interface_structure}
+    \end{figure}
+
+    \subsubsection*{Integración con TraCIAPI}
+    El primer paso fue integrar en OpenC2X la biblioteca \texttt{TraCIAPI} \cite{TraCIAPI} oficial de SUMO (versión 1.23.1). Para ello se añadieron explícitamente los siguientes ficheros y directorios en el \texttt{CMakeLists.txt} del módulo:
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.50\linewidth]{images/CMakeList_SumoInterface.PNG}
+        \caption{CMakeLists.txt del directorio interface.}
+        \label{fig:cmakelist_sumointerface}
+    \end{figure}
+
+    \subsubsection*{Problemas de comunicación TraCI}
+    Durante las primeras pruebas de comunicación la simulación arrojaba errores del tipo:
+
+    \begin{verbatim}
+    Error: tcpip::Storage::readIsSafe:
+    want to read 4 bytes from Storage, but only 3 remaining
+    \end{verbatim}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\linewidth]{images/error_4bytes.png}
+        \caption{Error: want to read 4 bytes from Storage, but only 3 remaining.}
+        \label{fig:error 4 bytes}
+    \end{figure}
+
+    Este error se producía en el primer paso de simulación y sugería un problema de descomposición de mensajes TraCI. Las FAQ \cite{FAQ_SUMO} de SUMO indicaba que este fallo podía deberse a incompatibilidades entre versiones de SUMO y clientes TraCI.
+    Se probó con versiones antiguas (SUMO 0.32), pero esta alternativa introducía nuevos fallos, y seguía sin resolver el problema original (Figura~\ref{fig:sumo_old_version}).
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\linewidth]{images/sumo_032_test.png}
+        \caption{Prueba con SUMO 0.32, Error: Expected command length was 154 bytes but 4 Bytes were read.}
+        \label{fig:sumo_old_version}
+    \end{figure}
+
+    El análisis detallado reveló que el error no estaba en SUMO, sino en el cliente TraCI que se había incluido en OpenC2X. La solución definitiva consistió en migrar completamente el módulo de comunicaciones para emplear directamente la biblioteca \texttt{libtraci}
+    de SUMO y generar un cliente TraCI estable y compatible con la versión actual.
+
+    \subsubsection*{Conflictos de símbolos y corrección de cabeceras}
+    La integración de \texttt{libtraci} provocó inicialmente conflictos de enlazado y redefiniciones de funciones, principalmente en \texttt{config.h}, debido a que esta cabecera era incluida múltiples veces en diferentes módulos del sistema. Los errores eran los definidos en la (Figura~\ref{fig:error_librerias}):
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\linewidth]{images/error_librerias.png}
+        \caption{Error de redefinición.}
+        \label{fig:error_librerias}
+    \end{figure}
+
+    Para resolverlo se añadió la directiva \texttt{\#pragma once} en \texttt{config.h}, evitando inclusiones duplicadas, y se marcaron como \texttt{inline} las funciones globales que aparecían redefinidas en distintos ficheros. Con ello se eliminaron todos los conflictos de símbolos.
+
+    \subsubsection*{Funcionalidades implementadas}
+    El módulo SumoInterface proporciona las siguientes capacidades:
+
+    \begin{itemize}
+        \item Establecimiento de conexión TCP con el servidor SUMO.
+        \item Lectura periódica de variables de movilidad (posición, velocidad, orientación) mediante \texttt{TraCIAPI}.
+        \item Conversión de coordenadas SUMO $\rightarrow$ GPS. El módulo transforma las coordenadas internas x,y de SUMO en latitud/longitud WGS84 antes de enviarlas al módulo GPS, permitiendo una representación geográfica válida en OpenC2X.
+        \item Publicación de esos datos al módulo GPS interno de OpenC2X.
+        \item El módulo se ejecuta en cada tick de simulación.
+        \item Gestión de errores y reconexiones controladas para prevenir fallos de sesión.
+    \end{itemize}
+
+    \subsubsection*{Resultado}
+    Con estas operaciones, el módulo SumoInterface ha podido sustituir completamente la posición GPS real por la posición generada por SUMO, de forma transparente para el resto de componentes de OpenC2X, habilitando la integración entre SUMO~$\leftrightarrow$~OpenC2X.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 4.4. Integración con el módulo GPS de OpenC2X
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Integración con el módulo GPS de OpenC2X}
+
+La integración del módulo \texttt{SumoInterface} dentro de la arquitectura de OpenC2X ha requerido sustituir la obtención original de posiciones GPS (realizada mediante \texttt{gpsd}) por los datos de movilidad generados por SUMO a través de la API TraCI. con esta modificación se consigue una simulación coherente entre el movimiento del vehículo en SUMO y los mensajes CAM emitidos por OpenC2X.
+
+    \subsubsection*{Adaptación del módulo \texttt{GpsService}}
+
+    Para incorporar la posición simulada, se modificó el servicio \texttt{GpsService.cpp} de OpenC2X, añadiendo un nuevo modo de operación (\texttt{simulationMode = 2}) en el cual la posición del vehículo ya no se obtiene desde \texttt{gpsd}, sino directamente desde el módulo \texttt{SumoInterface}.
+
+    Los cambios principales realizados fueron:
+
+    \begin{itemize}
+        \item Añadir un puntero a \texttt{SumoInterface} en \texttt{GpsService.h} para permitir la comunicación directa entre ambos módulos.
+        \item Inicializar este componente durante la fase de arranque del servicio cuando \texttt{simulationMode} toma el valor 2.
+        \item Llamar periódicamente a la función \texttt{simulationStep()} del módulo \texttt{SumoInterface} para mantener la sincronización con el avance temporal de SUMO.
+        \item Obtener la posición actual mediante \texttt{getVehiclePosition()}, retornando latitud, longitud y altitud ya convertidas al sistema WGS84.
+        \item Construir un mensaje GPS en formato Protobuf (\texttt{gpsPackage::GPS}) y enviarlo mediante ZeroMQ al resto de módulos dependientes (CAM, DENM, LDM).
+    \end{itemize}
+
+    El módulo GPS de OpenC2X emplea mensajes en formato Protobuf, por lo que los datos de posición recibidos desde SUMO deben empaquetarse en un mensaje \texttt{gpsPackage::GPS} antes de su envío al resto de servicios del sistema.
+
+    Toda esta lógica se implementó en la nueva rutina \texttt{simulateFromSumo()}, que ejecuta el ciclo completo:
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.4\linewidth]{images/rutina_simulateFromSumo.PNG}
+        \caption{Ciclo de la rutina simulateFromSumo().}
+        \label{fig:rutina_simulateFromSumo}
+    \end{figure}
+
+    \subsubsection*{Sincronización entre SUMO y OpenC2X}
+
+    Con esta integración, cada tick de SUMO desencadena inmediatamente la actualización de la posición del vehículo dentro de OpenC2X. Esto garantiza la coherencia espacial y temporal de toda la simulación, permitiendo que los mensajes CAM emitidos por el sistema reflejen fielmente el movimiento del vehículo definido en SUMO.
+
+    El flujo de información queda, por tanto, completamente unificado:
+
+    \begin{center}
+    \textbf{SUMO $\rightarrow$ SumoInterface $\rightarrow$ GpsService $\rightarrow$ CAM}
+    \end{center}
+
+    Este ciclo fue validado al comprobar que las posiciones enviadas al módulo CAM coincidían exactamente con las trayectorias definidas en los ficheros \texttt{.rou.xml} y \texttt{.net.xml} empleados en SUMO.
+
+    \subsubsection*{Ajustes adicionales}
+
+    Durante la integración se realizaron ajustes complementarios:
+
+    \begin{itemize}
+        \item Se modificó el archivo \texttt{CMakeLists.txt} del servicio GPS para enlazarlo correctamente con el módulo \texttt{SumoInterface}.
+        \item Se añadió el parámetro \texttt{system.simConFile} en la configuración del sistema, necesario para indicar el archivo \texttt{routes.rou.xml} desde el cual se obtiene el identificador del vehículo.
+        \item El temporizador interno (\texttt{deadline\_timer}) se ajustó a \texttt{500 ms} para garantizar la estabilidad durante las primeras pruebas.
+    \end{itemize}
+
+    \subsubsection*{Resultado}
+
+    Tras completar esta integración, OpenC2X pudo ejecutar una simulación end-to-end totalmente funcional. SUMO proporcionaba la movilidad, \texttt{SumoInterface} la traducía a un formato compatible, \texttt{GpsService} generaba los mensajes GPS adecuados y el módulo CAM
+    transmitía la información con coherencia.
+
+    Esta integración validó el funcionamiento del ciclo completo SUMO $\leftrightarrow$ OpenC2X, habilitando las pruebas finales del sistema de comunicación V2V.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 4.5. Primera prueba integrada
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Primera prueba integrada: Hola mundo}
+
+Con la integración básica completada, se ejecutó un primer escenario sencillo formado por un único vehículo circulando en la red generada con SUMO.  
+Esta prueba tuvo como objetivo validar el funcionamiento end-to-end del flujo de datos entre la simulación de movilidad (SUMO) y la simulación de comunicaciones (OpenC2X).
+
+Durante la ejecución se verificó lo siguiente:
+
+\begin{itemize}
+  \item SUMO actualizaba la posición del vehículo en cada paso de simulación.
+  \item El módulo \texttt{SumoInterface} recibía los datos a través de TraCI sin pérdidas ni retrasos.
+  \item El módulo GPS de OpenC2X actualizaba su estado correctamente con las coordenadas en WGS84.
+  \item El generador de mensajes CAM producía mensajes coherentes con la posición recibida.
+\end{itemize}
+
+Este resultado permitió confirmar que la arquitectura desarrollada funcionaba de extremo a extremo, validando el flujo completo de información entre ambos simuladores.
+
+    \subsubsection*{Comportamiento del módulo CAM}
+
+    Durante la ejecución también se observaron mensajes del tipo \textit{Ignore heading: not moved more than 0.300000 meters}. Este comportamiento es coherente con la configuración interna del sistema, en el cual se estableció un umbral de desplazamiento mínimo de \textbf{0,3 m} para generar un nuevo mensaje CAM. Es decir, sólo se envía un CAM cuando el vehículo ha cambiado su posición al menos esa distancia o ha transcurrido el intervalo mínimo entre transmisiones. 
+    Por tanto, este comportamiento confirma que el módulo CAM opera correctamente según los parámetros definidos en nuestra implementación.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\textwidth]{images/GPS_CAM_SUMO.PNG}
+        \caption{Hola Mundo con SUMO y los módulos GPS y CAM funcionando de forma integrada}
+        \label{fig:GPS_CAM_SUMO}
+    \end{figure}
+
+    El comportamiento observado demuestra que el flujo \text{SUMO} $\rightarrow$ \text{SumoInterface} $\rightarrow$ \text{GpsService} $\rightarrow$ \text{CAM} opera de manera coherente, garantizando que los datos de movilidad generados en SUMO se reflejan correctamente en los mensajes transmitidos por OpenC2X.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 4.6. Escenario V2V multivehículo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Escenario V2V multivehículo}
+Una vez validada la integración básica SUMO~$\leftrightarrow$~OpenC2X con un único nodo, se procedió a extender el entorno para ejecutar un escenario \textit{V2V} con dos vehículos circulando simultáneamente. El objetivo de esta fase fue verificar el flujo completo de información  entre nodos, la generación de mensajes CAM en paralelo y la correcta recepción de dichos mensajes por parte de los módulos internos de OpenC2X (DCC, LDM y CAMService).
+
+    \subsubsection*{Configuración del escenario}
+
+    Para esta prueba se generó una red sintética en SUMO formada por un trazado cuadrado de 100\,m de lado, y se definieron dos rutas independientes recorriendo el mismo circuito en sentido horario. Los vehículos \texttt{veh0} y \texttt{veh1} se configuraron con parámetros idénticos de aceleración, velocidad y longitud, y se inició la simulación con ambos circulando de forma sincronizada.
+
+    El archivo \texttt{two\_vehicles.rou.xml} establece las rutas y el instante de salida de cada nodo, mientras que en el fichero \texttt{two\_vehicles.sumocfg} se ha definido la configuración general del escenario, incluyendo la activación del servidor TraCI en el puerto por defecto (9999).
+
+    \subsubsection*{Ejecución del escenario}
+
+    La simulación se lanzó mediante el script \texttt{runv2v.sh}, que arranca SUMO y los módulos de OpenC2X dentro de una sesión de \texttt{tmux}. Este script organiza los servicios en paneles independientes para facilitar su monitorización simultánea (Figuras~\ref{fig:two_vehicle_run} y \ref{fig:two_vehicle_run2}).
+
+    En este escenario intervienen los siguientes módulos:
+
+    \begin{itemize}
+        \item \textbf{GPS Service}: recibe la posición simulada desde \textit{SumoInterface}, construye el mensaje GPS en formato Protobuf y lo envía al resto de módulos. Este servicio garantiza que cada vehículo disponga de una posición coherente con su trayectoria en SUMO.
+        \item \textbf{CAM Service (Cooperative Awareness Message)}: genera periódicamente los mensajes CAM a partir de los datos de posición y velocidad proporcionados por el módulo GPS. Estos mensajes representan la información esencial intercambiada entre vehículos en un sistema V2V.
+        \item \textbf{DCC (Decentralized Congestion Control)}: regula la frecuencia de emisión de CAM para evitar saturación del canal. En este escenario controla la aceptación o descarte de mensajes según la disponibilidad de tokens.
+        \item \textbf{LDM (Local Dynamic Map)}: almacena los CAM recibidos de otros vehículos junto con su información temporal, manteniendo una vista local del entorno dinámico.
+    \end{itemize}
+
+    \subsubsection*{Información mostrada en cada panel}
+
+    Las Figuras~\ref{fig:two_vehicle_run} y \ref{fig:two_vehicle_run2} resumen la ejecución completa. Cada panel corresponde a un módulo distinto:
+
+    \begin{itemize}
+        \item \textbf{Panel izquierdo: GPS}.  
+        Se muestran las coordenadas actualizadas de \texttt{veh0} y \texttt{veh1} en cada tick de SUMO. Las posiciones reportadas (latitud y longitud) coinciden exactamente con los datos obtenidos vía TraCI.
+
+        \item \textbf{Panel superior derecho: Generación de CAM}.  
+        Aquí se aprecia la creación de mensajes CAM para ambos vehículos. Además, el sistema aplica reglas de supresión, mostrando líneas como:
+
+        \begin{quote}
+        \texttt{Ignore heading: not moved more than 0.300000 meters}
+        \end{quote}
+
+        Esto confirma que el módulo CAM evita transmitir cuando el desplazamiento desde el último CAM es inferior al umbral de 0.3~m. Además, puede verificarse que cada CAM incorpora exactamente las coordenadas (latitud y longitud) procesadas previamente por el módulo GPS, lo que demuestra que el flujo SUMO~$\rightarrow$~GPS~$\rightarrow$~CAM funciona correctamente y sin pérdidas de información.
+
+        \item \textbf{Panel central derecho: Actividad del módulo DCC}.\\
+        En esta ventana se muestra el comportamiento del módulo \textit{Decentralized Congestion Control} (DCC), encargado de regular la carga del canal y evitar congestiones cuando aumentan las transmisiones CAM.
+
+        Los registros de las Figuras \ref{fig:two_vehicle_run} y \ref{fig:two_vehicle_run2} permiten observar tres tipos de eventos relevantes:
+
+        \begin{itemize}
+            \item \textbf{Recepción de CAM}: líneas como \texttt{CAM received} indican que el módulo DCC está recibiendo correctamente los mensajes procedentes de ambos vehículos.
+            \item \textbf{Control de la cola de prioridad}: mensajes del tipo \texttt{AC 0: received and dropped CAM 2, queue full} muestran cómo DCC aplica las reglas eliminando paquetes cuando la cola asociada a la Access Category 0 alcanza su límite, reproduciendo así condiciones reales de congestión.
+            \item \textbf{Actualización de tokens}: entradas como \texttt{AC 1: added token -> available tokens: 1} reflejan el mecanismo de \textit{token bucket} utilizado por DCC para controlar la tasa de envío permitida por categoría de tráfico.
+        \end{itemize}
+
+        Estos mensajes confirman que el módulo DCC está procesando y filtrando los CAM recibidos, aplicando el control de congestión definido por ETSI y gestionando adecuadamente las colas internas de transmisión.
+        \bigskip
+
+        \item \textbf{Panel inferior derecho: Actividad del módulo LDM}.\\
+        En este panel se muestra el funcionamiento del \textit{Local Dynamic Map} (LDM), el módulo encargado de almacenar la información recibida y mantener una base de datos local coherente sobre el entorno.
+
+        Los registros muestran:
+
+        \begin{itemize}
+            \item \textbf{Recepción de información de control DCC}:  
+            \texttt{dccInfo received}, lo que indica que LDM integra también los eventos informativos publicados por DCC.
+            
+            \item \textbf{Recepción de CAM}:  
+            entradas como \texttt{camInfo received} y \texttt{CAM received} demuestran que LDM está almacenando correctamente los mensajes CAM emitidos por ambos vehículos.
+        \end{itemize}
+
+        El comportamiento observado en esta ventana verifica que el módulo LDM mantiene un registro coherente de los estados de los vehículos del entorno, funcionando como capa de agregación y memoria local dentro de OpenC2X.
+    \end{itemize}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{images/sumo_two_vehicles.png}
+        \caption{Escenario V2V con dos vehículos ejecutándose en SUMO.}
+        \label{fig:sumo_two_vehicles}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{images/two_vehicle_logs.png}
+        \caption{Ejecución conjunta de SUMO y OpenC2X en el escenario V2V multivehículo. 
+        Se observan los mensajes GPS, CAM, DCC y LDM.}
+        \label{fig:two_vehicle_run}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{images/two_vehicle_logs2.PNG}
+        \caption{Ejecución conjunta de SUMO y OpenC2X en el escenario V2V multivehículo. 
+        Se observan los mensajes GPS, CAM, DCC y LDM.}
+        \label{fig:two_vehicle_run2}
+    \end{figure}
+
+    \subsubsection*{Validación del correcto funcionamiento}
+
+    A partir de esta prueba puede afirmarse que:
+
+    \begin{itemize}
+        \item La posición de \texttt{veh0} y \texttt{veh1} fluye correctamente desde SUMO hasta el módulo CAM.
+        \item Las coordenadas incluidas en los CAM coinciden exactamente con las coordenadas mostradas en el módulo GPS.
+        \item Los módulos DCC y LDM reciben, procesan y almacenan cada mensaje sin pérdidas.
+        \item La comunicación V2V entre ambos vehículos queda establecida de forma completa y coherente.
+    \end{itemize}
+
+    Esta prueba confirma la validez del diseño implementado.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 4.7. Escenario V2I
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Integración V2I mediante detección de semáforo}
+La integración inicial entre SUMO$\leftrightarrow$OpenC2X permitió validar la comunicación V2V mediante mensajes CAM. 
+En esta sección se amplía el sistema para incorporar comunicación \textit{Vehicle-to-Infrastructure} (V2I), permitiendo que el vehículo detecte un semáforo en fase roja y genere un mensaje DENM (\textit{Decentralized Environmental Notification Message}) indicando una situación de peligro.
+
+Esta funcionalidad representa un caso de uso realista en sistemas cooperativos CITS (Cooperative Intelligent Transport Systems), donde la infraestructura proporciona información contextual al vehículo para mejorar la seguridad vial.
+
+    \subsubsection*{Creación del semáforo en SUMO}
+
+    El primer paso consistió en incorporar un semáforo real a la red construida con \texttt{netgenerate}. 
+    Para ello, se editó la intersección \texttt{A1} mediante \texttt{netedit}, lo que permitió definir manual y visualmente el ciclo completo del semáforo \cite{tutorial_sumo_semaforo}.  
+    En SUMO, cada semáforo se describe como una secuencia de \textit{fases}, donde cada fase especifica:
+
+    \begin{itemize}
+        \item La \textbf{duración} en segundos.
+        \item La \textbf{cadena de estado}, formada por caracteres que representan cada corriente de tráfico.
+        \item La transición hacia la fase siguiente.
+    \end{itemize}
+
+    Los caracteres utilizados por SUMO son los siguientes:
+
+    \begin{itemize}
+        \item \texttt{G}: verde (\textit{go})
+        \item \texttt{g}: verde protegiendo otros movimientos (\textit{protected green})
+        \item \texttt{y}: amarillo
+        \item \texttt{r}: rojo
+    \end{itemize}
+
+    Cada posición dentro de la cadena corresponde a un \textit{link} del cruce (entradas/salidas específicas del nodo).  
+    En la Figura~\ref{fig:netedit_semaforo} se muestra el ciclo diseñado para la intersección, compuesto por seis fases que alternan el derecho de paso entre los ejes horizontal y vertical.  
+    El ciclo definido es el siguiente:
+
+    \begin{enumerate}
+        \item \textbf{Fase 0 (42 s):} \texttt{GggrrrGGg}.  
+        El eje horizontal recibe luz verde, mientras el vertical permanece en rojo.
+        \item \textbf{Fase 1 (3 s):} \texttt{yyyrrrGyy}.  
+        Transición de verde a rojo mediante fase amarilla en los movimientos que estaban activos.
+        \item \textbf{Fase 2 (1 s):} \texttt{rrrrrrrrr}.  
+        Fase de seguridad donde todos los movimientos permanecen en rojo.
+        \item \textbf{Fase 3 (42 s):} \texttt{rrrGGgGrr}.  
+        El eje vertical obtiene luz verde y el horizontal se mantiene en rojo.
+        \item \textbf{Fase 4 (3 s):} \texttt{rrryyyGrr}.  
+        Transición a rojo para el eje vertical.
+        \item \textbf{Fase 5 (1 s):} \texttt{rrrrrrrrr}.  
+        Segunda fase de seguridad antes de reiniciar el ciclo.
+    \end{enumerate}
+
+    Las fases amarillas y las fases de seguridad (\textit{all-red}) son necesarias para garantizar un comportamiento realista del cruce y evitar conflictos entre movimientos opuestos.  
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.80\textwidth]{images/netedit_semaforo.PNG}
+        \caption{Definición del ciclo del semáforo en \texttt{netedit}.}
+        \label{fig:netedit_semaforo}
+    \end{figure}
+
+    SUMO expone en todo momento el estado del semáforo mediante la API TraCI, lo que permite que OpenC2X consulte en tiempo real qué fase está activa y utilice esta información para activar los eventos V2I.
+
+    \subsubsection*{Lógica de detección de semáforo en OpenC2X}
+    Para habilitar la comunicación V2I se extendió el módulo \texttt{SumoInterface} añadiendo una rutina capaz de:
+
+    \begin{itemize}
+        \item Consultar el estado del semáforo mediante: \\ 
+        \texttt{trafficlights.getRedYellowGreenState()};
+        \item Obtener la posición del vehículo principal con \texttt{vehicle.getPosition()};
+        \item Calcular la distancia entre el vehículo y el semáforo.
+        \item Detectar si existe al menos un carril en fase roja.
+        \item Activar un aviso interno cuando el vehículo se encuentra a menos de 25 metros.
+    \end{itemize}
+
+    La función nombrada \texttt{isRedLightAhead()} se encarga únicamente de detectar si el vehículo se aproxima a un semáforo en fase roja. Esta función no envía directamente ningún mensaje, sino que actualiza una variable interna (\texttt{m\_pendingWarning}) que será procesada posteriormente por el módulo \texttt{GpsService}, encargado de generar los \textit{triggers} externos del sistema OpenC2X.
+
+    La siguiente imagen muestra la función principal de detección:
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{images/isRedLightAhead.PNG}
+        \caption{Función de detección del semáforo.}
+        \label{fig:isRedLightAhead}
+    \end{figure}
+
+    Durante la simulación, la consola muestra la detección con trazas como la de la Figura~\ref{fig:detectando_rojo}.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\textwidth]{images/V2I_coche_y_semaforo_SUMO.PNG}
+        \caption{Detección del vehículo aproximándose al semáforo en rojo.}
+        \label{fig:detectando_rojo}
+    \end{figure}
+
+    \subsubsection*{Activación del mensaje DENM desde el módulo GPS}
+    Tras analizar los módulos disponibles en OpenC2X, se determinó que GpsService era el módulo más adecuado para activar los eventos externos, ya que recibe actualizaciones de SUMO en cada \textit{tick}.
+
+    Es importante destacar que, en la implementación original de OpenC2X, el módulo \texttt{GpsService} no generaba ningún tipo de \textit{trigger} ni activaba eventos externos. Su funcionalidad se limitaba al envío periódico de coordenadas GPS hacia los módulos CAM y DENM.
+
+    La integración V2I realizada en este trabajo ha permitido activar eventos DENM a partir de la información procedente de la infraestructura. Para ello, se añadió a \texttt{GpsService} la lógica necesaria para:
+
+    \begin{itemize}
+        \item Consultar a \texttt{SumoInterface} si el vehículo se aproxima a un semáforo en rojo.
+        \item Interpretar esta condición como un evento de peligro.
+        \item Enviar un \textit{trigger} al módulo DENM utilizando el puerto 1111.
+        \item Delegar en DENM la generación del mensaje cooperativo (DENM).
+    \end{itemize}
+
+    Para permitir que la infraestructura enviase avisos de tipo V2I, fue necesario modificar \texttt{GpsService} añadiendo un canal de comunicación adicional hacia el módulo \texttt{DENM}. 
+    
+    En concreto, se creó un objeto \texttt{CommunicationSender} persistente, inicializado en el constructor de GpsService y asociado al puerto \textbf{1111}, que es el puerto utilizado por \texttt{DenService} para recibir eventos externos (\textit{triggers}):
+
+    \begin{verbatim}
+    m_triggerSender = new CommunicationSender("1111", *mLogger);
+    \end{verbatim}
+
+    De este modo, cuando \texttt{SumoInterface} detecta que un vehículo se aproxima a un semáforo en rojo, marca un aviso pendiente.
+    En el ciclo de ejecución de \texttt{GpsService}, dicho aviso se envía realmente a \texttt{DENM} mediante el siguiente fragmento:
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{images/send_red_light.PNG}
+        \caption{Envia un trigger cuando hay un aviso pendiente.}
+        \label{fig:send_red_light}
+    \end{figure}
+
+    El puerto \textbf{1111} es el receptor definido por \texttt{DenService} para la recepción de mensajes externos etiquetados como \texttt{TRIGGER}. Una vez recibido, el módulo \texttt{DENM} genera un nuevo mensaje de alarma tipo \texttt{DENM}, lo codifica y lo envía a \texttt{DCC}, que gestiona el acceso al canal radio. Finalmente, el mensaje queda registrado en el \texttt{LDM}, cerrando así el flujo completo de comunicación V2I.
+
+    \subsubsection*{Resultados de la integración V2I}
+    La Figura~\ref{fig:v2i_logs} muestra el funcionamiento completo del sistema:
+
+    \begin{itemize}
+        \item Detección del semáforo en rojo por parte del vehículo.
+        \item Activación del evento interno en \texttt{SumoInterface}.
+        \item Envío del \texttt{TRIGGER RED\_LIGHT} desde GPS.
+        \item Recepción del trigger por parte del módulo DENM.
+        \item Generación y envío del mensaje DENM.
+        \item Recepción y procesamiento por parte de DCC y LDM.
+    \end{itemize}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\textwidth]{images/V2I_coche_y_semaforo_2.PNG}
+        \caption{Flujo completo de comunicación V2I: generación y envío de un mensaje DENM.}
+        \label{fig:v2i_logs}
+    \end{figure}
+
+    La integración realizada demuestra que OpenC2X es capaz de procesar eventos de la infraestructura mediante SUMO, generando mensajes DENM de forma automática y coherente con el estándar ETSI ITS-G5.

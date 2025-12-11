@@ -1,0 +1,44 @@
+\section{Conclusiones y trabajos futuros}
+
+\subsection{Conclusiones}
+
+El objetivo principal del Trabajo Final de Máster se ha alcanzado con éxito, logrando integrar SUMO y OpenC2X en un entorno de simulación reproducible que permite analizar el flujo completo SUMO $\rightarrow$ TraCI $\rightarrow$ GPS $\rightarrow$ CAM $\rightarrow$ LDM.
+Los resultados experimentales permiten extraer las siguientes conclusiones:
+
+\begin{itemize}
+    \item \textbf{Integración estable SUMO$\leftrightarrow$OpenC2X.} La migración de OpenC2X a Ubuntu~24.04 y el desarrollo del módulo \textit{SumoInterface} han permitido sustituir la fuente GPS real por la posición simulada, garantizando coherencia temporal y espacial.
+    \item \textbf{Pipeline robusto.} El flujo SUMO~$\rightarrow$~GPS~$\rightarrow$~CAM~$\rightarrow$~LDM. se mantiene estable en todos los escenarios evaluados.
+    \item \textbf{Latencias internas muy bajas.} Con DCC activado, la latencia CAM $\rightarrow$ LDM se mantiene en 1-2 ms incluso con 100 vehículos.
+    \item \textbf{Importancia del DCC.} Al desactivar DCC, la latencia interna aumenta de forma significativa, confirmando su papel como mecanismo esencial de regulación.
+    \item \textbf{Extensibilidad hacia comunicaciones V2I.}
+    Además del flujo V2V, se ha incorporado una extensión funcional que habilita la generación de mensajes DENM a partir de eventos procedentes de la infraestructura (p.\,ej., detección de un semáforo en rojo en SUMO). Las pruebas realizadas (incluyendo escenarios con múltiples semáforos) confirmaron el correcto funcionamiento del flujo SUMO~$\rightarrow$~OpenC2X~$\rightarrow$~DENM, obteniéndose latencias muy bajas (2-3 ms) y un PDR prácticamente del 100\,\%, demostrando que la arquitectura es compatible con la incorporación de funcionalidades V2I sin cambios estructurales en OpenC2X.
+    \item \textbf{Reproducibilidad y bajo coste.} El uso de software libre y hardware estándar ha reducido el coste económico y además, facilita la replicación del entorno.
+\end{itemize}
+
+En conjunto, el sistema desarrollado demuestra que es posible integrar de forma eficiente un simulador de tráfico y una pila V2X en un mismo entorno, habilitando análisis controlados y repetibles.
+
+\subsection{Limitaciones}
+
+Aunque los objetivos se han cumplido, existen limitaciones inherentes al enfoque utilizado:
+
+\begin{itemize}
+    \item El sistema emplea un único nodo OpenC2X; el resto de vehículos no ejecutan módulos V2X reales.
+    \item La latencia evaluada corresponde únicamente al procesamiento interno CAM$\rightarrow$LDM.
+    \item Los escenarios SUMO son sintéticos y de complejidad limitada.
+    \item No se han considerado mecanismos de seguridad.
+\end{itemize}
+
+\subsection{Trabajos futuros}
+
+A partir del trabajo realizado, se identifican varias líneas de mejora:
+
+\begin{itemize}
+    \item Ejecución multinodo de OpenC2X para evaluar métricas V2V reales.
+    \item Extender el mecanismo desarrollado para semáforos a otros elementos de infraestructura (señales dinámicas, detección de obras, atascos, etc.).
+    \item Integrar el sistema con frameworks como Veins o MOSAIC para incorporar simulaciones de radio realistas mediante OMNeT++ o ns-3.
+    \item Creación de escenarios SUMO más complejos o basados en mapas reales.
+    \item Estudiar mecanismos de detección de intrusiones en el entorno V2X, incorporando módulos de IDS (Intrusion Detection Systems) que permitan identificar comportamientos anómalos o mensajes no legítimos en la red \cite{intrusion_detection}.
+    \item Estudio del comportamiento del DCC en escenarios dinámicos.
+    \item Desarrollo de una interfaz gráfica de monitorización del sistema.
+    \item Automatización completa de la generación de escenarios, ejecución y análisis.
+\end{itemize}
