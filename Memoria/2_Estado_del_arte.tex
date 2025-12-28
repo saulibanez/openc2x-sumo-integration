@@ -4,13 +4,13 @@ Aunque estas cifras suponen una mejora respecto a años anteriores, reflejan la 
 
 A nivel internacional, los datos son igualmente significativos. En Corea del Sur, durante el año 2022 se registraron 196836 accidentes de tráfico con 2735 fallecimientos, una reducción del 6.2\% respecto al año anterior. Sin embargo, el número de muertes en accidentes que involucraron vehículos de dos ruedas, como motocicletas o patinetes eléctricos, aumentó un 36.8\% \cite{V2X_Corea}. Para reducir estos accidentes y fallecimientos, se están desarrollando CITS (Cooperative Intelligent Transport Systems) y servicios de conducción autónoma que combinan la fusión de sensores y las tecnologías de comunicación de vehículo a todo (V2X).
 
-El artículo añade que los sensores habituales en conducción autónoma (como las cámaras, radares y lidar) presentan limitaciones bajo condiciones meteorológicas adversas, motivo por el cual se pone de manifiesto la relevancia mundial del desarrollo de las tecnologías V2X, orientadas a mejorar la seguridad vial mediante la comunicación cooperativa entre vehículos (V2V) y entre vehículos e infraestructuras (V2I).
+El artículo añade que los sensores habituales en conducción autónoma (como las cámaras, radares y sensores) presentan limitaciones bajo condiciones meteorológicas adversas, motivo por el cual se pone de manifiesto la relevancia mundial del desarrollo de las tecnologías V2X, orientadas a mejorar la seguridad vial mediante la comunicación cooperativa entre vehículos (V2V) y entre vehículos e infraestructuras (V2I).
 
 En este marco se sitúa el presente trabajo, que estudia y evalúa la comunicación V2V mediante mensajes CAM (Cooperative Awareness Messages) utilizando la plataforma OpenC2X y el simulador de tráfico SUMO, con el objetivo de analizar el comportamiento y las prestaciones de las comunicaciones vehiculares en entornos controlados y reproducibles.
 
 \subsection{Tecnologías V2X y requisitos de servicio}
     \subsubsection{Comunicaciones V2X basadas en ITS-G5}
-    El estándar ETSI ITS-G5, constituye la base tecnológica de la comunicación cooperativa vehicular en Europa \cite{Demo_OpenC2X}.
+    El estándar ETSI ITS-G5 constituye la base tecnológica de la comunicación cooperativa vehicular en Europa \cite{Demo_OpenC2X}.
 
     OpenC2X se ha consolidado como una plataforma de software abierta que implementa la pila ETSI ITS-G5 sobre IEEE 802.11p, con un diseño modular y extensible. OpenC2X consta de módulos altamente independientes, que pueden ampliarse y reutilizarse fácilmente. Esta característica permite que cada componente se ejecute de forma independiente, simplificando el desarrollo y las pruebas.
 
@@ -18,25 +18,23 @@ En este marco se sitúa el presente trabajo, que estudia y evalúa la comunicaci
 
     Los mensajes CAM se generan de forma periódica cuando cambia la posición, la velocidad o el rumbo al menos una vez por segundo. El módulo LDM (Local Dynamic Map) almacena tanto los mensajes enviados como los recibidos, lo que permite monitorear en tiempo real y realizar un análisis posterior.
 
-    En cuanto a la información de detección, la plataforma utiliza el servicio gpsd de Linux para obtener datos de posición, velocidad y tiempo, y admite el uso de trazas GPS previamente registradas.
+    En cuanto a la información de detección, la plataforma utiliza el servicio \texttt{gpsd} de Linux para obtener datos de posición, velocidad y tiempo, y admite el uso de trazas GPS previamente registradas. Además, OpenC2X implementa los principales servicios definidos por ETSI, incluyendo los mensajes CAM y DENM, así como el mecanismo DCC. El módulo LDM permite almacenar información local y monitorizar los mensajes intercambiados en tiempo real. La arquitectura de alto nivel de OpenC2X y su correspondencia con la pila ETSI ITS-G5 se muestran en la Figura~\ref{fig:arquitectura_OpenC2X}.
 
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=0.7\textwidth]{images/arquitectura_OpenC2X.PNG}
-        \caption{High-level architecture of OpenC2X realizing ETSI ITS-G5 stack.
-        The modules communicate with each other via ZeroMQ. Dashed modules are
-        not yet implemented in OpenC2X.}
+        \caption{Arquitectura de alto nivel de OpenC2X.}
         \label{fig:arquitectura_OpenC2X}
     \end{figure}
 
-    Las pruebas de realizadas con equipos comerciales demuestran interoperabilidad del entorno, recibiendo y enviando mensajes CAM y DENM con un Cohda MK5.
+    Las pruebas realizadas con equipos comerciales demuestran interoperabilidad del entorno, recibiendo y enviando mensajes CAM y DENM con un Cohda MK5.
 
     \subsubsection{Comunicaciones V2X basadas en C-V2X}
     En paralelo a las tecnologías ITS-G5, la industria de las telecomunicaciones ha desarrollado la familia Cellular V2X (C-V2X) \cite{Evolutionary_V2X}, que aprovecha la infraestructura móvil existente y la interfaz PC5 (sidelink) para la comunicación directa entre vehículos. 
 
     C-V2X combina dos modos de transmisión complementarios: el modo LTE-PC5, que permite la comunicación directa entre vehículos dentro de un área de proximidad sin pasar por la infraestructura, y el modo LTE-Uu, que utiliza la red celular cuando el vehículo se encuentra bajo cobertura.
 
-    Una de las ventajas fundamentales de C-V2X frente a ITS-G5 es su esquema de acceso al medio. Mientras que 802.11p utiliza un mecanismo de contienda CSMA/CA, C-V2X emplea un planificador (scheduler) para asignar recursos de radio de forma controlada. Esto permite reducir colisiones e interferencias, además de ofrecer garantías de calidad de servicio (QoS).
+    Una de las ventajas fundamentales de C-V2X frente a ITS-G5 es su esquema de acceso al medio. Mientras que ITS-G5, basado en el estándar IEEE 802.11p, utiliza un mecanismo de contienda CSMA/CA, C-V2X emplea un planificador (scheduler) para asignar recursos de radio de forma controlada. Esto permite reducir colisiones e interferencias, además de ofrecer garantías de calidad de servicio (QoS).
 
     \subsubsection{Comunicaciones V2X basadas en 5G NR V2X}
     Con la llegada de 5G NR (New Radio) V2X  \cite{V2X_tutorial} se introducen funcionalidades avanzadas diseñadas para soportar los casos de uso más exigentes de la conducción conectada y automatizada.
@@ -50,7 +48,7 @@ En este marco se sitúa el presente trabajo, que estudia y evalúa la comunicaci
         \centering
         \includegraphics[width=1\textwidth]{images/Requerimientos_3GPP.PNG}
         \caption{Rangos de requisitos para los casos de uso de 3GPP.}
-        \label{fig:arquitectura_OpenC2X}
+        \label{fig:requerimientos_3GPP}
     \end{figure}
 
     Asimismo, países como Corea del Sur han impulsado proyectos nacionales de despliegue de 5G NR V2X, destacando que esta tecnología admite velocidades ultra altas, retrasos ultra bajos y alta fiabilidad, con objetivos de más de 150 Mbps de capacidad, latencias inferiores a 3 ms y fiabilidad superior al 99.99\%.
@@ -101,7 +99,7 @@ En este marco se sitúa el presente trabajo, que estudia y evalúa la comunicaci
     Cuando un vehículo recibe estos mensajes, el módulo OpenC2X decodifica la información, la almacena en el Local Dynamic Map (LDM) y la reenvía a Autoware para su visualización.
 
 \subsection{SUMO (Simulation of Urban Mobility)}
-SUMO es un paquete de simulación de tráfico continuo, microscópico, altamente portátil y de código abierto, diseñado para gestionar grandes redes. Permite la simulación intermodal, incluyendo peatones, e incluye un amplio conjunto de herramientas para la creación de escenario \cite{SUMO}.
+SUMO es un paquete de simulación de tráfico continuo, microscópico, altamente portátil y de código abierto, diseñado para gestionar grandes redes. Permite la simulación intermodal, incluyendo peatones, e incluye un amplio conjunto de herramientas para la creación de escenarios \cite{SUMO}.
 
 Las caracteristicas más destacadas de SUMO son \cite{Sumo_article}:
 \begin{itemize}

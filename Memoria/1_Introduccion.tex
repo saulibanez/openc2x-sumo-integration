@@ -3,7 +3,9 @@
 \subsection{Contexto y justificación del trabajo}
 Las tecnologías \textit{V2X (Vehicle-to-Everything)} representan uno de los pilares fundamentales de la movilidad conectada y de los sistemas de transporte cooperativos. Su capacidad para mejorar la seguridad vial, optimizar el tráfico y habilitar nuevos servicios inteligentes ha impulsado un creciente interés académico y profesional en el estudio, evaluación y despliegue de estas tecnologías. En este contexto, surge la necesidad de contar con entornos de simulación que permitan analizar el comportamiento de los sistemas V2X de forma controlada, reproducible y accesible.
 
-Este trabajo se enmarca en dicha necesidad, proponiendo el diseño e implementación de un entorno de simulación que integra SUMO y OpenC2X para analizar la comunicación V2V. La presente sección desarrolla el contexto general del proyecto, su motivación, el ámbito en el que se sitúa, el problema que pretende abordar y su relevancia en el marco del Máster Universitario en Ingeniería de Telecomunicación.
+Este trabajo se enmarca dentro de dicha necesidad, proponiendo el diseño e implementación de un entorno de simulación que integra SUMO y OpenC2X para el análisis de comunicaciones V2X. Aunque el foco principal del estudio se centra en escenarios V2V, el sistema desarrollado ha permitido extender el análisis a escenarios V2I.
+
+La presente sección desarrolla el contexto general del proyecto, su motivación, el ámbito en el que se sitúa, el problema que pretende abordar y su relevancia en el marco del Máster Universitario en Ingeniería de Telecomunicación.
 
     \subsubsection{Motivación del proyecto}
     La evolución hacia las ciudades inteligentes y la movilidad conectada está impulsando el desarrollo de nuevas tecnologías de comunicación vehicular. En este contexto, las redes vehiculares (VANETs) y, en particular, la comunicación \textit{V2X} (Vehicle-to-Everything), permiten el intercambio de información entre vehículos (\textit{V2V}), vehículo a red (\textit{V2N}) y entre vehículos e infraestructuras (V2I), contribuyendo a mejorar la seguridad vial, reducir los accidentes y optimizar el flujo del tráfico urbano.
@@ -21,7 +23,7 @@ Este trabajo se enmarca en dicha necesidad, proponiendo el diseño e implementac
     No se van a abordar aspectos como la autenticación, seguridad PKI o simulación de canales radioeléctricos físicos.
 
     \subsubsection{Problema que intenta resolver}
-    La validación práctica de tecnologías V2X suele requerir infraestructuras costosas y entornos de prueba complejos. Este proyecto propone un entorno de simulación reproducible y económico, basado en herramientas de código abierto, que permita estudiar la comunicación V2V y evaluar su rendimiento en distintos contextos de movilidad.
+    La validación práctica de tecnologías V2X suele requerir infraestructuras costosas y entornos de prueba complejos. Este proyecto propone un entorno de simulación reproducible y económico, basado en herramientas de código abierto, que permita estudiar la comunicación V2V y V2I, así como evaluar su rendimiento en distintos contextos de movilidad.
 
     El objetivo es disponer de una plataforma flexible que facilite el análisis de parámetros como la latencia, la tasa de entrega de mensajes o la estabilidad de la conexión entre nodos.
 
@@ -110,7 +112,7 @@ En primer lugar, el proyecto se basa íntegramente en herramientas de software l
 
 Desde una perspectiva ética, el trabajo contribuye al avance de los sistemas cooperativos ITS orientados a la seguridad vial. La simulación de comunicaciones V2X permite reproducir situaciones de riesgo sin poner en peligro a personas, infraestructuras o vehículos, garantizando así un enfoque responsable en el análisis experimental.
 
-En términos de diversidad e inclusión, las tecnologías V2X tienen el potencial de mejorar la movilidad urbana y la seguridad de colectivos especialmente vulnerables, como personas mayores, peatones, ciclistas o usuarios con movilidad reducida. Aunque este TFM aborda la integración desde un punto de vista técnico, el desarrollo de sistemas de transporte más eficientes y cooperativos contribuye a un entorno urbano más seguro, accesible e igualitario.
+En términos de diversidad e inclusión, las tecnologías V2X tienen el potencial de mejorar la movilidad urbana y la seguridad de colectivos especialmente vulnerables, como personas mayores, peatones, ciclistas o usuarios con movilidad reducida. Aunque en este trabajo se aborda la integración desde un punto de vista técnico, el desarrollo de sistemas de transporte más eficientes y cooperativos contribuye a un entorno urbano más seguro, accesible e igualitario.
 
 \subsection{Enfoque y metodología seguida}
 El trabajo se ha desarrollado siguiendo un enfoque incremental y basado en validación continua. En una primera fase se aseguró la correcta instalación, compilación y ejecución de OpenC2X en un entorno moderno, resolviendo incompatibilidades con bibliotecas y dependencias. Posteriormente, se integró SUMO mediante la API TraCI, desarrollando el módulo SumoInterface para sincronizar en tiempo real la movilidad simulada con los servicios internos de OpenC2X. Cada avance técnico se verificó mediante pruebas unitarias y funcionales, siguiendo una metodología experimental en la que se comparaban los resultados obtenidos con el comportamiento esperado del sistema. Finalmente, se definieron escenarios de simulación progresivos y se evaluó el rendimiento del sistema utilizando métricas estandarizadas en el ámbito de las comunicaciones V2X.

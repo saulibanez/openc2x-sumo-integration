@@ -79,7 +79,7 @@ En el caso de las pruebas con DCC desactivado, la latencia aumenta significativa
 
 \subsubsection{Visualización comparativa de resultados}
 
-Para complementar los valores resumidos en el Cuadro~\ref{tab:resultados_v2v}, se incluyen a continuación las tres gráficas principales obtenidas a partir del análisis de los escenarios de 10, 20, 50 y 100 vehículos, tanto con DCC activado como desactivado.
+Para complementar los valores resumidos en la Tabla~\ref{tab:resultados_v2v}, se incluyen a continuación las tres gráficas principales obtenidas a partir del análisis de los escenarios de 10, 20, 50 y 100 vehículos, tanto con DCC activado como desactivado.
 
 \begin{figure}[H]
     \centering
@@ -161,7 +161,7 @@ El vehículo circula siguiendo una ruta predefinida en SUMO que le lleva a pasar
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{images/v2i_map.png}
-    \caption{Escenario SUMO utilizado con 4 semáforos activos.}
+    \caption{Escenario SUMO con 5 semáforos activos.}
     \label{fig:v2i_scenario}
 \end{figure}
 
@@ -209,7 +209,7 @@ La Tabla~\ref{tab:v2i_results} resume los resultados obtenidos para 1, 2, 3, 4 y
 1 & 32  & 32  & 100 & 2.41 & 5  \\
 2 & 62  & 62  & 100 & 2.81 & 9  \\
 3 & 90  & 90  & 100 & 2.91 & 9  \\
-4 & 144 & 143 & 99.31 & 2.68 & 9 \\
+4 & 144 & 144 & 100 & 2.68 & 9 \\
 5 & 192 & 192 & 100 & 2.76 & 15 \\
 \end{tabular}
 \caption{Resultados de latencia y PDR en el escenario V2I.}
@@ -217,8 +217,8 @@ La Tabla~\ref{tab:v2i_results} resume los resultados obtenidos para 1, 2, 3, 4 y
 \end{table}
 
 \subsubsection{Análisis}
-Los resultados muestran una latencia muy baja y estable (2-3 ms) incluso cuando el número de semáforos aumenta significativamente.  
-El PDR permanece en el 100\% en todos los casos salvo para 4 semáforos, donde se detectó un único emparejamiento no válido debido a una latencia negativa puntual en el log.
+Los resultados muestran una latencia muy baja y estable (2-3 ms) incluso cuando el número de semáforos aumenta significativamente.
+El PDR permanece en el 100\% en todos los casos analizados.
 
 No se detectaron duplicados, pérdidas reales ni inconsistencias en los identificadores.  
 Esto confirma que el flujo \textit{Trigger $\rightarrow$ DENM $\rightarrow$ LDM} es robusto, reproducible y estable bajo distintos niveles de carga de infraestructura.

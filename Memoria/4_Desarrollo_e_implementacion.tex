@@ -17,12 +17,12 @@ En primer lugar, se descargó el código fuente actualizado desde el repositorio
 Durante la fase de configuración del proyecto (\texttt{cmake ..}) aparecieron fallos relacionados con las bibliotecas \texttt{uci} y \texttt{libubox}, utilizadas por el módulo de configuración interna del sistema. Dado que no existen paquetes compatibles en Ubuntu 24.04, ambas bibliotecas se descargaron desde los repositorios oficiales de OpenWRT \cite{UCI} \cite{libubox} y se compilaron manualmente. Tras su instalación, fue necesario actualizar la ruta de bibliotecas mediante la variable \texttt{LD\_LIBRARY\_PATH}.
 
 \subsubsection*{Correcciones en el código fuente}
-Una vez resueltas las dependencias, la compilación volvió a fallar debido a cambios en las APIs de Boost. Concretamente, la función \texttt{\small boost::\allowbreak posix\_time::millisec()} no admite valores de tipo \texttt{double} en las versiones recientes de la biblioteca, lo que provocaba errores en varios módulos (\texttt{ChannelProber.cpp}, \texttt{PktStatsCollector.cpp}, \texttt{dcc.cpp}). La solución consistió en realizar conversiones explícitas a entero:
+Una vez resueltas las dependencias, la compilación volvió a fallar debido a cambios en las APIs de Boost. Concretamente, la función \texttt{\small boost::\allowbreak posix\_time::millisec()} no admite valores de tipo \texttt{double} en las versiones recientes de la biblioteca, lo que provocaba errores en varios módulos (\texttt{ChannelProber.cpp}, \texttt{PktStatsCollector.cpp}, \texttt{dcc.cpp}). La solución consistió en realizar conversiones explícitas a entero, tal y como se muestra en la Figura~\ref{fig:conversion_a_entero}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{images/conversion_a_entero.png}
-    \caption{boost::posix\_time::millisec((int)(probeInterval * 1000))}
+    \caption{Uso de \texttt{boost::posix\_time::millisec()} con conversión explícita.}
     \label{fig:conversion_a_entero}
 \end{figure}
 
@@ -265,7 +265,7 @@ Uno de los avances más significativos del proyecto fue el desarrollo del módul
     de SUMO y generar un cliente TraCI estable y compatible con la versión actual.
 
     \subsubsection*{Conflictos de símbolos y corrección de cabeceras}
-    La integración de \texttt{libtraci} provocó inicialmente conflictos de enlazado y redefiniciones de funciones, principalmente en \texttt{config.h}, debido a que esta cabecera era incluida múltiples veces en diferentes módulos del sistema. Los errores eran los definidos en la (Figura~\ref{fig:error_librerias}):
+    La integración de \texttt{libtraci} provocó inicialmente conflictos de enlazado y redefiniciones de funciones, principalmente en \texttt{config.h}, debido a que esta cabecera era incluida múltiples veces en diferentes módulos del sistema. Los errores eran los definidos en la Figura~\ref{fig:error_librerias}:
 
     \begin{figure}[H]
         \centering
@@ -282,7 +282,7 @@ Uno de los avances más significativos del proyecto fue el desarrollo del módul
     \begin{itemize}
         \item Establecimiento de conexión TCP con el servidor SUMO.
         \item Lectura periódica de variables de movilidad (posición, velocidad, orientación) mediante \texttt{TraCIAPI}.
-        \item Conversión de coordenadas SUMO $\rightarrow$ GPS. El módulo transforma las coordenadas internas x,y de SUMO en latitud/longitud WGS84 antes de enviarlas al módulo GPS, permitiendo una representación geográfica válida en OpenC2X.
+        \item Conversión de coordenadas SUMO $\rightarrow$ GPS. El módulo transforma las coordenadas internas x, y de SUMO en latitud/longitud WGS84 antes de enviarlas al módulo GPS, permitiendo una representación geográfica válida en OpenC2X.
         \item Publicación de esos datos al módulo GPS interno de OpenC2X.
         \item El módulo se ejecuta en cada tick de simulación.
         \item Gestión de errores y reconexiones controladas para prevenir fallos de sesión.
@@ -297,7 +297,7 @@ Uno de los avances más significativos del proyecto fue el desarrollo del módul
 
 \subsection{Integración con el módulo GPS de OpenC2X}
 
-La integración del módulo \texttt{SumoInterface} dentro de la arquitectura de OpenC2X ha requerido sustituir la obtención original de posiciones GPS (realizada mediante \texttt{gpsd}) por los datos de movilidad generados por SUMO a través de la API TraCI. con esta modificación se consigue una simulación coherente entre el movimiento del vehículo en SUMO y los mensajes CAM emitidos por OpenC2X.
+La integración del módulo \texttt{SumoInterface} dentro de la arquitectura de OpenC2X ha requerido sustituir la obtención original de posiciones GPS (realizada mediante \texttt{gpsd}) por los datos de movilidad generados por SUMO a través de la API TraCI. Con esta modificación se consigue una simulación coherente entre el movimiento del vehículo en SUMO y los mensajes CAM emitidos por OpenC2X.
 
     \subsubsection*{Adaptación del módulo \texttt{GpsService}}
 
@@ -348,8 +348,7 @@ La integración del módulo \texttt{SumoInterface} dentro de la arquitectura de 
 
     \subsubsection*{Resultado}
 
-    Tras completar esta integración, OpenC2X pudo ejecutar una simulación end-to-end totalmente funcional. SUMO proporcionaba la movilidad, \texttt{SumoInterface} la traducía a un formato compatible, \texttt{GpsService} generaba los mensajes GPS adecuados y el módulo CAM
-    transmitía la información con coherencia.
+    Tras completar esta integración, OpenC2X pudo ejecutar una simulación end-to-end totalmente funcional. SUMO proporcionaba la movilidad, \texttt{Sumo\allowbreak Interface} la traducía a un formato compatible, \texttt{GpsService} generaba los mensajes GPS adecuados y el módulo CAM transmitía la información con coherencia.
 
     Esta integración validó el funcionamiento del ciclo completo SUMO $\leftrightarrow$ OpenC2X, habilitando las pruebas finales del sistema de comunicación V2V.
 
@@ -402,7 +401,7 @@ Una vez validada la integración básica SUMO~$\leftrightarrow$~OpenC2X con un �
 
     \subsubsection*{Ejecución del escenario}
 
-    La simulación se lanzó mediante el script \texttt{runv2v.sh}, que arranca SUMO y los módulos de OpenC2X dentro de una sesión de \texttt{tmux}. Este script organiza los servicios en paneles independientes para facilitar su monitorización simultánea (Figuras~\ref{fig:two_vehicle_run} y \ref{fig:two_vehicle_run2}).
+    La simulación se lanzó mediante el script \texttt{runv2v.sh}, que arranca SUMO y los módulos de OpenC2X dentro de una sesión de \texttt{tmux}. La Figura~\ref{fig:sumo_two_vehicles} muestra el escenario de movilidad en SUMO, mientras que las Figuras~\ref{fig:two_vehicle_run} y \ref{fig:two_vehicle_run2} recogen la ejecución de los distintos módulos y su monitorización en tiempo real.
 
     En este escenario intervienen los siguientes módulos:
 
@@ -491,7 +490,7 @@ Una vez validada la integración básica SUMO~$\leftrightarrow$~OpenC2X con un �
         \item La posición de \texttt{veh0} y \texttt{veh1} fluye correctamente desde SUMO hasta el módulo CAM.
         \item Las coordenadas incluidas en los CAM coinciden exactamente con las coordenadas mostradas en el módulo GPS.
         \item Los módulos DCC y LDM reciben, procesan y almacenan cada mensaje sin pérdidas.
-        \item La comunicación V2V entre ambos vehículos queda establecida de forma completa y coherente.
+        \item La comunicación V2V queda establecida de forma completa y coherente.
     \end{itemize}
 
     Esta prueba confirma la validez del diseño implementado.
@@ -600,7 +599,7 @@ Esta funcionalidad representa un caso de uso realista en sistemas cooperativos C
         \item Consultar a \texttt{SumoInterface} si el vehículo se aproxima a un semáforo en rojo.
         \item Interpretar esta condición como un evento de peligro.
         \item Enviar un \textit{trigger} al módulo DENM utilizando el puerto 1111.
-        \item Delegar en DENM la generación del mensaje cooperativo (DENM).
+        \item Delegar en DENM la generación del mensaje cooperativo.
     \end{itemize}
 
     Para permitir que la infraestructura enviase avisos de tipo V2I, fue necesario modificar \texttt{GpsService} añadiendo un canal de comunicación adicional hacia el módulo \texttt{DENM}. 

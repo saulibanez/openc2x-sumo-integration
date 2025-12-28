@@ -17,7 +17,7 @@ Para garantizar un entorno controlado y reproducible, se establecen las siguient
     % \item No se evaluarán tecnologías alternativas como C-V2X o 5G NR-V2X.
 \end{itemize}
 
-Con estas condiciones, el proyecto es técnicamente viable usando únicamente software libre y recursos de hardware estándar. El principal reto identificado fue la integración con TraCI y la migración del código de OpenC2X a versiones modernas de Linux, ambos superados durante el desarrollo.
+Con estas condiciones, el proyecto es técnicamente viable usando únicamente software libre y recursos de hardware estándar. Entre los principales retos técnicos del proyecto se encuentran la integración de SUMO con OpenC2X mediante TraCI, así como la migración y actualización del código de OpenC2X para garantizar su compatibilidad con versiones modernas de Linux, incluyendo la adaptación a cambios en librerías externas. Todos ellos fueron superados durante el desarrollo.
 
 \subsection{Herramientas utilizadas}
 Para el desarrollo e integración del sistema se han empleado exclusivamente herramientas de software libre y componentes accesibles, lo que facilita la reproducibilidad del proyecto. Las principales herramientas utilizadas son:
@@ -25,7 +25,7 @@ Para el desarrollo e integración del sistema se han empleado exclusivamente her
     \item \textbf{Sistema operativo:} Ubuntu 24.04 (máquina virtual). 
     \item \textbf{Simulador de movilidad:} SUMO (\texttt{sumo}, \texttt{sumo-gui}).
     \item \textbf{API tiempo real:} TraCI, mediante un cliente C++ desarrollando el módulo \texttt{SumoInterface}.
-    \item \textbf{Plataforma V2X:} OpenC2X (módulos CAM, DCC, LDM y GPS).
+    \item \textbf{Plataforma V2X:} OpenC2X (módulos CAM, DCC, LDM, DENM y GPS).
     \item \textbf{Mensajería interna:} ZeroMQ.
     \item \textbf{Lenguaje de programación:} \texttt{C++}.
     \item \textbf{Herramientas de compilación:} \texttt{gcc}, \texttt{clang}, \texttt{CMake}, \texttt{pkg-config}.
@@ -101,9 +101,9 @@ Asignar recursos adecuados; repetir pruebas para garantizar reproducibilidad. \\
 Para considerar completada la integración SUMO~$\leftrightarrow$~OpenC2X y validar el correcto funcionamiento del sistema, se establecieron los siguientes criterios de éxito:
 
 \begin{itemize}
-    \item \textbf{Sincronización estable} entre SUMO y OpenC2X, sin desfases superiores a un \textit{tick} y manteniendo la coherencia temporal del pipeline SUMO~$\rightarrow$~TraCI~$\rightarrow$~GPS~$\rightarrow$~CAM~$\rightarrow$~LDM.
+    \item \textbf{Sincronización estable} entre SUMO y OpenC2X, sin desfases superiores a un \textit{tick} y manteniendo la coherencia temporal del pipeline SUMO~$\rightarrow$~TraCI~$\rightarrow$~GPS~$\rightarrow$~CAM/DENM~$\rightarrow$~LDM.
 
-    \item \textbf{Envío y recepción continua de mensajes CAM} durante al menos cinco minutos de simulación sin interrupciones ni errores críticos.
+    \item \textbf{Envío y recepción continua de mensajes CAM y DENM}, tanto en escenarios V2V como V2I, durante al menos cinco minutos de simulación sin interrupciones ni errores críticos.
 
     \item \textbf{Obtención de métricas reproducibles}, incluyendo latencia interna y tasa de entrega (PDR), en los tres escenarios definidos (baja, media y alta densidad vehicular).
 
